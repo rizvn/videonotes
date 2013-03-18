@@ -1,0 +1,298 @@
+/* Page styles */
+body{
+	font-size: 14px !important;
+    height: 100%;
+    font-family: sans-serif;
+    background-image: url("../images/page_back.jpg") !important;
+}
+
+#pageNav{
+    height: 30px;
+    width: 100%;
+    margin-bottom: 5px;
+    background-color: #4A4A4C;
+    color: white;
+    border-bottom: 1px solid #BEC0C0;
+}
+
+#pageFrame{
+    /* border: 1px solid gray; */
+    margin: auto;
+    width: 850px;
+}
+
+.vnDialog{
+  box-shadow: 0px 0px 5px #888888;
+}
+
+/* End Page styles */
+
+/* Utility classes */
+.fill{
+    position: relative;
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.buttonsCtr{
+    padding: 5px 5px 5px 5px;
+}
+
+.centerText{
+    text-align: center;
+}
+
+
+.hidden{
+    display: none;
+}
+
+/* End Utility classes */
+
+#header{
+    height: 25px;
+    /* background-color: #FAEEFF; */
+    padding: 20px 5px 0px 15px;
+	font-size: 120%;
+    /* border-bottom: 1px solid #A9ADAD; */
+}
+
+#footer{
+    height: 20px;
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+    /* border-top: 1px solid #A9ADAD;*/
+}
+
+#stage{
+    height: 600px;
+    width: 850px;
+    /* border: 1px solid gray; */
+    position: relative;
+}
+
+
+/*Title*/
+#title{
+  font-size: 26px;
+}
+
+#title #orange{
+  color: #CF8D01;
+}
+
+/* Containers */
+.ctr{
+    position: absolute;
+    float:left;
+    overflow: auto;
+    /* border: 1px solid gray; */
+}
+
+#vidCtr{
+    top: 10px;
+    left: 10px;
+    height: 320px;
+    width: 420px;
+}
+
+#noteInputCtr{
+    top: 340px;
+    left: 10px;
+    height: 240px;
+    width: 420px;
+}
+
+#notesCtr{
+    top: 70px;
+    left: 445px;
+    height: 510px;
+    width: 390px;
+}
+
+/* End Containers */
+
+
+#notesInput{
+    width: 100%;
+    height: 190px;
+}
+
+#searchPanel{
+    padding: 10px 5px 5px;
+}
+
+
+/* Notes container */
+
+#optBar{
+    width: 99.5%;
+    height: 30px;
+}
+
+#notesTabs{
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.notesTab{
+    border: 2px solid gray;
+    margin-right: 3px;
+    margin-top: 5px;
+    border-bottom: 0px !important;
+    padding: 5px 5px 4px 5px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: #DDE2E2;
+    cursor: pointer;
+}
+
+.selectedTab{
+    background-color: orange;
+    color: white;
+}
+
+.menuButton{
+    float: right;
+    text-decoration: underline;
+    color: black;
+    cursor: pointer;
+}
+
+#notes{
+    position: relative;
+    width: 99.5%;
+    height: 478px;
+    overflow: auto;
+    border: 1px solid gray;
+}
+
+.note{
+    height: 100px;
+    padding: 5px 5px 5px 5px;
+    position: relative;
+    overflow: auto;
+    border-bottom: 1px solid #C0C0C0;
+    background-image: url("../images/note_bk.png");
+}
+
+.note p{
+    margin: 0px;
+}
+
+.ctxMenu{
+    position: absolute;
+    right:3;
+    top: 3;
+}
+
+.ctxMenu a{
+    font-size: 90%;
+    color: blue;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.note .timecodeLink{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 105%;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+
+.note .desc{
+    color: gray;
+    font-size: 85%;
+    margin-top: 5px;
+}
+
+.emptyNote .noteText{
+    text-align: center;
+    margin-top: 10px;
+}
+
+/* End Notes container */
+
+
+/* Comments Dialog */
+
+/* End Comments Dialog */
+
+/* Edit Notes Dialog */
+#editNoteDialog{
+  font-size: 12px !important;
+  height: 500px;
+}
+
+.field{
+    margin-top: : 5px;
+}
+
+
+
+#_timecode, #notesArea{
+  width: 100%;
+}
+
+#notesArea{
+ height: 200px;
+}
+
+#buttonsCtr{
+    padding: 5px 5px 5px 5px;
+    text-align: center;
+}
+
+.anchor{
+    color: blue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* End Edit Notes Dialog */
+
+/*Search fields*/
+#clearSearchButton{
+    display: none ;
+    position: absolute;
+    left: 280px;
+    top: 13px;
+    padding: 2px 2px 2px 2px;
+    font-weight: bold;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#searchPanel #searchField{
+  padding-right: 20px;
+  width: 240px;
+  height: 25px;
+}
+
+#searchButton{
+  position: relative;
+  top: -3px;
+}
+
+
+#searchCtr{
+    top: 10px;
+    left:  445px;
+    height: 50px;
+    width: 390px;
+    background-color:  #28F2FF;
+    border: 1px solid #9A9A9A;
+}
+/*End search fields*/
+
+
+.ui-dialog-titlebar.ui-widget-header{
+	border: none !important;
+    background: none;
+    height: 20px;
+    font-size: 12px;
+}
+

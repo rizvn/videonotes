@@ -1,0 +1,35 @@
+<html>
+    <head>
+      <link href="lib/qunit/qunit.css" rel="Stylesheet" type="text/css">
+      <script src="lib/qunit/qunit.js"></script>
+
+      <!-- Tests dependencies-->
+      <script src="../js/lib/jquery/jquery.js"></script>
+      <script src="../js/lib/jquery-ui/js/jquery-ui.custom.js"></script>
+      <script src="../js/lib/handlebars/handlebars.js"></script>
+
+      <!--Code to test -->
+      <script src="../js/NotesController.js"></script>
+      <script src="../js/Utility.js"></script>
+
+
+      <!-- Tests -->
+      <script src="scripts/NotesControllerTests.js"></script>
+      <script src="scripts/UtilityClassUnitTests.js"></script>
+
+    </head>
+    <body>
+         <h1 id="qunit-header">Video Notes Tests</h1>
+         <h2 id="qunit-banner"></h2>
+         <div id="qunit-testrunner-toolbar"></div>
+         <h2 id="qunit-userAgent"></h2>
+         <ol id="qunit-tests"></ol>
+         <div id="qunit-fixture">test markup, will be hidden</div>
+    </body>
+    <script>
+        $(function(){
+            runNotesControllerTests();
+            runUtilityClassUnitTests();
+        });
+    </script>
+ </html>

@@ -1,0 +1,82 @@
+<html>
+  <head>
+      <title>VideoNotes</title>
+      <link rel="stylesheet" href="/static/css/global.css" />
+      <link rel="stylesheet" href="/static/css/normalize.css" />
+      <link rel="stylesheet" href="/static/js/lib/jquery-ui/css/smoothness/jquery-ui.custom.css" />
+      <link rel="stylesheet" href="/static/js/lib/sticky/sticky.full.css" />
+      <link rel="stylesheet" href="/static/bootstrap/css/bootstrap.css" />
+
+      <!-- Dependencies (Libs) -->
+      <script src="/static/js/lib/jquery/jquery.js"/></script>
+      <script src="/static/js/lib/handlebars/handlebars.js"/></script>
+      <script src="/static/js/lib/jquery-ui/js/jquery-ui.custom.js"/></script>
+      <script src="/static/js/lib/jwplayer/jwplayer.js"/></script>
+      <script src="/static/js/lib/sticky/sticky.full.js"></script>
+      <script src="/static/bootstrap/js/bootstrap.js"></script>
+
+      <!-- Dependencies (Local)-->
+      <script src="/static/js/Utility.js"></script>
+
+      <!-- Controllers -->
+      <script src="/static/js/NotesController.js"/></script>
+      <script src="/static/js/VideoController.js"/></script>
+      <script src="/static/js/SearchController.js"/></script>
+
+  </head>
+  <body>
+    <div id="pageNav">
+      <div class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </a>
+          <a class="brand" href="#"><span id="title"><span id="orange">Video</span>Notes</span></a>
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li id="home" class="active"><a href="/">Home</a></li>
+              <li id="library"><a href="library" id='libraryLink'>Library</a></li>              
+              <li><a href="#about">About</a></li>
+              <!-- 
+              <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
+                <ul class="dropdown-menu">
+                  <li><a href="#">Action</a></li>
+                  <li><a href="#">Another action</a></li>
+                  <li><a href="#">Something else here</a></li>
+                  <li class="divider"></li>
+                  <li class="nav-header">Nav header</li>
+                  <li><a href="#">Separated link</a></li>
+                  <li><a href="#">One more separated link</a></li>
+                </ul>
+              </li>
+              -->
+            </ul>
+            <div class="pull-right">
+              <div style="padding: 10px 5px 5px 5px;">
+              User: Riz | 
+              <a href='/auth/logout'>Logout</a>
+              </div>
+              <!--
+              <input class="span2" type="text" placeholder="Email">
+              <input class="span2" type="password" placeholder="Password">
+              <button type="submit" class="btn">Sign in</button>
+              -->
+            </div>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </div>
+
+    </div><!-- /#pageNav -->
+    
+    {% block main_content %}
+    {% endblock %}
+
+    <div id="footer"> VideoNotes 2012</div>
+    </div>
+  </body>
+</html>

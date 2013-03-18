@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+{% block main_content %}
+<div id="pageFrame">
+  
+    <div id="header">
+      Library
+    </div>
+    
+    <a href="#">A video</a>
+</div>
+
+<script>
+    
+    $(function(){
+      $(".navbar .active").removeClass("active");
+      $(".navbar #library").addClass("active");
+    })
+</script>
+{% endblock %}
