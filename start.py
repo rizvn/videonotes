@@ -1,9 +1,12 @@
-from bottle import route, run
-from bottle import jinja2_view as view, jinja2_template as template
+from bottle import route, run, jinja2_view as view, jinja2_template as template, static_file
 from Configuration import Configuration
-from bottle import static_file
+import sqlite3
 
 conf = Configuration()
+
+def getDbConnection():
+    return sqlite3.connect('db/vidmarks.db')
+
 
 def loggedInCheck(fn):
     def wrap():
@@ -18,7 +21,8 @@ def index():
     return template('index.html',
                     vid_title="Paradox of Choice",
                     vid_author="Barry Schwartz",
-                    vid_location="/static/testVideos/paradox_of_choice.mp4")
+                    vid_location="/static/testVideos/paradox_of_choice.mp4",
+                    notes = [{'content' : 'Hello world', 'timeCode': '100'}])
 
 @route('/library')
 def library():

@@ -34,6 +34,8 @@
 
       <div id="notesCtr" class="ctr">
         <div id="notesPanel">
+          
+          {# TODO: Riz Future feature
           <div id="optBar">
             <div class="fill">
               <div id="notesTabs">
@@ -43,34 +45,33 @@
                <a class="menuButton">Menu</a>
               </div>
             </div>
-          </div>
+          </div><!-- /#optBar -->
+          #}
+          
+          
           <div id="notes">
-              <c:choose>
-              	<!--If there are no notes -->
-                <c:when test="${fn:length(video.notes) eq 0}">
-                  <div class="note emptyNotes">
-                   <p class="noteText">
-             		  No notes available, add your notes</p>
-            	</div>
-                </c:when>
-                <c:otherwise>
-                  <%--loop over each note --%>
-                  <c:forEach items="${video.notes}" var="note">
-                    <div class="note" data-noteId="${note.pk}" data-timecode="${note.timeCode}" data-user="${note.createdBy.username}" data-date="{{date}}">
-					       <div class="ctxMenu">
-					         <a class="editLink">Edit/Delete</a>
-					         <a class="commentLink">Comments</a>
-					       </div>
-					       <p class="timecodeLink anchor">${note.formattedTimeCode}</p>
-					       <p class="noteText">${note.body}</p>
-					       <p class="desc">
-					         by ${note.createdBy.username} on ${note.formattedDate}
-					       </p>
-					     </div>
-                   </c:forEach>
-                </c:otherwise>
-              </c:choose>
-		    </div>
+              {% if notes %}
+                {% for note in notes %}
+                   <div class="note"
+                        data-noteId="{{note.pk}}"
+                        data-timecode="{{note.timeCode}}">
+			
+                        <div class="ctxMenu">
+			  <a class="editLink">Edit/Delete</a>
+			  <a class="commentLink">Comments</a>
+			</div>
+			
+                        <p class="timecodeLink anchor">{{note.timeCode}}</p>
+			<p class="noteText">{{note.content}}</p>
+                        <p class="desc"> by Riz on 01/01/2012</p>
+                    </div>
+                {% endfor %}
+              {% else %}
+                <div class="note emptyNotes">
+                  <p class="noteText">No Notes available, add your notes</p>
+                </div>
+              {% endif %}
+	    </div>
           </div>
         </div><!-- /#notesCtr -->
       </div><!-- /#stage -->
