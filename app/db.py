@@ -25,11 +25,6 @@ def getNotesForVideo(vid_fk):
         cursor.execute('SELECT * FROM notes where vid_fk=?', (vid_fk,))
         return cursor.fetchall()
 
-def addNote(arg1):
-    pass
-
-def deleteNote(arg1):
-    pass
 
 
 
