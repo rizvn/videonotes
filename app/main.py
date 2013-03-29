@@ -1,7 +1,7 @@
 from bottle import route, run, jinja2_view as view, \
             jinja2_template as template, static_file
-from app import Configuration
 import sqlite3
+
 
 
 def loggedInCheck(fn):
@@ -21,15 +21,11 @@ def index():
 
 @route('/library')
 def library():
-    return template("library.html")
+    return template("library.html",
+            videos= [{title: 'Hello World'}, {title: 'bye world'}]        
+            )
 
 
 @route('/static/<filepath:path>')
 def serve_static(filepath):
     return static_file(filepath, root="./static/")
-
-
-
-
-
-run(host='localhost', port=8080, debug=True)

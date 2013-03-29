@@ -14,11 +14,32 @@ class Cursor():
         print "Trace: ", traceback
         return not traceback
     
-#--------------- Vidoes-------------------------------------------------
+def fetchone(cursor):
+    # return a dict with col names appended to results
+    row = cursor.fetchone()
+    if row is None: return None
+    
+    cols = [ desc[0] for desc in cursor.description ]
+    return dict(zip(cols, row))
+
+def fetchall(cursor):
+    # return a dict with col names appended to results
+    results = cursor.fetchall()
+    
+    if results is None: return None
+    
+    cols = [desc[0] for desc in cursor.description ]
+    ret = []
+    
+    for row in results:
+        ret.append(dict(zip(cols, row)))
+        
+    return ret
+#--------------- Videos-------------------------------------------------
 def getAllVideos():
     with Cursor() as cursor:
         cursor.execute('SELECT * FROM videos')
-        return cursor.fetchall()
+        return fetchall(cursor)
     
 def getVideo(pk):
     with Cursor() as cursor:
@@ -29,6 +50,20 @@ def getVideo(pk):
 def getNotesForVideo(vid_fk):
     with Cursor() as cursor:
         cursor.execute('SELECT * FROM notes where vid_fk=?', (vid_fk,))
-        return cursor.fetchall()
+        return fetchall(cursor)
 
 #--------------- Users -------------------------------------------------
+def getUserByName(name):
+    with Cursor() as cursor:
+        cursor.execute('SELECT * FROM users where name=?', (name,))
+        return cursor.fetchone()
+    
+def authUser(name, password):
+    with Cursor() as cursor:
+        cursor.execute("""
+            SELECT * FROM users
+            WHERE name=?
+            AND password=?
+            """, (name, password))
+        return cursor.fetchone()
+

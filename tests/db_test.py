@@ -11,3 +11,11 @@ def test_getNotesForVideo():
 def test_getVideoByPk():
     result = db.getVideo(1)
     assert result
+
+def test_verify_getUserByName():
+    result = db.getUserByName('riz')
+    assert result
+
+def test_verify_authquery():
+    result = db.authUser('riz', 'password')
+    assert result
