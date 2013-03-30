@@ -1,4 +1,4 @@
-from bottle import route, run, jinja2_view as view, \
+from bottle import route, run, hook, jinja2_view as view, \
             jinja2_template as template, static_file
 import sqlite3
 
@@ -10,8 +10,13 @@ def loggedInCheck(fn):
         return fn()
     return wrap
 
+
+@hook('before_request')
+def login():
+    print 'Running login code before request'
+
+
 @route('/')
-@loggedInCheck
 def index():
     return template('index.html',
                     vid_title="Paradox of Choice",

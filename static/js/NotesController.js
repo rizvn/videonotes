@@ -35,66 +35,67 @@ NotesController = {
   },
 
   onAddNote : function() {
-      var self = this;
-	  var model = this.genNewNoteModel();
-      model.vidId = Storage.vidId;
-
-
-      $.ajax({
-    	  data: model,
-    	  dataType: "json",
-    	  type: 'POST',
-    	  url: "/note"
-      })
-      .done(function(aRes){
-    	  if(aRes.ack == "success"){
-	    	  self.addNote(aRes);
-	    	  $(self.mDom.notesInput).val("");
-	    	  VideoController.play();
-    	  }
-      });
+    var self = this;
+    var model = {}
+    model.vidId = Storage.vidId;
+    model.user = Storage.user;
+    model.time = VideoController.getPosition();
+    model.text = $(self.mDom.notesInput).val();
+    
+    $.ajax({
+      data: model,
+      dataType: "json",
+      type: 'POST',
+      url: "/note"
+    })
+    .done(function(aRes){
+      if(aRes.ack == "success"){
+	self.addNote(aRes);
+	$(self.mDom.notesInput).val("");
+	VideoController.play();
+      }
+    });
   },
 
   onDeleteNote : function() {
-	  var noteId = this.$mEditNote.attr("data-noteId");
-	  var self = this;
+    var noteId = this.$mEditNote.attr("data-noteId");
+    var self = this;
 
-	  $.ajax({
-		 url: "/note/" + noteId + "/delete",
-		 type: 'GET',
-	     dataType: 'json'
-	  })
-	  .done(function(aRes){
-		if(aRes.ack =='deleted')
-	    {
-		  self.$mEditNote.remove();
-		  self.closeEditNoteDialog();
-	    }
-	  });
+    $.ajax({
+      url: "/note/" + noteId + "/delete",
+      type: 'GET',
+      dataType: 'json'
+    })
+    .done(function(aRes){
+      if(aRes.ack =='deleted'){
+	self.$mEditNote.remove();
+	self.closeEditNoteDialog();
+      }
+    });
   },
 
   addNote : function(aModel) {
-      this.mDom.$emptyNotesMessage.hide();
-      var renderedNote = $(this.mNotesTemplate(aModel));
-      this.mDom.$notesContainer.append(renderedNote);
+    this.mDom.$emptyNotesMessage.hide();
+    var renderedNote = $(this.mNotesTemplate(aModel));
+    this.mDom.$notesContainer.append(renderedNote);
   },
 
   saveNoteChanges : function() {
-	  var self = this;
-      var html = $("#notesArea", this.mDom.$editNoteDialog).val();
-      var noteId = this.$mEditNote.attr('data-noteId');
-      $.ajax({
-    	  url: '/note/' + noteId + "/update",
-    	  type: 'POST',
-    	  data: {body: html},
-    	  dataType: 'json'
-      })
-      .done(function(aRes){
-    	 if(aRes.ack=='success'){
-    	   self.$mEditNote.replaceWith( $(self.mNotesTemplate(aRes)));
-    	   self.closeEditNoteDialog();
-    	 }
-      });
+    var self = this;
+    var html = $("#notesArea", this.mDom.$editNoteDialog).val();
+    var noteId = this.$mEditNote.attr('data-noteId');
+    $.ajax({
+      url: '/note/' + noteId + "/update",
+      type: 'POST',
+      data: {body: html},
+      dataType: 'json'
+    })
+    .done(function(aRes){
+      if(aRes.ack=='success'){
+	self.$mEditNote.replaceWith( $(self.mNotesTemplate(aRes)));
+	self.closeEditNoteDialog();
+      }
+    });
   },
 
 
@@ -103,42 +104,21 @@ NotesController = {
       VideoController.seek(pos);
   },
 
-  genNewNoteModel : function() {
-      var thisClass = this;
-      var position = VideoController.getPosition();
-      var model = {
-        "timeCode" : position,
-        "body"     : $(this.mDom.notesInput).val(),
-        "vidId"    : Storage.vidId
-      };
-      return model;
-  },
-
-  genNoteModel: function($aNoteEl){
-      return {
-        pos:      $aNoteEl.attr("data-timecode"),
-        timecode: $(".timeCodeLink", $aNoteEl).text(),
-        noteId:   $aNoteEl.attr("data-noteId"),
-        text:     $(".noteText", $aNoteEl).html(),
-        user:     $aNoteEl.attr("data-user"),
-        date:     $aNoteEl.attr("data-date")
-      }
-  },
-
   showComments : function() {
       $(this.mDom.commentsDialog).dialog("open");
   },
 
   showEditNoteDialog : function($aNoteDiv) {
-      var dialog = this.mDom.$editNoteDialog;
-      var model = this.genNoteModel($aNoteDiv);
+    var dialog = this.mDom.$editNoteDialog;
+    var text = $(".noteText", $aNoteDiv).html();
+    var id = $aNoteDiv.attr("data-noteId");
 
-      $("#notesArea", dialog).val(model.text);
-      $("#editNoteId", dialog).val(model.noteId);
+    $("#notesArea", dialog).val(text);
+    $("#editNoteId", dialog).val(id);
 
-      this.$mEditNote = $aNoteDiv;
+    this.$mEditNote = $aNoteDiv;
 
-      dialog.dialog("open");
+    dialog.dialog("open");
   },
 
   closeEditNoteDialog : function() {
@@ -146,74 +126,74 @@ NotesController = {
   },
 
   init : function() {
-      this.resolve();
-      this.register();
-      this.listen();
-      this.effects();
+    this.resolve();
+    this.register();
+    this.listen();
+    this.effects();
   },
 
 
   //wire events to methods
   listen : function() {
-      var thisClass = this;
+    var self = this;
 
-      $(this.mDom.addNoteButton).click(function() {
-        thisClass.onAddNote();
-      });
+    $(this.mDom.addNoteButton).click(function() {
+      self.onAddNote();
+    });
 
-      $(this.mDom.saveNoteChanges).click(function() {
-        thisClass.saveNoteChanges();
-      });
+    $(this.mDom.saveNoteChanges).click(function() {
+      self.saveNoteChanges();
+    });
 
-      $(thisClass.mDom.notesContainer).on("click", ".commentLink", function() {
-        thisClass.showComments();
-      });
+    $(self.mDom.notesContainer).on("click", ".commentLink", function() {
+      self.showComments();
+    });
 
-      $(thisClass.mDom.notesContainer).on("click", ".editLink", function() {
-        var noteDiv = $(this).closest('.note');
-        thisClass.showEditNoteDialog(noteDiv);
-      });
+    $(self.mDom.notesContainer).on("click", ".editLink", function() {
+      var noteDiv = $(this).closest('.note');
+      self.showEditNoteDialog(noteDiv);
+    });
 
-      $(thisClass.mDom.notesContainer).on("click", ".timecodeLink", function() {
-        thisClass.seekVideo(this);
+    $(self.mDom.notesContainer).on("click", ".timecodeLink", function() {
+      self.seekVideo(this);
 
-      });
+    });
 
-      $(this.mDom.deleteNoteButton).click(function() {
-        thisClass.onDeleteNote();
-      });
+    $(this.mDom.deleteNoteButton).click(function() {
+      self.onDeleteNote();
+    });
   },
 
   //register or init dependencies
   register : function() {
-      var thisClass = this;
-      // Register dialogs
-      $(this.mDom.commentsDialog).dialog({
-          dialogClass : "vnDialog",
-          autoOpen : false,
-      });
+    var self = this;
+    // Register dialogs
+    $(self.mDom.commentsDialog).dialog({
+      dialogClass : "vnDialog",
+      autoOpen : false
+    });
 
-      $(this.mDom.editNoteDialog).dialog({
-          dialogClass : "vnDialog",
-          autoOpen : false,
-      });
+    $(self.mDom.editNoteDialog).dialog({
+      dialogClass : "vnDialog",
+      autoOpen : false
+    });
 
-      this.mNotesTemplate = Handlebars.compile($("#vn_noteTemplate").html());
+    this.mNotesTemplate = Handlebars.compile($("#vn_noteTemplate").html());
   },
 
   //resolve dom elements with selectors and cache
   resolve : function(){
-      this.mDom.$notesContainer     = $(this.mDom.$notesContainer );
-      this.mDom.$emptyNotesMessage  = $(this.mDom.$emptyNotesMessage );
-      this.mDom.$editNoteDialog     = $(this.mDom.$editNoteDialog );
-      this.mDom.$notesInput         = $(this.mDom.$notesInput );
+    this.mDom.$notesContainer     = $(this.mDom.$notesContainer );
+    this.mDom.$emptyNotesMessage  = $(this.mDom.$emptyNotesMessage );
+    this.mDom.$editNoteDialog     = $(this.mDom.$editNoteDialog );
+    this.mDom.$notesInput         = $(this.mDom.$notesInput );
   },
 
   //ui effects that are not necessary for core functionality
   effects: function(){
-      this.mDom.$notesInput.click(function(){
-        VideoController.pause();
-      });
+    this.mDom.$notesInput.click(function(){
+      VideoController.pause();
+    });
 
   },
 
