@@ -44,7 +44,7 @@ def getAllVideos():
 def getVideo(pk):
     with Cursor() as cursor:
         cursor.execute('SELECT * FROM videos where pk=?', (pk, ))
-        return cursor.fetchone()
+        return fetchone(cursor)
 
 #--------------- Notes -------------------------------------------------
 def getNotesForVideo(vid_fk):

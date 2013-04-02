@@ -1,6 +1,7 @@
 from bottle import route, run, hook, jinja2_view as view, \
             jinja2_template as template, static_file
 import sqlite3
+import app.db as db
 
 
 
@@ -15,20 +16,20 @@ def loggedInCheck(fn):
 def login():
     print 'Running login code before request'
 
+@route('/play/<vid_pk>')
+def player(vid_pk):
+    return template('player.html', video=db.getVideo(vid_pk))
+
 
 @route('/')
 def index():
-    return template('index.html',
-                    vid_title="Paradox of Choice",
-                    vid_author="Barry Schwartz",
-                    vid_location="/static/testVideos/paradox_of_choice.mp4",
+    return template('player.html',
+                    video = db.getVideo(1),
                     notes = [{'content' : 'Hello world', 'timeCode': '100'}])
 
 @route('/library')
 def library():
-    return template("library.html",
-            videos= [{title: 'Hello World'}, {title: 'bye world'}]        
-            )
+    return template("library.html")
 
 
 @route('/static/<filepath:path>')

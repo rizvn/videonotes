@@ -36,7 +36,7 @@ NotesController = {
 
   onAddNote : function() {
     var self = this;
-    var model = {}
+    var model = {};
     model.vidId = Storage.vidId;
     model.user = Storage.user;
     model.time = VideoController.getPosition();
