@@ -52,6 +52,22 @@ def getNotesForVideo(vid_fk):
         cursor.execute('SELECT * FROM notes where vid_fk=?', (vid_fk,))
         return fetchall(cursor)
 
+
+def addNote(vid_fk, time, text, user):
+    conn = sqlite3.connect(settings['db_path'])
+    conn.cursor().execute('''
+        INSERT INTO notes (vid_fk, time, text, user)
+        VALUES (?, ?, ?, ?)
+        ''', (vid_fk, time, text, user))
+    conn.commit()
+
+def deleteNote(note_pk):
+    conn = sqlite3.connect(settings['db_path'])
+    conn.cursor().execute('''
+        DELETE FROM notes where pk = ?                      
+    ''', (note_pk,))
+    conn.commit()
+
 #--------------- Users -------------------------------------------------
 def getUserByName(name):
     with Cursor() as cursor:

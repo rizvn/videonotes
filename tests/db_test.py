@@ -19,3 +19,12 @@ def test_verify_getUserByName():
 def test_verify_authquery():
     result = db.authUser('riz', 'password')
     assert result
+    
+def test_insert_note():
+    db.addNote(1, 130, 'Test note', 'Riz')
+    assert True
+
+def test_verify_delete_note():
+    db.deleteNote(2)
+    assert True
+
