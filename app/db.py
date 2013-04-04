@@ -1,6 +1,7 @@
 import sqlite3
 from app.settings import settings
 
+
 class Cursor():
     def __enter__(self):
         conn = sqlite3.connect(settings['db_path'])
@@ -14,6 +15,7 @@ class Cursor():
         print "Trace: ", traceback
         return not traceback
     
+
 def fetchone(cursor):
     # return a dict with col names appended to results
     row = cursor.fetchone()
@@ -21,6 +23,7 @@ def fetchone(cursor):
     
     cols = [ desc[0] for desc in cursor.description ]
     return dict(zip(cols, row))
+
 
 def fetchall(cursor):
     # return a dict with col names appended to results
@@ -36,11 +39,14 @@ def fetchall(cursor):
         
     return ret
 #--------------- Videos-------------------------------------------------
+
+
 def getAllVideos():
     with Cursor() as cursor:
         cursor.execute('SELECT * FROM videos')
         return fetchall(cursor)
     
+
 def getVideo(pk):
     with Cursor() as cursor:
         cursor.execute('SELECT * FROM videos where pk=?', (pk, ))
@@ -69,6 +75,8 @@ def deleteNote(note_pk):
     conn.commit()
 
 #--------------- Users -------------------------------------------------
+
+
 def getUserByName(name):
     with Cursor() as cursor:
         cursor.execute('SELECT * FROM users where name=?', (name,))

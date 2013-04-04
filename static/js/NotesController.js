@@ -50,9 +50,9 @@ NotesController = {
     })
     .done(function(aRes){
       if(aRes.ack == "success"){
-	self.addNote(aRes);
-	$(self.mDom.notesInput).val("");
-	VideoController.play();
+        self.addNote(aRes);
+        $(self.mDom.notesInput).val("");
+        VideoController.play();
       }
     });
   },
@@ -195,6 +195,6 @@ NotesController = {
       VideoController.pause();
     });
 
-  },
+  }
 
 }
