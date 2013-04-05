@@ -1,4 +1,0 @@
-var Storage = {
-  vidId: '',
-  user: ''
-}

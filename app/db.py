@@ -1,6 +1,8 @@
 import sqlite3
 from app.settings import settings
+from multiprocessing import Lock
 
+insert_lock = Lock()
 
 class Cursor():
     def __enter__(self):
@@ -9,12 +11,11 @@ class Cursor():
         return self.cursor
     
     def __exit__(self, type, value, traceback):
-        self.cursor.close();
+        self.cursor.close()
         print "Type: ",type
         print "Value: ", value
         print "Trace: ", traceback
         return not traceback
-    
 
 def fetchone(cursor):
     # return a dict with col names appended to results
@@ -23,7 +24,6 @@ def fetchone(cursor):
     
     cols = [ desc[0] for desc in cursor.description ]
     return dict(zip(cols, row))
-
 
 def fetchall(cursor):
     # return a dict with col names appended to results
@@ -39,8 +39,6 @@ def fetchall(cursor):
         
     return ret
 #--------------- Videos-------------------------------------------------
-
-
 def getAllVideos():
     with Cursor() as cursor:
         cursor.execute('SELECT * FROM videos')
@@ -61,11 +59,18 @@ def getNotesForVideo(vid_fk):
 
 def addNote(vid_fk, time, text, user):
     conn = sqlite3.connect(settings['db_path'])
-    conn.cursor().execute('''
+    cursor = conn.cursor()
+    cursor.execute('''
         INSERT INTO notes (vid_fk, time, text, user)
         VALUES (?, ?, ?, ?)
         ''', (vid_fk, time, text, user))
-    conn.commit()
+
+    with insert_lock:
+        conn.commit()
+        note_pk = cursor.lastrowid
+
+    return {'pk': note_pk, 'time': time, 'text': text, 'user': user}
+
 
 def deleteNote(note_pk):
     conn = sqlite3.connect(settings['db_path'])
@@ -75,8 +80,6 @@ def deleteNote(note_pk):
     conn.commit()
 
 #--------------- Users -------------------------------------------------
-
-
 def getUserByName(name):
     with Cursor() as cursor:
         cursor.execute('SELECT * FROM users where name=?', (name,))

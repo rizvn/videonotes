@@ -132,7 +132,9 @@
     NotesController.init();
     SearchController.init();
     VideoController.init("{{video.url}}");
-    Storage.vidId = {{video.pk}};
+
+    Data.user = 'Riz';
+    Data.vidId = {{video.pk}};
   });
 </script>
 {% endblock %}

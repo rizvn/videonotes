@@ -1,7 +1,4 @@
 NotesController = {
-  mUser : 'Riz',
-  mDate : "01/01/2012",
-
   mNoteSequence : -1,
   mNotesTemplate : null,
 
@@ -31,17 +28,17 @@ NotesController = {
     $saveNoteChanges  : "#saveNoteChanges",
     $deleteNoteButton : "#deleteNoteButton",
     $timeCodeSlider   : "#timeCodeSlider",
-    $emptyNotesMessage: '.emptyNotes',
+    $emptyNotesMessage: '.emptyNotes'
   },
 
   onAddNote : function() {
     var self = this;
     var model = {};
-    model.vidId = Storage.vidId;
-    model.user = Storage.user;
+    model.vidId = Data.vidId;
+    model.user = Data.user;
     model.time = VideoController.getPosition();
-    model.text = $(self.mDom.notesInput).val();
-    
+    model.text = self.mDom.$notesInput.val();
+
     $.ajax({
       data: model,
       dataType: "json",
