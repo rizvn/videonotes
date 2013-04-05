@@ -1,4 +1,4 @@
-from bottle import route, run, hook, jinja2_view as view, \
+from bottle import route, post, run, hook, jinja2_view as view, \
             jinja2_template as template, static_file
 import sqlite3
 import app.db as db
@@ -31,6 +31,9 @@ def index():
 def library():
     return template("library.html")
 
+@post('/note')
+def addNote():
+    return "<div>123</div>"
 
 @route('/static/<filepath:path>')
 def serve_static(filepath):

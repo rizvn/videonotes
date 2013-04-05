@@ -31,7 +31,7 @@ NotesController = {
     $emptyNotesMessage: '.emptyNotes'
   },
 
-  onAddNote : function() {
+  addNote : function() {
     var self = this;
     var model = {};
     model.vidId = Data.vidId;
@@ -39,20 +39,47 @@ NotesController = {
     model.time = VideoController.getPosition();
     model.text = self.mDom.$notesInput.val();
 
+    console.log('called add note');
     $.ajax({
       data: model,
-      dataType: "json",
       type: 'POST',
       url: "/note"
     })
-    .done(function(aRes){
-      if(aRes.ack == "success"){
-        self.addNote(aRes);
-        $(self.mDom.notesInput).val("");
-        VideoController.play();
-      }
+    .done(function(aRes){ func(aRes);
+      //recieve json response
+      /*
+            if(aRes.ack == "success"){
+                self.addNote(aRes);
+                $(self.mDom.notesInput).val("");
+                VideoController.play();
+            }
+      */
+      //if sucessful
+
+      //push response to template
+
+      //add rendered to notes container
+
+      self.mDom.$notesInput.val();
+      VideoController.play();
     });
   },
+
+  showEditNote : function(){
+
+  },
+
+  editNote: function(){
+      /*
+      var func = (function($aTarget, aRes){
+          console.log("Inside callback");
+          console.log($aTarget);
+          // console.log(aRes);
+          $($aTarget).replaceWith(aRes);
+      })
+          .bind(undefined, self.mDom.$notesInput); */
+  },
+
 
   onDeleteNote : function() {
     var noteId = this.$mEditNote.attr("data-noteId");
@@ -70,13 +97,13 @@ NotesController = {
       }
     });
   },
-
+/*
   addNote : function(aModel) {
     this.mDom.$emptyNotesMessage.hide();
     var renderedNote = $(this.mNotesTemplate(aModel));
     this.mDom.$notesContainer.append(renderedNote);
   },
-
+*/
   saveNoteChanges : function() {
     var self = this;
     var html = $("#notesArea", this.mDom.$editNoteDialog).val();
@@ -135,7 +162,7 @@ NotesController = {
     var self = this;
 
     $(this.mDom.addNoteButton).click(function() {
-      self.onAddNote();
+      self.addNote();
     });
 
     $(this.mDom.saveNoteChanges).click(function() {
