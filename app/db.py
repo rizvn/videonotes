@@ -69,7 +69,7 @@ def addNote(vid_fk, time, text, user):
         conn.commit()
         note_pk = cursor.lastrowid
 
-    return {'pk': note_pk, 'time': time, 'text': text, 'user': user}
+    return {'id': note_pk}
 
 
 def deleteNote(note_pk):
@@ -77,6 +77,17 @@ def deleteNote(note_pk):
     conn.cursor().execute('''
         DELETE FROM notes where pk = ?                      
     ''', (note_pk,))
+    conn.commit()
+
+
+def updateNote(note_pk, time, text):
+    conn = sqlite3.connect(settings['db_path'])
+    cursor = conn.cursor()
+    cursor.execute('''
+        UPDATE notes
+        SET text=?, time=?
+        WHERE pk= ?
+        ''', (text, time, note_pk))
     conn.commit()
 
 #--------------- Users -------------------------------------------------

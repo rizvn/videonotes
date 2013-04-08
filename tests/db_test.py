@@ -28,3 +28,6 @@ def test_verify_delete_note():
     db.deleteNote(2)
     assert True
 
+def test_updateNote():
+    db.updateNote(20, 'hello', 'world')
+    assert True

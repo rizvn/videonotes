@@ -53,16 +53,16 @@
               {% if notes %}
                 {% for note in notes %}
                    <div class="note"
-                        data-noteId="{{note.pk}}"
-                        data-timecode="{{note.timeCode}}">
+                        data-id="{{note.pk}}"
+                        data-time="{{note.time}}">
 			
                         <div class="ctxMenu">
-			  <a class="editLink">Edit/Delete</a>
-			  <a class="commentLink">Comments</a>
-			</div>
+                          <a class="editLink">Edit</a>
+                          <a class="delLink">Delete</a>
+                        </div>
 			
-                        <p class="timecodeLink anchor">{{note.timeCode}}</p>
-			<p class="noteText">{{note.content}}</p>
+                        <p class="timeLink anchor">{{note.time}}</p>
+			            <p class="text">{{note.text}}</p>
                         <p class="desc"> by Riz on 01/01/2012</p>
                     </div>
                 {% endfor %}
@@ -71,7 +71,7 @@
                   <p class="noteText">No Notes available, add your notes</p>
                 </div>
               {% endif %}
-	    </div>
+	        </div>
           </div>
         </div><!-- /#notesCtr -->
       </div><!-- /#stage -->
@@ -106,16 +106,16 @@
 
 <!-------------------------- Templates ---------------------------------------->
 <div style="display:none">
-  <div id="vn_noteTemplate">
-  <div class="note" data-noteId="{{id}}" data-timecode="{{timeCode}}" data-user="{{userName}}" data-date="{{date}}">
+  <div id="tmpl_note">
+  <div class="note" data-id="{{id}}" data-time="{{time}}" data-user="{{user}}">
        <div class="ctxMenu">
          <a class="editLink">Edit/Delete</a>
          <a class="commentLink">Comments</a>
        </div>
-       <p class="timecodeLink anchor">{{formattedTimeCode}}</p>
-       <p class="noteText">{{body}}</p>
+       <p class="timeLink anchor">{{time}}</p>
+       <p class="text">{{text}}</p>
        <p class="desc">
-         by {{userName}} on {{formattedDate}}
+         by {{user}}
        </p>
      </div>
   </div>
