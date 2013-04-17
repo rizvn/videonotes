@@ -43,7 +43,7 @@ def index():
 
 @route('/library')
 def library():
-    return template("library.html")
+    return template("library.html", videos = db.getAllVideos())
 
 @post('/note')
 def addNote():

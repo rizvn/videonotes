@@ -6,8 +6,15 @@
       Library
     </div>
     <div>
-        <a href="#">A video</a>
-        
+        {% for video in videos %}
+        <div>
+            <a href="/play/{{video.pk}}">{{video.title}}</a>
+        </div>
+	{% else %}
+            <div class="note emptyNotes">
+              No Videos in Library
+            </div>
+        {% endfor %}
     </div>
 </div>
 

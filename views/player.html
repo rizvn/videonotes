@@ -57,7 +57,6 @@
           
           
           <div id="notes">
-              {% if notes %}
                 {% for note in notes %}
                    <div class="note"
                         data-id="{{note.pk}}"
@@ -72,12 +71,11 @@
 			            <p class="text">{{note.text}}</p>
                         <p class="desc"> by Riz on 01/01/2012</p>
                     </div>
-                {% endfor %}
-              {% else %}
+		{% else %}
                 <div class="note emptyNotes">
                   <p class="noteText">No Notes available, add your notes</p>
                 </div>
-              {% endif %}
+                {% endfor %}
 	        </div>
           </div>
         </div><!-- /#notesCtr -->
