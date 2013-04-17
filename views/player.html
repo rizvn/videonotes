@@ -1,5 +1,11 @@
 {% extends "layout.html" %}
 {% block main_content %}
+    {% if youtube_video %}
+      <script src="/static/js/YoutubePlayer.js"/></script>
+    {% else %}
+      <script src="/static/js/LocalPlayer.js"/></script>
+    {% endif %}
+    
     <div id="pageFrame">
     <div id="header">
       <span id="vidTitle">{{video.title}}</span> by
@@ -98,28 +104,11 @@
         </div>
         <div id="buttonsCtr">
             <button id="saveNoteChanges" class="btn btn-primary">Save</button>
-            <button id="deleteNoteButton" class="btn">Delete</button>
         </div>
     </div>    
   </div>
 </html>
 
-<!-------------------------- Templates ---------------------------------------->
-<div style="display:none">
-  <div id="tmpl_note">
-  <div class="note" data-id="{{id}}" data-time="{{time}}" data-user="{{user}}">
-       <div class="ctxMenu">
-         <a class="editLink">Edit/Delete</a>
-         <a class="commentLink">Comments</a>
-       </div>
-       <p class="timeLink anchor">{{time}}</p>
-       <p class="text">{{text}}</p>
-       <p class="desc">
-         by {{user}}
-       </p>
-     </div>
-  </div>
-</div>
 
 <script>
   $(function(){

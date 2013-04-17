@@ -160,9 +160,11 @@ NotesController = {
         self.deleteNote(this);
     });
 
-    self.el.deleteNoteButton.click(function() {
-      alert('not implemented yet');
+    $('#cancelNoteButton').click(function(){
+      self.el.notesInput.val('');
+      VideoController.play();
     });
+
   },
 
   //register or init dependencies
