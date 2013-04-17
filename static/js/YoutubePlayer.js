@@ -1,44 +1,41 @@
 ytPlayer = {
   mPlayer : "videoPlayer",
 
-  mConfig : {
-      flashplayer : '/static/js/lib/jwplayer/player.swf',
-      width : '100%',
-      height : '100%',
-      autoplay : 'true',
-      skin : '/static/js/lib/jwplayer/skins/glow/glow.xml',
-      file : '/static/testVideos/paradox_of_choice.mp4'
-  },
-
   play : function() {
-      jwplayer(this.mPlayer).play(true);
+    this.mPlayer.playVideo();
   },
 
   pause : function() {
-      jwplayer(this.mPlayer).pause(true);
+    this.mPlayer.pauseVideo();
   },
 
   playPause : function() {
-      jwplayer(this.mPlayer).play();
+    jwplayer(this.mPlayer).play();
   },
 
   seek : function(aSecs) {
-      jwplayer(this.mPlayer).seek(aSecs);
+    this.mPlayer.seekTo(aSecs, true);
   },
 
   getPosition : function() {
-      return parseInt(jwplayer(this.mPlayer).getPosition(), 10);
+      return this.mPlayer.getCurrentTime();
   },
 
   init : function(aVideoId) {
+    aVideoId = '1G4isv_Fylg';
     var params = { allowScriptAccess: "always" };
-    var atts = { id: "videoPlayer" };
-    swfobject.embedSWF("http://www.youtube.com/v/"+ aVideoId +"?enablejsapi=1&playerapiid=ytplayer&version=3",
-                       this.mPlayer, "425", "356", "8", null, null, params, atts);
+    var atts = { id: "videoPlayer"};
+    swfobject.embedSWF("http://www.youtube.com/v/"+ aVideoId +"?enablejsapi=1&playerapiid=ytplayer&version=3&autoplay=1",
+                       this.mPlayer, "420", "320", "8", null, null, params, atts);
   }
 }
 
 
 VideoController = ytPlayer;
+
+function onYouTubePlayerReady(playerId) {
+    VideoController.mPlayer = document.getElementById('videoPlayer');
+}
+
 
 

@@ -57,6 +57,7 @@ NotesController = {
                         text: model.text})
         self.el.notesContainer.append(new_note);
         self.el.notesInput.val("");
+	$('.emptyNotes', self.el.notesContainer).hide();
         VideoController.play();
       }
       else{
@@ -79,6 +80,9 @@ NotesController = {
       .done(function(res){
         if(res.ack == 1){
           $(note_el).remove();
+	  if ($('.note', self.el.notesContainer).length==1) {
+	    $('.emptyNotes', self.el.notesContainer).show();
+	  }
         }
       });
     }

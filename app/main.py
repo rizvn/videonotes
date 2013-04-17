@@ -2,6 +2,8 @@ from bottle import route, post, get, run, hook, jinja2_view as view, \
             jinja2_template as template, static_file, request
 import sqlite3
 import app.db as db
+import re
+import urlparse
 
 
 
@@ -18,8 +20,18 @@ def login():
 
 @route('/play/<vid_pk>')
 def player(vid_pk):
+    vid = db.getVideo(vid_pk);
+    print vid
+    youtube_video = 'youtube.com' in vid['url']
+    
+    if youtube_video:
+        params = urlparse.urlparse(vid['url'])[4]
+        match = re.match(r"(?P<yt_id>v=(\d|\w)*)", params)
+        vid['url'] = match.group('yt_id')[2:]
+    
     return template('player.html',
-                    video=db.getVideo(vid_pk),
+                    video=vid,
+                    youtube_video=youtube_video,
                     notes=db.getNotesForVideo(vid_pk))
 
 

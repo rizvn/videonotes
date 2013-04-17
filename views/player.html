@@ -1,6 +1,7 @@
 {% extends "layout.html" %}
 {% block main_content %}
     {% if youtube_video %}
+      <script src="/static/js/lib/swfobject.js"/></script>
       <script src="/static/js/YoutubePlayer.js"/></script>
     {% else %}
       <script src="/static/js/LocalPlayer.js"/></script>
