@@ -10,7 +10,7 @@ ytPlayer = {
   },
 
   playPause : function() {
-    jwplayer(this.mPlayer).play();
+    
   },
 
   seek : function(aSecs) {

@@ -1,0 +1,7 @@
+man
+include
+bin
+lib
+*.pyc
+*.mp4
+

@@ -2,14 +2,256 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b804b442-8fa4-40fc-b911-5f00f5516a4d" name="Default" comment="added partial function properly">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/NotesController.js" afterPath="$PROJECT_DIR$/static/js/NotesController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" afterPath="$PROJECT_DIR$/.idea/codeStyleSettings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/player.html" afterPath="$PROJECT_DIR$/views/player.html" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/activate" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/activate.csh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/activate.fish" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/activate_this.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/bottle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/easy_install" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/easy_install-2.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nosetests" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/nosetests-2.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/pip-2.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/python" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/python2" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/bin/python2.7" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/UserDict.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/_abcoll.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/_weakrefset.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/abc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/codecs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/config" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/copy_reg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/distutils/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/distutils/distutils.cfg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/encodings" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/fnmatch.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/genericpath.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/lib-dynload" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/linecache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/locale.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/no-global-site-packages.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/ntpath.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/orig-prefix.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/os.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/posixpath.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/re.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/Jinja2-2.6-py2.7.egg-info/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/Jinja2-2.6-py2.7.egg-info/SOURCES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/Jinja2-2.6-py2.7.egg-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/Jinja2-2.6-py2.7.egg-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/Jinja2-2.6-py2.7.egg-info/installed-files.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/Jinja2-2.6-py2.7.egg-info/not-zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/Jinja2-2.6-py2.7.egg-info/requires.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/Jinja2-2.6-py2.7.egg-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/bottle-0.11.6-py2.7.egg-info/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/bottle-0.11.6-py2.7.egg-info/SOURCES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/bottle-0.11.6-py2.7.egg-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/bottle-0.11.6-py2.7.egg-info/installed-files.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/bottle-0.11.6-py2.7.egg-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/bottle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/bottle_sqlite-0.1.2-py2.7.egg-info/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/bottle_sqlite-0.1.2-py2.7.egg-info/SOURCES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/bottle_sqlite-0.1.2-py2.7.egg-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/bottle_sqlite-0.1.2-py2.7.egg-info/installed-files.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/bottle_sqlite-0.1.2-py2.7.egg-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/bottle_sqlite.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/easy-install.pth" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/_debugsupport.c" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/_markupsafe/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/_markupsafe/_bundle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/_markupsafe/_constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/_markupsafe/_native.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/_markupsafe/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/_stringdefs.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/bccache.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/compiler.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/debug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/defaults.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/environment.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/ext.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/filters.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/lexer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/loaders.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/meta.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/nodes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/optimizer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/parser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/runtime.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/sandbox.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/api.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/core_tags.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/debug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/doctests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/ext.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/filters.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/imports.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/inheritance.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/lexnparse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/loader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/regression.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/res/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/res/templates/broken.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/res/templates/foo/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/res/templates/syntaxerror.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/res/templates/test.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/security.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/testsuite/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/utils.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jinja2/visitor.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose-1.2.1-py2.7.egg-info/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose-1.2.1-py2.7.egg-info/SOURCES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose-1.2.1-py2.7.egg-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose-1.2.1-py2.7.egg-info/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose-1.2.1-py2.7.egg-info/installed-files.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose-1.2.1-py2.7.egg-info/not-zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose-1.2.1-py2.7.egg-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/case.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/commands.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/config.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/core.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/exc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/ext/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/ext/dtcompat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/failure.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/importer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/inspector.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/loader.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/allmodules.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/attrib.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/base.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/builtin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/capture.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/collect.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/cover.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/debug.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/deprecated.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/doctests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/errorclass.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/failuredetail.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/isolate.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/logcapture.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/manager.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/multiprocess.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/plugintest.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/prof.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/skip.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/testid.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/plugins/xunit.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/proxy.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/pyversion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/result.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/selector.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/sphinx/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/sphinx/pluginopts.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/suite.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/tools/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/tools/nontrivial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/tools/trivial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/twistedtools.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/usage.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/nose/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/EGG-INFO/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/EGG-INFO/SOURCES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/EGG-INFO/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/EGG-INFO/entry_points.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/EGG-INFO/not-zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/EGG-INFO/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/__main__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/backwardcompat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/basecommand.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/baseparser.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/commands/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/commands/bundle.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/commands/completion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/commands/freeze.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/commands/help.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/commands/install.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/commands/search.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/commands/uninstall.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/commands/unzip.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/commands/zip.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/download.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/exceptions.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/index.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/locations.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/log.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/req.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/runner.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/status_codes.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/util.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/vcs/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/vcs/bazaar.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/vcs/git.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/vcs/mercurial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/pip-1.2.1-py2.7.egg/pip/vcs/subversion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py-1.4.13-py2.7.egg-info/PKG-INFO" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py-1.4.13-py2.7.egg-info/SOURCES.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py-1.4.13-py2.7.egg-info/dependency_links.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py-1.4.13-py2.7.egg-info/installed-files.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py-1.4.13-py2.7.egg-info/not-zip-safe" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py-1.4.13-py2.7.egg-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/__metainfo.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_apipkg.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_builtin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_code/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_code/_assertionnew.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_code/_assertionold.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_code/assertion.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_code/code.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_code/source.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_error.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_iniconfig.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_io/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_io/capture.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_io/saferepr.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_io/terminalwriter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_log/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_log/log.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_log/warning.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_path/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_path/cacheutil.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_path/common.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_path/local.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_path/svnurl.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_path/svnwc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_process/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_process/cmdexec.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_process/forkedfunc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_process/killproc.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_std.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/_xmlgen.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/py/test.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/setuptools-0.6c11-py2.7.egg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/setuptools.pth" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/sre.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/sre_compile.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/sre_constants.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/sre_parse.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/stat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/types.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/warnings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/man/man1/nosetests.1" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/videonotes.db" afterPath="$PROJECT_DIR$/db/videonotes.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/YoutubePlayer.js" afterPath="$PROJECT_DIR$/static/js/YoutubePlayer.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/library.html" afterPath="$PROJECT_DIR$/views/library.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vidmarks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365974550420" ignored="false" />
+    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366395692631" ignored="false" />
     <file path="/a.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365101489124" ignored="false" />
     <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365447064226" ignored="false" />
     <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365454684255" ignored="false" />
@@ -48,13 +290,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="18" selection-start="1086" selection-end="1086" vertical-scroll-proportion="1.1069767">
-              <folding>
-                <element signature="e#0#132#0" expanded="true" />
-              </folding>
+            <state line="27" column="40" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/start.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -62,16 +311,16 @@
       <file leaf-file-name="test.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="library.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="library.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="46" selection-start="272" selection-end="272" vertical-scroll-proportion="-10.461538">
+            <state line="7" column="9" selection-start="133" selection-end="133" vertical-scroll-proportion="0.19224556">
               <folding />
             </state>
           </provider>
@@ -80,7 +329,7 @@
       <file leaf-file-name="player.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/player.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="98" column="25" selection-start="3157" selection-end="3157" vertical-scroll-proportion="-64.07692">
+            <state line="6" column="24" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,10 +363,11 @@
         <option value="$PROJECT_DIR$/lib/python2.7/site-packages/bottle.py" />
         <option value="dbtable:/22ebcfd4/ead049b0-4699-4ab6-8597-bfd17909e63a/..notes" />
         <option value="$PROJECT_DIR$/tests/db_test.py" />
-        <option value="$PROJECT_DIR$/app/main.py" />
         <option value="$PROJECT_DIR$/app/db.py" />
         <option value="$PROJECT_DIR$/views/player.html" />
         <option value="$PROJECT_DIR$/static/js/NotesController.js" />
+        <option value="$PROJECT_DIR$/app/main.py" />
+        <option value="$PROJECT_DIR$/views/library.html" />
       </list>
     </option>
   </component>
@@ -208,21 +458,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -231,17 +467,33 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="Database.TableEditor.Splitter" value="0.90000004" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="67" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="69" />
     <property name="options.splitter.main.proportions" value="0.30000004" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="67" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/start.py" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="77" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="760" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="765" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="72" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="69" />
+    <property name="Database.TableEditor.Splitter" value="0.90000004" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FullScreen" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/start.py" />
-    <property name="FullScreen" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -413,13 +665,13 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="145" y="37" width="1049" height="765" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27018943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24925224" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24327019" sideWeight="0.66915053" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25822532" sideWeight="0.6701337" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26448736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
@@ -499,17 +751,12 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/Library/Caches/PyCharm20/python_stubs/960087039/_sqlite3.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="77" column="7" selection-start="1582" selection-end="1582" vertical-scroll-proportion="-3.4513273" />
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/22ebcfd4/ead049b0-4699-4ab6-8597-bfd17909e63a/..notes">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
+      </provider>
+      <provider editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
@@ -549,9 +796,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="17" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.6299342">
-          <folding />
-        </state>
+        <state line="56" column="17" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.6299342" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/db_test.py">
@@ -561,21 +806,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/views/player.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="98" column="25" selection-start="3157" selection-end="3157" vertical-scroll-proportion="-64.07692">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/db.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="4" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/library.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="272" selection-end="272" vertical-scroll-proportion="-10.461538">
+        <state line="6" column="24" selection-start="237" selection-end="237" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -587,12 +818,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="4" selection-start="607" selection-end="607" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="18" selection-start="1086" selection-end="1086" vertical-scroll-proportion="1.1069767">
-          <folding>
-            <element signature="e#0#132#0" expanded="true" />
-          </folding>
+        <state line="27" column="40" selection-start="606" selection-end="606" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/library.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="9" selection-start="133" selection-end="133" vertical-scroll-proportion="0.19224556">
+          <folding />
         </state>
       </provider>
     </entry>
