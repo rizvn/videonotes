@@ -1,6 +1,7 @@
 from bottle import route, post, get, run, hook, jinja2_view as view, \
             jinja2_template as template, static_file, request
 import sqlite3
+import bottle
 import app.db as db
 import re
 import urlparse
@@ -16,6 +17,13 @@ def loggedInCheck(fn):
 
 @hook('before_request')
 def login():
+    ses = bottle.request.environ.get('beaker.session')
+    if 'user' not in ses:
+        print('Setting up user')
+        ses['user'] = 'anonymous'
+    else:
+        print ('Existing user', ses['user'])
+
     print 'Running login code before request'
 
 @route('/play/<vid_pk>')
