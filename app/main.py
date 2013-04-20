@@ -52,7 +52,7 @@ def addNote():
                                 request.forms.get('text'),
                                 'riz')
     result['ack'] = 1
-    return result;
+    return result
 
 @get('/note/<id:int>/delete')
 def deleteNote(id):
