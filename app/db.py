@@ -12,9 +12,10 @@ class Cursor():
     
     def __exit__(self, type, value, traceback):
         self.cursor.close()
-        print "Type: ",type
-        print "Value: ", value
-        print "Trace: ", traceback
+        if traceback:
+            print "Type: ",type
+            print "Value: ", value
+            print "Trace: ", traceback
         return not traceback
 
 def fetchone(cursor):

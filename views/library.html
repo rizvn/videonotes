@@ -2,22 +2,30 @@
 {% block main_content %}
 <div id="pageFrame">
   
-    <div id="header">
+    <h3 class='lead'>
       Library
-    </div>
+    </h3>
     <div height="600px" style="overflow: auto">
-        {% for video in videos %}
-        <div>
-            <a href="/play/{{video.pk}}">{{video.title}}</a>
-        </div>
-	    {% else %}
-            <div class="note emptyNotes">
-              No Videos in Library
-            </div>
-        {% endfor %}
+        <table class="table table-striped table-bordered table-hover" style="background-color: #ffffff;">
+            <tbody>
+                {% for video in videos %}
+                <tr>
+                    <td>
+                        <a href="/play/{{video.pk}}">{{video.title}}</a>
+                    </td>
+                </tr>
+                {% else %}
+                <tr>
+                    <td>
+                      No Videos in Library
+                    </td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
     </div>
 
-    <a href="#addVideoFrm" role="button" class="btn" data-toggle="modal">
+    <a href="#addVideoFrm" role="button" class="btn pull-right" data-toggle="modal">
         Add Video
     </a>
 
