@@ -2,16 +2,16 @@
 {% block main_content %}
 <div id="pageFrame">
   
-    <h3 class='lead'>
+    <h1 style="color: dimgray; font-weight: normal;">
       Library
-    </h3>
+    </h1>
     <div height="600px" style="overflow: auto">
-        <table class="table table-striped table-bordered table-hover" style="background-color: #ffffff;">
+        <table class="table table-bordered table-hover" style="background-color: #ffffff; cursor: pointer">
             <tbody>
                 {% for video in videos %}
                 <tr>
-                    <td>
-                        <a href="/play/{{video.pk}}">{{video.title}}</a>
+                    <td class='vid_link' data-pk="{{video.pk}}">
+                        {{video.title}}
                     </td>
                 </tr>
                 {% else %}
@@ -38,14 +38,14 @@
             <form class="form-horizontal">
 
                 <div class="control-group">
-                    <label class="control-label" for="title">Title</label>
+                    <label class="control-label" for="title">Name: </label>
                     <div class="controls">
                         <input type="text" id="title" placeholder="Title">
                     </div>
                 </div>
 
                 <div class="control-group">
-                    <label class="control-label" for="url">Url</label>
+                    <label class="control-label" for="url">Url:</label>
                     <div class="controls">
                         <input type="text" id="title" placeholder="Url">
                     </div>
@@ -81,6 +81,11 @@
     $(function(){
       $(".navbar .active").removeClass("active");
       $(".navbar #library").addClass("active");
+
+      $('.vid_link').click(function(){
+        var vidpk = $(this).attr('data-pk');
+        window.location.href='/play/'+vidpk;
+      })
     })
 </script>
 {% endblock %}

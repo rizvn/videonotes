@@ -1,30 +1,35 @@
 {% extends "layout.html" %}
 {% block main_content %}
-<div id="pageFrame">
+<div id="pageFrame" >
 
-    <div id="header">
-        Login
-    </div>
-    <div style="color: red;">
-    {{error}}
-    </div>
-    <form name="loginForm" action="/login" method="POST">
-      <table>
-          <tr>
-              <td>Username:</td>
-              <td><input type="text" name="username" /></td>
-          </tr>
-          <tr>
-              <td>Password:</td>
-              <td><input type="text" name="password" /></td>
-          </tr>
-          <tr>
-              <td>&nbsp</td>
-              <td><input type="submit" class='btn' value="login"></td>
-          </tr>
-      </table>
+    <div style="padding-top: 40px; padding-left: 100px;">
+        <h1 style="color: dimgray; font-weight: normal;">
+            Login
+        </h1>
+        {% if error %}
+        <div class="alert alert-error">
+        {{error}}
+        </div>
+        {% endif %}
 
-    </form>
+        <form name="loginForm" action="/login" method="POST">
+          <table>
+              <tr>
+                  <td>Username:</td>
+                  <td><input type="text" name="username" /></td>
+              </tr>
+              <tr>
+                  <td>Password:</td>
+                  <td><input type="password" name="password" /></td>
+              </tr>
+              <tr>
+                  <td>&nbsp</td>
+                  <td><input type="submit" class='btn btn-primary' value="login"></td>
+              </tr>
+          </table>
+        </form>
+    </div>
+
 </div>
 
 {% endblock %}

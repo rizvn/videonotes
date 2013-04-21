@@ -2,29 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b804b442-8fa4-40fc-b911-5f00f5516a4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/videonotes.db" afterPath="$PROJECT_DIR$/db/videonotes.db" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/db.py" afterPath="$PROJECT_DIR$/app/db.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/base.css" afterPath="$PROJECT_DIR$/static/css/base.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/css/global.css" afterPath="$PROJECT_DIR$/static/css/global.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/library.html" afterPath="$PROJECT_DIR$/views/library.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/login.html" afterPath="$PROJECT_DIR$/views/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/player.html" afterPath="$PROJECT_DIR$/views/player.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vidmarks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366565943861" ignored="false" />
+    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366569184574" ignored="false" />
     <file path="/a.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365101489124" ignored="false" />
-    <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366554308025" ignored="false" />
+    <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366576325122" ignored="false" />
     <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366554769488" ignored="false" />
     <file path="/db.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366567789215" ignored="false" />
     <file path="/main.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366565726315" ignored="false" />
     <file path="/a.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365974228764" ignored="false" />
     <file path="/db_test.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366565635504" ignored="false" />
     <file path="/a.less" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365974231907" ignored="false" />
-    <file path="/library.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366569102861" ignored="false" />
+    <file path="/library.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366576096486" ignored="false" />
     <file path="/start.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366552309658" ignored="false" />
     <file path="/.gitignore" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366470401016" ignored="false" />
-    <file path="/login.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366547513230" ignored="false" />
+    <file path="/login.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366576156291" ignored="false" />
     <file path="/fragment.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366552982446" ignored="false" />
     <file path="/layout.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366553724853" ignored="false" />
     <file path="/settings.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366562671210" ignored="false" />
+    <file path="/global.css" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366575681637" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +81,7 @@
       <file leaf-file-name="player.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/player.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="33" selection-start="506" selection-end="506" vertical-scroll-proportion="-11.115385">
+            <state line="22" column="39" selection-start="621" selection-end="621" vertical-scroll-proportion="-13.730769">
               <folding />
             </state>
           </provider>
@@ -87,7 +90,7 @@
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="20" selection-start="2867" selection-end="2867" vertical-scroll-proportion="-25.5">
+            <state line="4" column="0" selection-start="110" selection-end="174" vertical-scroll-proportion="-2.6153846">
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -95,32 +98,52 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="library.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="library.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="96" selection-end="96" vertical-scroll-proportion="0.17989418">
+            <state line="4" column="4" selection-start="81" selection-end="154" vertical-scroll-proportion="-2.6153846">
               <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_test.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/db_test.py">
+      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="0" selection-start="265" selection-end="265" vertical-scroll-proportion="0.0">
+            <state line="1" column="28" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="global.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/static/css/global.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="51" column="8" selection-start="750" selection-end="750" vertical-scroll-proportion="0.41486812">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="6" column="17" selection-start="209" selection-end="209" vertical-scroll-proportion="-3.8461537">
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/start.py">
+      <file leaf-file-name="normalize.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/normalize.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+            <state line="123" column="22" selection-start="2532" selection-end="2532" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -153,22 +176,25 @@
       <list>
         <option value="$PROJECT_DIR$/lib/python2.7/site-packages/bottle.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/views/login.html" />
         <option value="$PROJECT_DIR$/start.py" />
-        <option value="$PROJECT_DIR$/views/layout.html" />
         <option value="dbtable:/22ebcfd4/ead049b0-4699-4ab6-8597-bfd17909e63a/..notes" />
         <option value="$PROJECT_DIR$/static/js/NotesController.js" />
         <option value="$PROJECT_DIR$/app/settings.py" />
         <option value="$PROJECT_DIR$/tests/db_test.py" />
         <option value="$PROJECT_DIR$/app/main.py" />
         <option value="$PROJECT_DIR$/app/db.py" />
-        <option value="$PROJECT_DIR$/views/player.html" />
+        <option value="$PROJECT_DIR$/static/css/base.css" />
+        <option value="$PROJECT_DIR$/static/css/normalize.css" />
+        <option value="$PROJECT_DIR$/views/layout.html" />
         <option value="$PROJECT_DIR$/views/library.html" />
+        <option value="$PROJECT_DIR$/views/login.html" />
+        <option value="$PROJECT_DIR$/views/player.html" />
+        <option value="$PROJECT_DIR$/static/css/global.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="170" />
+    <option name="x" value="171" />
     <option name="y" value="54" />
     <option name="width" value="941" />
     <option name="height" value="792" />
@@ -264,20 +290,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tests" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="static" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -297,6 +309,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -574,11 +604,15 @@
       <created>1366565950781</created>
       <updated>1366565950781</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="better library view">
+      <created>1366569186652</created>
+      <updated>1366569186652</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="170" y="54" width="941" height="792" extended-state="0" />
+    <frame x="171" y="54" width="941" height="792" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -639,7 +673,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed tests to use pyunit" />
+    <option name="LAST_COMMIT_MESSAGE" value="better library view" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -663,6 +697,7 @@
     <MESSAGE value="multi user front end" />
     <MESSAGE value="better settings.py" />
     <MESSAGE value="changed tests to use pyunit" />
+    <MESSAGE value="better library view" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -672,42 +707,25 @@
           <line>19</line>
           <option name="timeStamp" value="22" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/views/library.html</url>
+          <line>84</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="23" />
+      <option name="time" value="24" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/functools.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="27" selection-start="655" selection-end="656" vertical-scroll-proportion="0.2937365" />
-      </provider>
-    </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/uuid.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.33174226" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/bottle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="873" column="0" selection-start="35562" selection-end="35562" vertical-scroll-proportion="-5.64">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/22ebcfd4/ead049b0-4699-4ab6-8597-bfd17909e63a/..notes">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="96" selection-end="96" vertical-scroll-proportion="4.8846154" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/beaker/middleware.py">
@@ -748,13 +766,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/main.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/db.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="5" column="0" selection-start="104" selection-end="104" vertical-scroll-proportion="0.0">
@@ -764,28 +775,67 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/player.html">
+    <entry file="file://$PROJECT_DIR$/static/css/normalize.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="506" selection-end="506" vertical-scroll-proportion="-11.115385">
+        <state line="123" column="22" selection-start="2532" selection-end="2532" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/main.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="20" selection-start="2867" selection-end="2867" vertical-scroll-proportion="-25.5">
+        <state line="4" column="0" selection-start="110" selection-end="174" vertical-scroll-proportion="-2.6153846">
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="28" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/library.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="96" selection-end="96" vertical-scroll-proportion="0.17989418">
+        <state line="4" column="4" selection-start="81" selection-end="154" vertical-scroll-proportion="-2.6153846">
           <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#0;n#div#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="17" selection-start="209" selection-end="209" vertical-scroll-proportion="-3.8461537">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/player.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="39" selection-start="621" selection-end="621" vertical-scroll-proportion="-13.730769">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="51" column="8" selection-start="750" selection-end="750" vertical-scroll-proportion="0.41486812">
+          <folding />
         </state>
       </provider>
     </entry>
