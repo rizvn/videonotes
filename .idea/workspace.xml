@@ -2,24 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b804b442-8fa4-40fc-b911-5f00f5516a4d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/login.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/videonotes.db" afterPath="$PROJECT_DIR$/db/videonotes.db" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/layout.html" afterPath="$PROJECT_DIR$/views/layout.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/main.py" afterPath="$PROJECT_DIR$/app/main.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/start.py" afterPath="$PROJECT_DIR$/start.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vidmarks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366488173072" ignored="false" />
+    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366540207104" ignored="false" />
     <file path="/a.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365101489124" ignored="false" />
     <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366397712079" ignored="false" />
     <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365454684255" ignored="false" />
     <file path="/db.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365454138390" ignored="false" />
-    <file path="/main.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366488847604" ignored="false" />
+    <file path="/main.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366553606315" ignored="false" />
     <file path="/a.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365974228764" ignored="false" />
     <file path="/db_test.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365453258524" ignored="false" />
     <file path="/a.less" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365974231907" ignored="false" />
     <file path="/library.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366405118056" ignored="false" />
-    <file path="/start.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366488786162" ignored="false" />
+    <file path="/start.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366552309658" ignored="false" />
     <file path="/.gitignore" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366470401016" ignored="false" />
+    <file path="/login.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366547513230" ignored="false" />
+    <file path="/fragment.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366552982446" ignored="false" />
+    <file path="/layout.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366553724853" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,11 +46,13 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="db.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/db.py">
+      <file leaf-file-name="main.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="37" column="19" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#142#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -53,18 +60,56 @@
       <file leaf-file-name="start.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+            <state line="12" column="42" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/main.py">
+      <file leaf-file-name="bottle.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/bottle.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.61538464">
+            <state line="873" column="0" selection-start="35562" selection-end="35562" vertical-scroll-proportion="-5.64">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="middleware.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/beaker/middleware.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="154" column="0" selection-start="5998" selection-end="5998" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/db.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="17" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="21" selection-start="96" selection-end="96" vertical-scroll-proportion="-2.6153846">
               <folding>
-                <element signature="e#0#132#0" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/layout.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="47" column="0" selection-start="2206" selection-end="2206" vertical-scroll-proportion="-0.17894737">
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -103,14 +148,16 @@
         <option value="$PROJECT_DIR$/views/player.html" />
         <option value="$PROJECT_DIR$/views/library.html" />
         <option value="$PROJECT_DIR$/.gitignore" />
-        <option value="$PROJECT_DIR$/start.py" />
+        <option value="$PROJECT_DIR$/views/login.html" />
         <option value="$PROJECT_DIR$/app/main.py" />
+        <option value="$PROJECT_DIR$/start.py" />
+        <option value="$PROJECT_DIR$/views/layout.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="33" />
-    <option name="y" value="52" />
+    <option name="y" value="54" />
     <option name="width" value="941" />
     <option name="height" value="792" />
   </component>
@@ -140,30 +187,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="External Libraries" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="Scope">
         <subPane subId="Problems" />
         <subPane subId="Project Files">
@@ -187,20 +210,112 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.2 virtualenv at /Volumes/data/Development/python/vidmarks (1) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.2 virtualenv at /Volumes/data/Development/python/vidmarks (1) &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python2.7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="python2.7" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="67" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="69" />
     <property name="options.splitter.main.proportions" value="0.30000004" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="67" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="67" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/start.py" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="77" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="760" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="765" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="760" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="72" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="69" />
     <property name="Database.TableEditor.Splitter" value="0.90000004" />
@@ -215,8 +330,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -391,19 +506,23 @@
       <created>1366470445290</created>
       <updated>1366470445290</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="beaker sessions working correctly in app">
+      <created>1366488922665</created>
+      <updated>1366488922665</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="33" y="52" width="941" height="792" extended-state="0" />
+    <frame x="33" y="54" width="941" height="792" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.27018943" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2479452" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18100558" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26448736" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18547486" sideWeight="0.67142856" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29857144" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32857144" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -456,7 +575,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added beaker session middleware config" />
+    <option name="LAST_COMMIT_MESSAGE" value="beaker sessions working correctly in app" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -474,109 +593,146 @@
     <MESSAGE value="added partial function properly" />
     <MESSAGE value="updated library page" />
     <MESSAGE value="added beaker session middleware config" />
+    <MESSAGE value="beaker sessions working correctly in app" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/app/db.py</url>
-          <line>13</line>
-          <option name="timeStamp" value="8" />
+          <url>file://$PROJECT_DIR$/app/main.py</url>
+          <line>34</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/app/main.py</url>
+          <line>38</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="python-line">
+          <url>file://$PROJECT_DIR$/app/main.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="21" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="9" />
+      <option name="time" value="22" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sqlite3/dbapi2.py">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="6" column="5" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/sqlite3/__init__.py">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/SocketServer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="8" selection-start="1024" selection-end="1024" vertical-scroll-proportion="0.0" />
+        <state line="230" column="0" selection-start="8198" selection-end="8198" vertical-scroll-proportion="0.47844827">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/NotesController.js">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/wsgiref/simple_server.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="26" selection-start="869" selection-end="869" vertical-scroll-proportion="-2.9069767" />
+        <state line="123" column="0" selection-start="3789" selection-end="3789" vertical-scroll-proportion="0.33189654">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/bin/activate">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/wsgiref/handlers.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bin/nosetests">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="56" column="17" selection-start="2632" selection-end="2632" vertical-scroll-proportion="0.6299342" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/db_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="382" selection-end="382" vertical-scroll-proportion="0.44651163" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/player.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="46" selection-start="3287" selection-end="3287" vertical-scroll-proportion="0.5627907" />
+        <state line="84" column="0" selection-start="2886" selection-end="2886" vertical-scroll-proportion="0.33189654">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/library.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="41" selection-start="1559" selection-end="1559" vertical-scroll-proportion="0.7379845" />
+        <state line="3" column="2" selection-start="76" selection-end="76" vertical-scroll-proportion="0.11062907">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/test.html">
+    <entry file="file://$PROJECT_DIR$/views/player.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="88" column="28" selection-start="2907" selection-end="2907" vertical-scroll-proportion="0.34273317">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/__init__.py">
+    <entry file="file://$USER_HOME$/Library/Caches/PyCharm20/python_stubs/960087039/_functools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+        <state line="42" column="8" selection-start="1408" selection-end="1408" vertical-scroll-proportion="0.33333334">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/settings.py">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/functools.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="39" selection-start="53" selection-end="53" vertical-scroll-proportion="0.025411062" />
+        <state line="17" column="27" selection-start="655" selection-end="656" vertical-scroll-proportion="0.2937365">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/uuid.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="5" selection-start="37" selection-end="37" vertical-scroll-proportion="0.0">
+        <state line="44" column="0" selection-start="1580" selection-end="1580" vertical-scroll-proportion="0.33174226">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="0" selection-start="314" selection-end="314" vertical-scroll-proportion="0.0">
+        <state line="12" column="17" selection-start="283" selection-end="283" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/start.py">
+    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/bottle.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="373" selection-end="373" vertical-scroll-proportion="0.0">
+        <state line="873" column="0" selection-start="35562" selection-end="35562" vertical-scroll-proportion="-5.64">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/beaker/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="154" column="0" selection-start="5998" selection-end="5998" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="330" selection-end="330" vertical-scroll-proportion="0.61538464">
+        <state line="37" column="19" selection-start="871" selection-end="871" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#132#0" expanded="true" />
+            <element signature="e#0#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="42" selection-start="296" selection-end="296" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="21" selection-start="96" selection-end="96" vertical-scroll-proportion="-2.6153846">
+          <folding>
+            <element signature="n#style#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="2206" selection-end="2206" vertical-scroll-proportion="-0.17894737">
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>

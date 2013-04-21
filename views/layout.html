@@ -55,9 +55,12 @@
               -->
             </ul>
             <div class="pull-right">
-              <div style="padding: 10px 5px 5px 5px;">
-              User: Riz | 
-              <a href='/auth/logout'>Logout</a>
+
+              <div style="padding: 10px 10px 5px 5px;">
+                {% if user %}
+                  User: {{user}} |
+                  <a href='/logout'>Logout</a>
+                {% endif %}
               </div>
               <!--
               <input class="span2" type="text" placeholder="Email">
