@@ -53,7 +53,7 @@ def player(vid_pk):
 
 @route('/')
 def index():
-    return template('player.html',
+    return view('player.html',
                     video = db.getVideo(1),
                     notes = [{'text' : 'Hello world', 'time': '100'}])
 
