@@ -25,7 +25,7 @@ NotesController = {
         <p class='timeLink anchor'>{{time}}</p>                     \
         <p class='text'>{{text}}</p>                                \
         <p class='desc'>                                            \
-            by Riz                                                  \
+            by {{user}}                                                  \
         </p>                                                        \
       </div>                                                        \
       ");
@@ -54,6 +54,7 @@ NotesController = {
         var new_note = self.el.notesTemplate({
                         id: res.id,
                         time: model.time,
+                        user : Data.user,
                         text: model.text})
         self.el.notesContainer.append(new_note);
         self.el.notesInput.val("");
@@ -120,6 +121,7 @@ NotesController = {
         var new_note = self.el.notesTemplate({
                         id: model.id,
                         time: model.time,
+                        user: Data.user,
                         text: model.text})
         note.replaceWith(new_note);
         self.el.editNotesDialog.dialog('close')

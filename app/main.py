@@ -66,7 +66,7 @@ def addNote():
     result = db.addNote(request.forms.get('vid_id'),
                                 request.forms.get('time'),
                                 request.forms.get('text'),
-                                'riz')
+                                req.session['user'])
     result['ack'] = 1
     return result
 
