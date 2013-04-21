@@ -48,14 +48,12 @@ def player(vid_pk):
     return view('player.html',
                     video=vid,
                     youtube_video=youtube_video,
-                    notes=db.getNotesForVideo(vid_pk))
+                    notes=db.getNotes(vid_pk, req.session['user']))
 
 
 @route('/')
 def index():
-    return view('player.html',
-                    video = db.getVideo(1),
-                    notes = [{'text' : 'Hello world', 'time': '100'}])
+    redirect('/library')
 
 @route('/library')
 def library():

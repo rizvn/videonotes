@@ -10,6 +10,10 @@ class DbTest(unittest.TestCase):
         result = db.getNotesForVideo(1)
         assert True
 
+    def test_getNotesForVideoByUser(self):
+        result = db.getNotes(1, 'riz');
+        assert True
+
     def test_getVideoByPk(self):
         result = db.getVideo(1)
         assert result

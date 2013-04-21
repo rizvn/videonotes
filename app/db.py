@@ -56,6 +56,10 @@ def getNotesForVideo(vid_fk):
         cursor.execute('SELECT * FROM notes where vid_fk=?', (vid_fk,))
         return fetchall(cursor)
 
+def getNotes(video_fk, username):
+    with Cursor() as cursor:
+        cursor.execute('SELECT * FROM notes where vid_fk=? and user=?', (video_fk, username))
+        return fetchall(cursor)
 
 def addNote(vid_fk, time, text, user):
     conn = sqlite3.connect(settings['db_path'])
