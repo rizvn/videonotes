@@ -17,7 +17,7 @@ NotesController = {
       });
 
     this.el.notesTemplate = Handlebars.compile(" \
-      <div class='note' data-id='{{id}}' data-time='{{time}}'>      \
+      <div class='note' data-id='{{id}}' data-time='{{sec}}'>      \
         <div class='ctxMenu'>                                       \
           <a class='editLink'>Edit</a>                              \
           <a class='delLink'>Delete</a>                             \
@@ -41,7 +41,7 @@ NotesController = {
     var model = {};
     model.vid_id = Data.vidId;
     model.user = Data.user;
-    model.time = VideoController.getPosition();
+    model.time = parseInt(VideoController.getPosition(),10);
     model.text = self.el.notesInput.val();
 
     $.ajax({
@@ -53,7 +53,8 @@ NotesController = {
       if(res.ack == 1){
         var new_note = self.el.notesTemplate({
                         id: res.id,
-                        time: model.time,
+                        sec: model.time,
+                        time: self.secToTime(model.time),
                         user : Data.user,
                         text: model.text})
         self.el.notesContainer.append(new_note);
@@ -120,7 +121,8 @@ NotesController = {
       if(res.ack == 1){
         var new_note = self.el.notesTemplate({
                         id: model.id,
-                        time: model.time,
+                        sec: model.time,
+                        time: self.secToTime(model.time),
                         user: Data.user,
                         text: model.text})
         note.replaceWith(new_note);
@@ -182,6 +184,23 @@ NotesController = {
     this.mNotesTemplate = Handlebars.compile($("#vn_noteTemplate").html());
   },
 
+  pad: function(number){
+    return (number < 10) ?'0'+number : ''+number;
+  },
+
+  secToTime : function(sec){
+    sec = parseInt(sec);
+
+    var hrs = parseInt(sec / 3600, 10);
+    sec -= hrs * 3600;
+
+    var mins = parseInt(sec / 60, 10);
+    sec -= mins * 60;
+
+    hrs =  (hrs > 0) ? this.pad(hrs)+':' : '';
+
+    return hrs +  this.pad(mins) + ':' + this.pad(sec);
+  },
 
 
   //ui effects that are not necessary for core functionality

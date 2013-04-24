@@ -1,5 +1,6 @@
 from app import main
 from beaker.middleware import SessionMiddleware
+
 import bottle
 
 session_opts = {
