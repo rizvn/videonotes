@@ -5,26 +5,41 @@
     <h1 style="color: dimgray; font-weight: normal;">
       Library
     </h1>
-    <div height="600px" style="overflow: auto">
-        <table class="table table-bordered table-hover" style="background-color: #ffffff; cursor: pointer">
-            <tbody>
-                {% for video in videos %}
-                <tr>
-                    <td class='vid_link' data-pk="{{video.pk}}">
-                        {{video.title}}
-                    </td>
-                </tr>
-                {% else %}
-                <tr>
-                    <td>
-                      No Videos in Library
-                    </td>
-                </tr>
-                {% endfor %}
-            </tbody>
-        </table>
-    </div>
+    <div class="row-fluid">
+        <div class="span3" style='border-right: 1px solid #cdcdcd;'>
+            <!--Sidebar content-->
+            <ul class="nav nav-list bs-docs-sidenav">
+                <li class="active"><a href="#"><i class="icon-chevron-right"></i>All</a></li>
+                <li><a href="#"><i class="icon-chevron-right"></i>Category 1</a></li>
+                <li><a href="#"><i class="icon-chevron-right"></i>Category 2</a></li>
+                <li><a href="#"><i class="icon-chevron-right"></i>Category 3</a></li>
+                <li><a href="#"><i class="icon-chevron-right"></i>Responsive design</a></li>
+            </ul>
+        </div>
+        <div class="span9">
+            <div height="600px" style="overflow: auto">
+                <table class="table table-bordered table-hover" style="background-color: #ffffff; cursor: pointer">
+                    <tbody>
+                    {% for video in videos %}
+                    <tr>
+                        <td class='vid_link' data-pk="{{video.pk}}">
+                            {{video.title}}
+                        </td>
+                    </tr>
+                    {% else %}
+                    <tr>
+                        <td>
+                            No Videos in Library
+                        </td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
 
+
+        </div>
+    </div>
     <a href="#addVideoFrm" role="button" class="btn pull-right" data-toggle="modal">
         Add Video
     </a>
