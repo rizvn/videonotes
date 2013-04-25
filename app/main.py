@@ -1,13 +1,19 @@
 from bottle import route, post, get, run, hook, jinja2_view as view, \
             jinja2_template as template, static_file, request, redirect
 from threading import local
-import sqlite3
 import bottle
 import app.db as db
 import re
 import urlparse
 
 req = local()
+
+#jinja2 templates
+from app.utils import sec_to_time
+from jinja2 import Environment, FileSystemLoader
+jinja_env = Environment(loader=FileSystemLoader('views'))
+jinja_env.filters['sec_to_time'] = sec_to_time
+
 
 def loggedInCheck(fn):
     def wrap():
@@ -18,8 +24,9 @@ def loggedInCheck(fn):
 def view(*args, **kwargs):
     #add user name
     kwargs['user'] = req.session['user']
+    return jinja_env.get_template(args[0]).render(**kwargs);
     #render template
-    return template(*args, **kwargs)
+    #return template(*args, **kwargs)
 
 
 @hook('before_request')

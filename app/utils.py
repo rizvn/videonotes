@@ -17,7 +17,3 @@ def pad(number):
         return '0%d' % (number,)
     else:
         return '%d' % (number,)
-
-
-if __name__=='__main__':
-    print sec_to_time(18000)

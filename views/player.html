@@ -67,9 +67,9 @@
                           <a class="delLink">Delete</a>
                         </div>
 			
-                        <p class="timeLink anchor">{{note.time}}</p>
+                        <p class="timeLink anchor">{{note.time|sec_to_time}}</p>
 			            <p class="text">{{note.text}}</p>
-                        <p class="desc"> by {{note.user}} on 01/01/2012</p>
+                        <p class="desc"> by {{note.user}}</p>
                     </div>
 		{% else %}
                 <div class="note emptyNotes">
