@@ -37,3 +37,7 @@ class DbTest(unittest.TestCase):
     def test_updateNote(self):
         db.updateNote(20, 'hello', 'world')
         assert True
+
+    def test_isAuthor(self):
+        db.isAuthor(1, 'riz')
+        assert True

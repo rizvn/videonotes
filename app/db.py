@@ -95,6 +95,11 @@ def updateNote(note_pk, time, text):
         ''', (text, time, note_pk))
     conn.commit()
 
+def isAuthor(note_pk, user):
+    with Cursor() as cursor:
+        cursor.execute('SELECT COUNT(*) from notes where pk=? and user=?', (note_pk, user))
+        return True if cursor.fetchone()[0] == 1 else False
+
 #--------------- Users -------------------------------------------------
 def getUserByName(name):
     with Cursor() as cursor:
