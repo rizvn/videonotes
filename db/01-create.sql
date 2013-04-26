@@ -17,6 +17,7 @@ CREATE TABLE videonotes.notes
   vid_fk bigint  NOT NULL,
   time int NOT NULL,
   text text  NOT NULL,
+  share int default 0,
   ts timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP
 ) ENGINE=INNODB;
 COMMIT;
