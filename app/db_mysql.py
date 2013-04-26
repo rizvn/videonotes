@@ -54,7 +54,7 @@ def getNotesForVideo(vid_fk):
 
 def getNotes(video_fk, username):
     with Cursor() as cursor:
-        cursor.execute('SELECT * FROM notes where vid_fk=? and user=?', (video_fk, username))
+        cursor.execute('SELECT * FROM notes where vid_fk=%s and user=%s', (video_fk, username))
         return fetchall(cursor)
 
 def addNote(vid_fk, time, text, user):
@@ -80,8 +80,8 @@ def updateNote(note_pk, time, text):
     cursor = conn.cursor()
     cursor.execute('''
         UPDATE notes
-        SET text=?, time=?
-        WHERE pk= ?
+        SET text=%s, time=%s
+        WHERE pk= %s
         ''', (text, time, note_pk))
     conn.commit()
 
