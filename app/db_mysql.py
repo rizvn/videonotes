@@ -65,5 +65,43 @@ def addNote(vid_fk, time, text, user):
         VALUES (%s, %s, %s, %s)
         ''', (vid_fk, time, text, user))
     conn.commit()
-    note_pk = conn.insert_id()
+    note_pk = cursor.lastrowid
     return {'id': note_pk}
+
+def deleteNote(note_pk):
+    conn = getConnection()
+    conn.cursor().execute('''
+        DELETE FROM notes where pk = %s
+    ''', (note_pk,))
+    conn.commit()
+
+def updateNote(note_pk, time, text):
+    conn = getConnection()
+    cursor = conn.cursor()
+    cursor.execute('''
+        UPDATE notes
+        SET text=?, time=?
+        WHERE pk= ?
+        ''', (text, time, note_pk))
+    conn.commit()
+
+def isAuthor(note_pk, user):
+    with Cursor() as cursor:
+        cursor.execute('SELECT COUNT(*) from notes where pk=%s and user=%s', (note_pk, user))
+        return True if cursor.fetchone()[0] == 1 else False
+
+
+#--------------- Users -------------------------------------------------
+def getUserByName(name):
+    with Cursor() as cursor:
+        cursor.execute('SELECT * FROM users where name=%s', (name,))
+        return cursor.fetchone()
+
+def authUser(name, password):
+    with Cursor() as cursor:
+        cursor.execute("""
+            SELECT * FROM users
+            WHERE name=%s
+            AND password=%s
+            """, (name, password))
+        return cursor.fetchone()
