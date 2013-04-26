@@ -1,4 +1,13 @@
 create schema  videonotes;
+/*
+create user 'riz'@'localhost';
+use videonotes;
+GRANT ALL ON videonotes.* TO 'riz'@'localhost' identified by 'pass';
+
+REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'riz'@'localhost';
+drop user 'riz'@'localhost';
+*/
+
 
 CREATE TABLE videonotes.notes
 (
