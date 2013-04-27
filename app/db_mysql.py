@@ -54,7 +54,7 @@ def getNotesForVideo(vid_fk):
 
 def getNotes(video_fk, username):
     with Cursor() as cursor:
-        cursor.execute('SELECT * FROM notes where vid_fk=%s and user=%s', (video_fk, username))
+        cursor.execute('SELECT * FROM notes where vid_fk=%s and username=%s', (video_fk, username))
         return fetchall(cursor)
 
 def addNote(vid_fk, time, text, user):
@@ -94,14 +94,14 @@ def isAuthor(note_pk, user):
 #--------------- Users -------------------------------------------------
 def getUserByName(name):
     with Cursor() as cursor:
-        cursor.execute('SELECT * FROM users where name=%s', (name,))
+        cursor.execute('SELECT * FROM users where username=%s', (name,))
         return cursor.fetchone()
 
 def authUser(name, password):
     with Cursor() as cursor:
         cursor.execute("""
             SELECT * FROM users
-            WHERE name=%s
+            WHERE username=%s
             AND password=%s
             """, (name, password))
         return cursor.fetchone()
