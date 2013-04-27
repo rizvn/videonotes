@@ -2,12 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b804b442-8fa4-40fc-b911-5f00f5516a4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/01-create.sql" afterPath="$PROJECT_DIR$/db/01-create.sql" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/db_mysql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/videonotes.db" afterPath="$PROJECT_DIR$/db/videonotes.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vidmarks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367009582587" ignored="false" />
+    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367064801409" ignored="false" />
     <file path="/a.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367009762678" ignored="false" />
     <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366916243241" ignored="false" />
     <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366833487747" ignored="false" />
@@ -30,7 +31,7 @@
     <file path="/dummy.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367009762678" ignored="false" />
     <file path="/mysql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367001647384" ignored="false" />
     <file path="/01-create.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367009788034" ignored="false" />
-    <file path="/db_mysql.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367009560492" ignored="false" />
+    <file path="/db_mysql.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367064849588" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,43 +53,22 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="db_mysql.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
+      <file leaf-file-name="library.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="101" column="19" selection-start="2835" selection-end="2835" vertical-scroll-proportion="0.0">
+            <state line="101" column="0" selection-start="3210" selection-end="3210" vertical-scroll-proportion="-17.692308">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_mysql.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/db_mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="35" selection-start="307" selection-end="307" vertical-scroll-proportion="0.23847695">
               <folding>
-                <element signature="e#0#20#0" expanded="true" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="videonotes.notes" pinned="false" current="false" current-in-tab="false">
-        <entry file="dbDummy://dbtable:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/videonotes..notes">
-          <provider editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-          <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01-create.sql" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/db/01-create.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="22" selection-start="445" selection-end="445" vertical-scroll-proportion="0.55144036">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="12" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
-              <folding />
             </state>
           </provider>
         </entry>
@@ -118,7 +98,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/python2.7/site-packages/bottle.py" />
         <option value="$PROJECT_DIR$/app/utils.py" />
         <option value="$PROJECT_DIR$/start.py" />
         <option value="$PROJECT_DIR$/app/main.py" />
@@ -134,6 +113,7 @@
         <option value="db-console:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/" />
         <option value="$PROJECT_DIR$/app/db_mysql.py" />
         <option value="$PROJECT_DIR$/db/01-create.sql" />
+        <option value="$PROJECT_DIR$/tests/db_mysql.py" />
       </list>
     </option>
   </component>
@@ -216,21 +196,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="db" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -312,6 +278,11 @@
     <option name="myDjangoConsoleState">
       <PyConsoleSettings />
     </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests" />
+    </key>
   </component>
   <component name="RunManager" selected="Python tests.Nosetests in /Volumes/data/Development/python/vidmarks">
     <configuration default="false" name="Nosetests in /Volumes/data/Development/python/vidmarks" type="tests" factoryName="Nosetests" temporary="true">
@@ -680,29 +651,33 @@
       <created>1367009584489</created>
       <updated>1367009584489</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="added share column">
+      <created>1367009828715</created>
+      <updated>1367009828715</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="191" y="31" width="1009" height="810" extended-state="6" />
+    <frame x="191" y="31" width="1009" height="810" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15642458" sideWeight="0.9948079" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.211838" sideWeight="0.7360335" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.211838" sideWeight="0.7360335" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2479452" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18691589" sideWeight="0.7360335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19522326" sideWeight="0.7360335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2965616" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26396647" sideWeight="0.98852223" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32986626" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15642458" sideWeight="0.9948079" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -746,7 +721,7 @@
     <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="changed place holders" />
+    <option name="LAST_COMMIT_MESSAGE" value="added share column" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -778,22 +753,15 @@
     <MESSAGE value="added custom jinja renderer" />
     <MESSAGE value="added is author check" />
     <MESSAGE value="commented out block" />
-    <MESSAGE value="added share column" />
     <MESSAGE value="added create script" />
     <MESSAGE value="updated script" />
     <MESSAGE value="updated create script" />
     <MESSAGE value="written the code for mysql implementation" />
     <MESSAGE value="changed place holders" />
+    <MESSAGE value="added share column" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/views/library.html</url>
-          <line>101</line>
-          <option name="timeStamp" value="23" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -801,19 +769,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/db_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="28" selection-start="980" selection-end="980" vertical-scroll-proportion="0.6530612" />
-      </provider>
-    </entry>
-    <entry file="dbDummy://dbtable:/22ebcfd4/ead049b0-4699-4ab6-8597-bfd17909e63a/..notes">
-      <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-      <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="246" column="0" selection-start="3404" selection-end="3404" vertical-scroll-proportion="0.31681034" />
@@ -841,9 +796,7 @@
     </entry>
     <entry file="dbDummy://db-console:/22ebcfd4/ead049b0-4699-4ab6-8597-bfd17909e63a/">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="uml://DATABASE/ead049b0-4699-4ab6-8597-bfd17909e63a">
@@ -858,68 +811,67 @@
           </nodes>
           <notes />
           <edges />
-          <settings layout="Hierarchic Group" zoom="1.0" x="147.5" y="152.5" />
+          <settings layout="Hierarchic Group" zoom="1.0" x="148.0" y="153.0" />
           <SelectedNodes />
           <Categories>
-            <Category>Key columns</Category>
             <Category>Columns</Category>
+            <Category>Key columns</Category>
           </Categories>
+          <SCOPE>All</SCOPE>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layout.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="21" selection-start="2433" selection-end="2433" vertical-scroll-proportion="2.04">
-          <folding />
-        </state>
+        <state line="51" column="21" selection-start="2433" selection-end="2433" vertical-scroll-proportion="2.04" />
       </provider>
     </entry>
     <entry file="dbDummy://db-console:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="53" selection-start="268" selection-end="291" vertical-scroll-proportion="-5.275862">
-          <folding />
-        </state>
+        <state line="9" column="53" selection-start="268" selection-end="291" vertical-scroll-proportion="-5.275862" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="28" selection-start="2993" selection-end="2993" vertical-scroll-proportion="3.63786">
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="104" column="28" selection-start="2993" selection-end="2993" vertical-scroll-proportion="3.63786" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/settings.py">
+    <entry file="file://$PROJECT_DIR$/db/01-create.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="12" selection-start="123" selection-end="123" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="101" column="19" selection-start="2835" selection-end="2835" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="9" column="2" selection-start="239" selection-end="239" vertical-scroll-proportion="-0.2942387" />
       </provider>
     </entry>
     <entry file="dbDummy://dbtable:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/videonotes..notes">
       <provider editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
       <provider selected="true" editor-type-id="com.intellij.persistence.database.editor.DatabaseTableFileEditorProvider">
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/db/01-create.sql">
+    <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="22" selection-start="445" selection-end="445" vertical-scroll-proportion="0.55144036">
+        <state line="13" column="0" selection-start="287" selection-end="287" vertical-scroll-proportion="0.31976745" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="197" selection-end="197" vertical-scroll-proportion="0.32122093" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/library.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="101" column="0" selection-start="3210" selection-end="3210" vertical-scroll-proportion="-17.692308">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/db_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="35" selection-start="307" selection-end="307" vertical-scroll-proportion="0.23847695">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
