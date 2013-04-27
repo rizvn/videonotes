@@ -27,6 +27,7 @@ CREATE TABLE videonotes.users
   pk bigint PRIMARY KEY NOT NULL AUTO_INCREMENT,
   username varchar(30) NOT NULL,
   password varchar(30) NOT NULL,
+  email varchar (60) NOT NULL,
   ts timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP
 ) ENGINE=INNODB;
 

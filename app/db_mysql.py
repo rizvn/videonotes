@@ -46,6 +46,18 @@ def fetchall(cursor):
 
     return ret
 
+#--------------- Videos-------------------------------------------------
+def getAllVideos():
+    with Cursor() as cursor:
+        cursor.execute('SELECT * FROM videos')
+        return fetchall(cursor)
+
+
+def getVideo(pk):
+    with Cursor() as cursor:
+        cursor.execute('SELECT * FROM videos where pk=%s', (pk, ))
+        return fetchone(cursor)
+
 #--------------- Notes -------------------------------------------------
 def getNotesForVideo(vid_fk):
     with Cursor() as cursor:
@@ -54,7 +66,7 @@ def getNotesForVideo(vid_fk):
 
 def getNotes(video_fk, username):
     with Cursor() as cursor:
-        cursor.execute('SELECT * FROM notes where vid_fk=%s and username=%s', (video_fk, username))
+        cursor.execute('SELECT * FROM notes where vid_fk=%s and user=%s', (video_fk, username))
         return fetchall(cursor)
 
 def addNote(vid_fk, time, text, user):

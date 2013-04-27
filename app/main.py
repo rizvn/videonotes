@@ -2,7 +2,7 @@ from bottle import route, post, get, run, hook, jinja2_view as view, \
             jinja2_template as template, static_file, request, redirect
 from threading import local
 import bottle
-import app.db as db
+import app.db_mysql as db
 import re
 import urlparse
 
