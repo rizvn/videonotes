@@ -30,6 +30,21 @@ CREATE TABLE videonotes.users
   ts timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP
 ) ENGINE=INNODB;
 
+
+
+CREATE TABLE videonotes.users
+(
+  pk BIGINT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  username VARCHAR(30) NOT NULL,
+  password VARCHAR(30) NOT NULL,
+  ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
+  email VARCHAR(100) NOT NULL,
+  pwd_rst_key VARCHAR(30) NOT NULL
+)ENGINE=INNODB;a
+CREATE UNIQUE INDEX unique_email ON users ( email );
+CREATE UNIQUE INDEX unique_username ON users (username);
+
+
 CREATE TABLE videonotes.videos
 (
   pk bigint  PRIMARY KEY NOT NULL AUTO_INCREMENT,
