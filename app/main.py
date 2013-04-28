@@ -5,11 +5,9 @@ import bottle
 import app.db_mysql as db
 import re
 import urlparse
+from app.settings import jinja_env
 
 req = local()
-
-
-
 
 def loggedInCheck(fn):
     def wrap():
