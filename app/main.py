@@ -3,13 +3,10 @@ import bottle
 import re
 import urlparse
 import app.db_mysql as db
-import app.settings as settings
 from app.settings import view, getUser
 
-
-
 @bottle.hook('before_request')
-def login():
+def checkLoggedIn():
     excludes = ['/login', '/static/', '/register']
     for exclude in excludes:
         if exclude in bottle.request.url: return
