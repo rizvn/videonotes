@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="DataSourceManagerImpl" compressed="false" hash="3324287621" />
+  <component name="DataSourceManagerImpl" format="xml" hash="3324287621">
+    <data-source source="LOCAL" name="videonotes" product="SQLite" version="3.7.2" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native" uuid="ead049b0-4699-4ab6-8597-bfd17909e63a">
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
+      <jdbc-url>jdbc:sqlite:$PROJECT_DIR$/db/videonotes.db</jdbc-url>
+      <libraries>
+        <library>
+          <url>file://$PROJECT_DIR$/../../java/jars/sqlite-jdbc-3.7.2.jar</url>
+        </library>
+      </libraries>
+    </data-source>
+  </component>
 </project>
 

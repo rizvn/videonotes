@@ -32,7 +32,7 @@ def view(*args, **kwargs):
 @hook('before_request')
 def login():
     ses = bottle.request.environ.get('beaker.session')
-    excludes = ['/login', '/static/']
+    excludes = ['/login', '/static/', '/register']
     for exclude in excludes:
         if exclude in bottle.request.url: return
 
@@ -105,6 +105,15 @@ def logout():
     ses = bottle.request.environ.get('beaker.session')
     ses.delete()
     redirect("/login");
+
+
+@get('/register')
+def registerForm():
+    return template('register.html')
+
+@post('/register')
+def register():
+    return template('register.html', error='User name exists')
 
 @route('/static/<filepath:path>')
 def serve_static(filepath):

@@ -69,6 +69,11 @@ def getNotes(video_fk, username):
         cursor.execute('SELECT * FROM notes where vid_fk=%s and user=%s', (video_fk, username))
         return fetchall(cursor)
 
+def getSharedNotes(video_fk):
+    with Cursor as cursor:
+        cursor.execute('SELECT * FROM notes where vid_fk=%s and share=1')
+        return fetchall(cursor);
+
 def addNote(vid_fk, time, text, user):
     conn = getConnection()
     cursor = conn.cursor()
