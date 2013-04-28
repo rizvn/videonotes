@@ -29,19 +29,25 @@ def library():
 @post('/note')
 def addNote():
     result = db.addNote(request.forms.get('vid_id'),
-                                request.forms.get('time'),
-                                request.forms.get('text'),
-                                getUser())
+                        request.forms.get('time'),
+                        request.forms.get('text'),
+                        getUser())
     result['ack'] = 1
     return result
 
 @get('/note/<id:int>/delete')
 def deleteNote(id):
-    db.deleteNote(id)
-    return {'ack': 1}
+    if db.isAuthor(id, getUser()):
+        db.deleteNote(id)
+        return {'ack': 1}
+    else:
+        return {'ack': 0, 'msg':'You do not have permission delete this note'}
 
 @post('/note/<id:int>/update')
 def updateNote(id):
-    db.updateNote(id, request.forms.get('time'), request.forms.get('text'))
-    return {'ack': 1}
+    if db.isAuthor(id, getUser()):
+        db.updateNote(id, request.forms.get('time'), request.forms.get('text'))
+        return {'ack': 1}
+    else:
+        return {'ack': 0, 'msg':'You do not have permission update this note'}
 
