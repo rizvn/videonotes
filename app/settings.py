@@ -32,7 +32,7 @@ def serve_static(filepath):
 
 @bottle.hook('before_request')
 def checkLoggedIn():
-    excludes = ['/login', '/static/', '/register']
+    excludes = ['/login', '/static/', '/register', '/resetPassword']
     for exclude in excludes:
         if exclude in bottle.request.url: return
     if not getUser():

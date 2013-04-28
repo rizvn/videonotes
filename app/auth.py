@@ -1,7 +1,7 @@
 from bottle import route, post, get, request, redirect
 import bottle
 import app.db_mysql as db
-from app.settings import view, getUser
+from app.settings import view
 
 @get('/login')
 def login():
@@ -24,7 +24,6 @@ def logout():
     ses.delete()
     bottle.redirect("/login")
 
-
 @get('/register')
 def registerForm():
     return view('auth/register.html')
@@ -32,3 +31,7 @@ def registerForm():
 @post('/register')
 def register():
     return view('auth/register.html', error='User name exists')
+
+@get('/resetPassword')
+def resetPassword():
+    return view('auth/resetPassword.html')
