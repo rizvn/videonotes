@@ -1,9 +1,11 @@
-from bottle import route, post, get, request, redirect
-import bottle
+from bottle import route, post, get, request
 import re
+import json
 import urlparse
 import app.db_mysql as db
+import app
 from app.settings import view, getUser
+
 
 @route('/play/<vid_pk>')
 def player(vid_pk):
@@ -51,3 +53,9 @@ def updateNote(id):
     else:
         return {'ack': 0, 'msg':'You do not have permission update this note'}
 
+def getUserNotes(vid_fk):
+    pass
+
+@get('/notes/<vid_fk:int>')
+def getAllNotes(vid_fk):
+    return json.dumps(db.getNotesForVideo(vid_fk), default=app.utils.jsonSerializer)

@@ -17,3 +17,10 @@ def pad(number):
         return '0%d' % (number,)
     else:
         return '%d' % (number,)
+
+def jsonSerializer(obj):
+    import datetime
+    if isinstance(obj, datetime.datetime):
+        return obj.strftime("%d/%m/%y")
+    else:
+        return ""
