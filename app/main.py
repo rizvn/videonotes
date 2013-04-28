@@ -46,7 +46,7 @@ def player(vid_pk):
     return view('player.html',
                     video=vid,
                     youtube_video=youtube_video,
-                    notes=db.getNotes(vid_pk, req.session['user']))
+                    notes=db.getNotes(vid_pk, getUser()))
 
 @route('/')
 @route('/library')
@@ -58,7 +58,7 @@ def addNote():
     result = db.addNote(request.forms.get('vid_id'),
                                 request.forms.get('time'),
                                 request.forms.get('text'),
-                                req.session['user'])
+                                getUser())
     result['ack'] = 1
     return result
 
@@ -85,7 +85,7 @@ def auth():
         ses['user'] = username
         return redirect('/library')
     else:
-        return template("auth/login.html", error="Invalid login details")
+        return view("auth/login.html", error="Invalid login details")
 
 @get('/logout')
 def logout():
@@ -101,5 +101,3 @@ def registerForm():
 @post('/register')
 def register():
     return view('auth/register.html', error='User name exists')
-
-
