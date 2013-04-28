@@ -4,14 +4,8 @@ import re
 import urlparse
 import app.db_mysql as db
 import app.settings as settings
+from app.settings import view, getUser
 
-
-def view(*args, **kwargs):
-    #add user name
-    kwargs['user'] = getUser()
-    return settings.jinja_env.get_template(args[0]).render(**kwargs)
-    #render template
-    #return template(*args, **kwargs)
 
 
 @bottle.hook('before_request')
@@ -22,10 +16,6 @@ def login():
 
     if not getUser():
         bottle.redirect('/login')
-
-def getUser():
-    ses = bottle.request.environ.get('beaker.session')
-    return ses['user'] if 'user' in ses else None
 
 @route('/static/<filepath:path>')
 def serve_static(filepath):
