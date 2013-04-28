@@ -1,4 +1,4 @@
-import app.db as db
+import app.db_sqlite as db
 import unittest
 
 class DbTest(unittest.TestCase):
