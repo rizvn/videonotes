@@ -4,7 +4,7 @@
 
     <div style="padding-top: 40px; padding-left: 100px;">
         <h1 style="color: dimgray; font-weight: normal;">
-            Login
+            Register
         </h1>
         {% if error %}
         <div class="alert alert-error">
@@ -12,19 +12,28 @@
         </div>
         {% endif %}
 
-        <form name="loginForm" action="/login" method="POST">
+        <form name="registerForm" action="/register" method="POST">
           <table>
               <tr>
                   <td>Username:</td>
                   <td><input type="text" name="username" /></td>
               </tr>
               <tr>
+                  <td>Email Address:</td>
+                  <td><input type="text" name="username" /></td>
+              </tr>
+              <tr>
                   <td>Password:</td>
                   <td><input type="password" name="password" /></td>
               </tr>
+
+              <tr>
+                  <td>Verify Password:</td>
+                  <td><input type="password" name="vpassword" /></td>
+              </tr>
               <tr>
                   <td>&nbsp</td>
-                  <td><input type="submit" class='btn btn-primary' value="login"> &nbsp&nbsp<a href="/register">Register</a></td>
+                  <td><input type="submit" class='btn btn-primary' value="Register">&nbsp&nbsp<a href='/login'>Login</a></td>
               </tr>
           </table>
         </form>
