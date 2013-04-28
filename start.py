@@ -13,6 +13,13 @@ session_opts = {
 app = bottle.default_app()
 app = SessionMiddleware(app, session_opts)
 
+def singleton(cls):
+    instances = {}
+    def getinstance():
+        if cls not in instances:
+            instances[cls] = cls()
+        return instances[cls]
+    return getinstance
 
 
 bottle.run(host='localhost', port=8080, app=app, debug=True, reloader=True)

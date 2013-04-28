@@ -8,11 +8,7 @@ import urlparse
 
 req = local()
 
-#jinja2 templates
-from app.utils import sec_to_time
-from jinja2 import Environment, FileSystemLoader
-jinja_env = Environment(loader=FileSystemLoader('views'))
-jinja_env.filters['sec_to_time'] = sec_to_time
+
 
 
 def loggedInCheck(fn):
@@ -87,7 +83,7 @@ def updateNote(id):
 
 @get('/login')
 def login():
-    return template("login.html")
+    return template("auth/login.html")
 
 @post('/login')
 def auth():
@@ -98,7 +94,7 @@ def auth():
         ses['user'] = username
         return redirect('/library')
     else:
-        return template("login.html", error="Invalid login details")
+        return template("auth/login.html", error="Invalid login details")
 
 @get('/logout')
 def logout():
@@ -109,11 +105,11 @@ def logout():
 
 @get('/register')
 def registerForm():
-    return template('register.html')
+    return template('auth/register.html')
 
 @post('/register')
 def register():
-    return template('register.html', error='User name exists')
+    return template('auth/register.html', error='User name exists')
 
 @route('/static/<filepath:path>')
 def serve_static(filepath):
