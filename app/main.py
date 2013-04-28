@@ -5,20 +5,6 @@ import urlparse
 import app.db_mysql as db
 from app.settings import view, getUser
 
-@bottle.hook('before_request')
-def checkLoggedIn():
-    excludes = ['/login', '/static/', '/register']
-    for exclude in excludes:
-        if exclude in bottle.request.url: return
-
-    if not getUser():
-        bottle.redirect('/login')
-
-@route('/static/<filepath:path>')
-def serve_static(filepath):
-    return bottle.static_file(filepath, root="./static/")
-
-
 @route('/play/<vid_pk>')
 def player(vid_pk):
     vid = db.getVideo(vid_pk);

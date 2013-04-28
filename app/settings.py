@@ -10,7 +10,6 @@ settings = {
     'db': 'videonotes'
 }
 
-
 #jinja2 templates
 from app.utils import sec_to_time
 from jinja2 import Environment, FileSystemLoader
@@ -26,3 +25,15 @@ def view(*args, **kwargs):
 def getUser():
     ses = bottle.request.environ.get('beaker.session')
     return ses['user'] if 'user' in ses else None
+
+@bottle.route('/static/<filepath:path>')
+def serve_static(filepath):
+    return bottle.static_file(filepath, root="./static/")
+
+@bottle.hook('before_request')
+def checkLoggedIn():
+    excludes = ['/login', '/static/', '/register']
+    for exclude in excludes:
+        if exclude in bottle.request.url: return
+    if not getUser():
+        bottle.redirect('/login')
