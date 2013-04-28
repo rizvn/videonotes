@@ -1,4 +1,4 @@
-from bottle import route, post, get, request
+from bottle import route, post, get, request, response
 import re
 import json
 import urlparse
@@ -58,4 +58,5 @@ def getUserNotes(vid_fk):
 
 @get('/notes/<vid_fk:int>')
 def getAllNotes(vid_fk):
+    response.content_type='application/json'
     return json.dumps(db.getNotesForVideo(vid_fk), default=app.utils.jsonSerializer)
