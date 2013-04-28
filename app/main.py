@@ -1,39 +1,36 @@
-from bottle import route, post, get, run, hook, jinja2_view as view, \
-            jinja2_template as template, static_file, request, redirect
-from threading import local
+from bottle import route, post, get, request, redirect
 import bottle
-import app.db_mysql as db
 import re
 import urlparse
-from app.settings import jinja_env
+import app.db_mysql as db
+import app.settings as settings
 
-req = local()
-
-def loggedInCheck(fn):
-    def wrap():
-        print "Performing logged in check"
-        return fn()
-    return wrap
 
 def view(*args, **kwargs):
     #add user name
-    kwargs['user'] = req.session['user']
-    return jinja_env.get_template(args[0]).render(**kwargs);
+    kwargs['user'] = getUser()
+    return settings.jinja_env.get_template(args[0]).render(**kwargs)
     #render template
     #return template(*args, **kwargs)
 
 
-@hook('before_request')
+@bottle.hook('before_request')
 def login():
-    ses = bottle.request.environ.get('beaker.session')
     excludes = ['/login', '/static/', '/register']
     for exclude in excludes:
         if exclude in bottle.request.url: return
 
-    if 'user' not in ses:
-        redirect('/login')
-    else:
-        req.session = ses
+    if not getUser():
+        bottle.redirect('/login')
+
+def getUser():
+    ses = bottle.request.environ.get('beaker.session')
+    return ses['user'] if 'user' in ses else None
+
+@route('/static/<filepath:path>')
+def serve_static(filepath):
+    return bottle.static_file(filepath, root="./static/")
+
 
 @route('/play/<vid_pk>')
 def player(vid_pk):
@@ -51,11 +48,7 @@ def player(vid_pk):
                     youtube_video=youtube_video,
                     notes=db.getNotes(vid_pk, req.session['user']))
 
-
 @route('/')
-def index():
-    redirect('/library')
-
 @route('/library')
 def library():
     return view("library.html", videos = db.getAllVideos())
@@ -81,7 +74,7 @@ def updateNote(id):
 
 @get('/login')
 def login():
-    return template("auth/login.html")
+    return view("auth/login.html")
 
 @post('/login')
 def auth():
@@ -98,17 +91,15 @@ def auth():
 def logout():
     ses = bottle.request.environ.get('beaker.session')
     ses.delete()
-    redirect("/login");
+    bottle.redirect("/login")
 
 
 @get('/register')
 def registerForm():
-    return template('auth/register.html')
+    return view('auth/register.html')
 
 @post('/register')
 def register():
-    return template('auth/register.html', error='User name exists')
+    return view('auth/register.html', error='User name exists')
 
-@route('/static/<filepath:path>')
-def serve_static(filepath):
-    return static_file(filepath, root="./static/")
+
