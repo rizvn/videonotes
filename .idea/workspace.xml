@@ -2,15 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b804b442-8fa4-40fc-b911-5f00f5516a4d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/auth/resetPassword.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/auth.py" afterPath="$PROJECT_DIR$/app/auth.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/auth/login.html" afterPath="$PROJECT_DIR$/views/auth/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/settings.py" afterPath="$PROJECT_DIR$/app/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vidmarks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367180897563" ignored="false" />
+    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367186886720" ignored="false" />
     <file path="/a.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367066612090" ignored="false" />
     <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366916243241" ignored="false" />
     <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366833487747" ignored="false" />
@@ -64,12 +60,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="db_sqlite.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/db_sqlite.py">
+      <file leaf-file-name="auth.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="19" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
+            <state line="17" column="9" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#14#0" expanded="true" />
+                <element signature="e#0#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -78,27 +74,7 @@
       <file leaf-file-name="db_mysql.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="35" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/auth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="13" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/auth/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="18" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-9.2">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -107,11 +83,17 @@
       <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/auth/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="17" selection-start="420" selection-end="420" vertical-scroll-proportion="3.08">
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="15" column="17" selection-start="420" selection-end="420" vertical-scroll-proportion="-9.6">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/auth/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="33" column="18" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-21.12">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -119,30 +101,8 @@
       <file leaf-file-name="resetPassword.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/auth/resetPassword.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="22" selection-start="255" selection-end="255" vertical-scroll-proportion="0.29223743">
+            <state line="11" column="14" selection-start="328" selection-end="328" vertical-scroll-proportion="0.26993865">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/start.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="1" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#47#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="28" column="40" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#214#247#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -339,15 +299,15 @@
   <component name="PropertiesComponent">
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="67" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="69" />
-    <property name="options.splitter.main.proportions" value="0.30000004" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="67" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="options.splitter.main.proportions" value="0.3" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="67" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java/jars/mysql-connector-java-5.1.21.jar" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="77" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="760" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="765" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="760" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="72" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="69" />
@@ -361,10 +321,10 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="options.lastSelected" value="preferences.keymap" />
+    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -666,14 +626,14 @@
       <method />
     </configuration>
     <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="Python.start" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetest UtilsTest.test_sec_to_time" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Unnamed" />
-      <item index="3" class="java.lang.String" itemvalue="Python.db_test" />
-      <item index="4" class="java.lang.String" itemvalue="Python.db_mysql" />
-      <item index="5" class="java.lang.String" itemvalue="Python tests.Nosetests in /Volumes/data/Development/python/vidmarks" />
-      <item index="6" class="java.lang.String" itemvalue="Python tests.Nosetests in UtilsTest" />
-      <item index="7" class="java.lang.String" itemvalue="Python tests.Nosetests in DbTest" />
+      <item index="0" class="java.lang.String" itemvalue="Python.db_test" />
+      <item index="1" class="java.lang.String" itemvalue="Python.db_mysql" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in /Volumes/data/Development/python/vidmarks" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in UtilsTest" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in DbTest" />
+      <item index="5" class="java.lang.String" itemvalue="Python.start" />
+      <item index="6" class="java.lang.String" itemvalue="Python tests.Nosetest UtilsTest.test_sec_to_time" />
+      <item index="7" class="java.lang.String" itemvalue="Python tests.Unnamed" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -894,7 +854,11 @@
       <created>1367180901069</created>
       <updated>1367180901069</updated>
     </task>
-    <option name="localTasksCounter" value="47" />
+    <task id="LOCAL-00047" summary="added mime type">
+      <created>1367182038632</created>
+      <updated>1367182038632</updated>
+    </task>
+    <option name="localTasksCounter" value="48" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -919,24 +883,24 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="163" y="36" width="1113" height="810" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2239925" sideWeight="0.6703911" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24742268" sideWeight="0.7360335" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19868791" sideWeight="0.7360335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20243675" sideWeight="0.7360335" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29608938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802248" sideWeight="0.7360335" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26396647" sideWeight="0.98852223" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26396647" sideWeight="0.98852223" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15642458" sideWeight="0.9948079" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1033,11 +997,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/lib/jquery/jquery.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3156" column="9" selection-start="85576" selection-end="85576" vertical-scroll-proportion="0.49519232" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/lib/jquery-ui/development-bundle/ui/jquery.ui.tabs.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="94" column="22" selection-start="2155" selection-end="2155" vertical-scroll-proportion="2.065185" />
@@ -1050,88 +1009,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/db/01-create.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="15" column="29" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/player.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="337" selection-end="337" vertical-scroll-proportion="22.4">
-          <folding />
-        </state>
+        <state line="10" column="21" selection-start="337" selection-end="337" vertical-scroll-proportion="22.4" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="18" selection-start="379" selection-end="393" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="20" column="18" selection-start="379" selection-end="393" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/vn.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="19" selection-start="1311" selection-end="1311" vertical-scroll-proportion="1.6134454">
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="48" column="19" selection-start="1311" selection-end="1311" vertical-scroll-proportion="1.6134454" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/start.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="1" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#47#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="35" selection-start="378" selection-end="378" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/auth/register.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-9.2">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/auth/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="420" selection-end="420" vertical-scroll-proportion="3.08">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/db_sqlite.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="102" selection-end="102" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="13" selection-start="68" selection-end="68" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -1139,15 +1042,57 @@
     <entry file="file://$PROJECT_DIR$/app/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="28" column="40" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/db_sqlite.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="19" selection-start="102" selection-end="102" vertical-scroll-proportion="0.052173913">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="9" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#214#247#0" expanded="true" />
+            <element signature="e#0#54#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/auth/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="17" selection-start="420" selection-end="420" vertical-scroll-proportion="-9.6">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/auth/register.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="33" column="18" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-21.12">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/library.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.66015035">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/auth/resetPassword.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="22" selection-start="255" selection-end="255" vertical-scroll-proportion="0.29223743">
+        <state line="11" column="14" selection-start="328" selection-end="328" vertical-scroll-proportion="0.26993865">
           <folding />
         </state>
       </provider>
