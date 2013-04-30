@@ -122,3 +122,19 @@ def authUser(name, password):
             AND password=%s
             """, (name, password))
         return cursor.fetchone()
+
+
+def checkUserNameExists(name):
+    with Cursor() as cursor:
+        cursor.execute('''
+          SELECT COUNT(*) FROM users
+          where username = %s
+        ''', (name,))
+        return True if cursor.fetchone()[0] == 1 else False
+
+def registerUser(name, password, email):
+    with Cursor as cursor:
+        cursor.execute('''
+          INSERT INTO USERS(name, password, email)
+          values (%s, %s, %s)
+        ''', (name, password, email))

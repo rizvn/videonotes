@@ -41,3 +41,10 @@ class DbTest(unittest.TestCase):
     def test_isAuthor(self):
         db.isAuthor(1, 'riz')
         assert True
+
+    def test_checkUsernameExists(self):
+        db.checkUserNameExists('riz')
+        assert True
+
+if __name__ == '__main__':
+    unittest.main()
