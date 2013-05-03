@@ -33,7 +33,15 @@ def register():
     errors = []
     username = request.forms.get('username')
 
-    return view('auth/register.html', errors=['User name exists', 'Verify password does not exist'])
+    if not username:
+        errors.append('No username provided')
+    elif len(username) < 6:
+        errors.append('Username must be 6 characters long')
+    elif db.checkUserNameExists(username):
+        errors.append('Username exists')
+
+
+    return view('auth/register.html', errors = errors)
 
 @get('/resetPassword')
 def resetPassword():
