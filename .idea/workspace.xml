@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b804b442-8fa4-40fc-b911-5f00f5516a4d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/auth.py" afterPath="$PROJECT_DIR$/app/auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/auth/register.html" afterPath="$PROJECT_DIR$/views/auth/register.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vidmarks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367186886720" ignored="false" />
+    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367604676140" ignored="false" />
     <file path="/a.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367066612090" ignored="false" />
     <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366916243241" ignored="false" />
     <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366833487747" ignored="false" />
@@ -29,12 +31,12 @@
     <file path="/dummy.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367066612090" ignored="false" />
     <file path="/mysql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367001647384" ignored="false" />
     <file path="/01-create.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367161340988" ignored="false" />
-    <file path="/db_mysql.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367073245886" ignored="false" />
+    <file path="/db_mysql.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367357166228" ignored="false" />
     <file path="/02-add_data.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367071030580" ignored="false" />
-    <file path="/register.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367163236825" ignored="false" />
+    <file path="/register.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367605109290" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367168618708" ignored="false" />
     <file path="/vn.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367180835439" ignored="false" />
-    <file path="/auth.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367181322102" ignored="false" />
+    <file path="/auth.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367604881092" ignored="false" />
     <file path="/resetPassword.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367181866305" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -63,7 +65,7 @@
       <file leaf-file-name="auth.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="9" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+            <state line="35" column="97" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="e#0#54#0" expanded="true" />
               </folding>
@@ -71,8 +73,35 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="register.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/auth/register.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.13822894">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="player.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/player.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="44" selection-start="1554" selection-end="1554" vertical-scroll-proportion="-2.92">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="db_mysql.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="131" column="21" selection-start="3697" selection-end="3697" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils_test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/utils_test.py">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
@@ -80,28 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/auth/login.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="17" selection-start="420" selection-end="420" vertical-scroll-proportion="-9.6">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/auth/register.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="18" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-21.12">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="resetPassword.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="resetPassword.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/auth/resetPassword.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="14" selection-start="328" selection-end="328" vertical-scroll-proportion="0.26993865">
+            <state line="4" column="57" selection-start="133" selection-end="133" vertical-scroll-proportion="-2.56">
               <folding />
             </state>
           </provider>
@@ -132,10 +143,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/db/02-add_data.sql" />
-        <option value="db-console:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/" />
         <option value="$PROJECT_DIR$/app/db.py" />
-        <option value="$PROJECT_DIR$/app/db_mysql.py" />
         <option value="$PROJECT_DIR$/db/01-create.sql" />
         <option value="$PROJECT_DIR$/views/register.html" />
         <option value="$PROJECT_DIR$/views/login.html" />
@@ -147,7 +155,10 @@
         <option value="$PROJECT_DIR$/views/auth/login.html" />
         <option value="$PROJECT_DIR$/app/settings.py" />
         <option value="$PROJECT_DIR$/views/auth/resetPassword.html" />
+        <option value="$PROJECT_DIR$/tests/db_mysql.py" />
+        <option value="$PROJECT_DIR$/app/db_mysql.py" />
         <option value="$PROJECT_DIR$/app/auth.py" />
+        <option value="$PROJECT_DIR$/views/auth/register.html" />
       </list>
     </option>
   </component>
@@ -205,29 +216,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope">
-        <subPane subId="Problems" />
-        <subPane subId="Project Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-        <subPane subId="Changed Files">
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="vidmarks">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -294,6 +282,29 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope">
+        <subPane subId="Problems" />
+        <subPane subId="Project Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="Changed Files">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="vidmarks">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -304,7 +315,7 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="67" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../java/jars/mysql-connector-java-5.1.21.jar" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="77" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="765" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="760" />
@@ -346,25 +357,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Python.start">
-    <configuration default="false" name="db_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="vidmarks" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/db_test.py" />
-      <option name="PARAMETERS" value="" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
     <configuration default="false" name="db_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -384,68 +376,20 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Nosetests in /Volumes/data/Development/python/vidmarks" type="tests" factoryName="Nosetests" temporary="true">
+    <configuration default="false" name="Nosetests in DbTest" type="tests" factoryName="Nosetests" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
+      <envs>
+        <env name="DYLD_LIBRARY_PATH" value="/usr/local/mysql/lib/" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="vidmarks" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="$PROJECT_DIR$" />
-      <option name="TEST_TYPE" value="TEST_FOLDER" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <RunnerSettings RunnerId="PyDebugRunner" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PyDebugRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetests in UtilsTest" type="tests" factoryName="Nosetests" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="vidmarks" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/utils_test.py" />
-      <option name="CLASS_NAME" value="UtilsTest" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_CLASS" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Nosetests in DbTest" type="tests" factoryName="Nosetests" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="vidmarks" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/db_test.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/db_mysql.py" />
       <option name="CLASS_NAME" value="DbTest" />
       <option name="METHOD_NAME" value="" />
       <option name="FOLDER_NAME" value="" />
@@ -458,12 +402,40 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
+    <configuration default="false" name="Nosetest DbTest.test_checkUsernameExists" type="tests" factoryName="Nosetests" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="DYLD_LIBRARY_PATH" value="/usr/local/mysql/lib/" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vidmarks" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/db_mysql.py" />
+      <option name="CLASS_NAME" value="DbTest" />
+      <option name="METHOD_NAME" value="test_checkUsernameExists" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_METHOD" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <envs>
+        <env name="DYLD_LIBRARY_PATH" value="/usr/local/mysql/lib/" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -486,8 +458,8 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -500,9 +472,13 @@
     <configuration default="true" type="tests" factoryName="Unittests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
+      <envs>
+        <env name="VIRTUAL_ENV" value="$PROJECT_DIR$" />
+        <env name="DYLD_LIBRARY_PATH" value="/usr/local/mysql/lib/" />
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
@@ -511,8 +487,8 @@
       <option name="SCRIPT_NAME" value="" />
       <option name="CLASS_NAME" value="" />
       <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$/tests" />
+      <option name="TEST_TYPE" value="TEST_FOLDER" />
       <option name="PATTERN" value="" />
       <option name="USE_PATTERN" value="false" />
       <option name="PUREUNITTEST" value="true" />
@@ -578,70 +554,19 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <configuration default="false" name="Nosetest UtilsTest.test_sec_to_time" type="tests" factoryName="Nosetests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="vidmarks" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/utils_test.py" />
-      <option name="CLASS_NAME" value="UtilsTest" />
-      <option name="METHOD_NAME" value="test_sec_to_time" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_METHOD" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <RunnerSettings RunnerId="PythonRunner" />
-      <ConfigurationWrapper RunnerId="PythonRunner" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unnamed" type="tests" factoryName="Unittests">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="vidmarks" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="FOLDER_NAME" value="" />
-      <option name="TEST_TYPE" value="TEST_SCRIPT" />
-      <option name="PATTERN" value="" />
-      <option name="USE_PATTERN" value="false" />
-      <option name="PUREUNITTEST" value="true" />
-      <option name="PARAMS" value="" />
-      <option name="USE_PARAM" value="false" />
-      <method />
-    </configuration>
-    <list size="8">
-      <item index="0" class="java.lang.String" itemvalue="Python.db_test" />
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Python.start" />
       <item index="1" class="java.lang.String" itemvalue="Python.db_mysql" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in /Volumes/data/Development/python/vidmarks" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in UtilsTest" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in DbTest" />
-      <item index="5" class="java.lang.String" itemvalue="Python.start" />
-      <item index="6" class="java.lang.String" itemvalue="Python tests.Nosetest UtilsTest.test_sec_to_time" />
-      <item index="7" class="java.lang.String" itemvalue="Python tests.Unnamed" />
+      <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in DbTest" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetest DbTest.test_checkUsernameExists" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.db_mysql" />
-        <item index="1" class="java.lang.String" itemvalue="Python.db_test" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in /Volumes/data/Development/python/vidmarks" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in DbTest" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in UtilsTest" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetest DbTest.test_checkUsernameExists" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in DbTest" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Nosetests in DbTest" />
+        <item index="3" class="java.lang.String" itemvalue="Python.db_mysql" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests in DbTest" />
       </list>
     </recent_temporary>
   </component>
@@ -858,7 +783,11 @@
       <created>1367182038632</created>
       <updated>1367182038632</updated>
     </task>
-    <option name="localTasksCounter" value="48" />
+    <task id="LOCAL-00048" summary="added user db methods">
+      <created>1367357217251</created>
+      <updated>1367357217251</updated>
+    </task>
+    <option name="localTasksCounter" value="49" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -883,17 +812,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="163" y="36" width="1113" height="810" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2239925" sideWeight="0.6703911" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2239925" sideWeight="0.7360335" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24742268" sideWeight="0.7360335" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20243675" sideWeight="0.7360335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2099344" sideWeight="0.7367688" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29608938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802248" sideWeight="0.7360335" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26396647" sideWeight="0.98852223" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2632312" sideWeight="0.98852223" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15642458" sideWeight="0.9948079" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -948,7 +877,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added mime type" />
+    <option name="LAST_COMMIT_MESSAGE" value="added user db methods" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -962,7 +891,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="commented out block" />
     <MESSAGE value="added create script" />
     <MESSAGE value="updated create script" />
     <MESSAGE value="written the code for mysql implementation" />
@@ -987,6 +915,7 @@
     <MESSAGE value="added check so only author can edit or delete a note" />
     <MESSAGE value="added json serialiser and get notes rout" />
     <MESSAGE value="added mime type" />
+    <MESSAGE value="added user db methods" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -997,29 +926,9 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/static/js/lib/jquery-ui/development-bundle/ui/jquery.ui.tabs.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="94" column="22" selection-start="2155" selection-end="2155" vertical-scroll-proportion="2.065185" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/db_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="38" selection-start="353" selection-end="353" vertical-scroll-proportion="0.27219796" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/01-create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="29" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/player.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="21" selection-start="337" selection-end="337" vertical-scroll-proportion="22.4" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/utils.py">
@@ -1034,65 +943,79 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/start.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="1" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="10" column="1" selection-start="256" selection-end="256" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="40" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="28" column="40" selection-start="716" selection-end="716" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/db_sqlite.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="19" selection-start="102" selection-end="102" vertical-scroll-proportion="0.052173913">
+        <state line="4" column="19" selection-start="102" selection-end="102" vertical-scroll-proportion="0.052173913" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/library.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.66015035" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/auth/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="17" selection-start="420" selection-end="420" vertical-scroll-proportion="0.5321508" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/db_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="45" column="24" selection-start="1101" selection-end="1101" vertical-scroll-proportion="0.66386557" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/db_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="131" column="21" selection-start="3697" selection-end="3697" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/auth.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="9" selection-start="483" selection-end="483" vertical-scroll-proportion="0.0">
+        <state line="35" column="97" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="e#0#54#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
+    <entry file="file://$PROJECT_DIR$/tests/utils_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/auth/login.html">
+    <entry file="file://$PROJECT_DIR$/views/auth/resetPassword.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="17" selection-start="420" selection-end="420" vertical-scroll-proportion="-9.6">
+        <state line="4" column="57" selection-start="133" selection-end="133" vertical-scroll-proportion="-2.56">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/player.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="44" selection-start="1554" selection-end="1554" vertical-scroll-proportion="-2.92">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/auth/register.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="18" selection-start="1034" selection-end="1034" vertical-scroll-proportion="-21.12">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/library.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.66015035">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/auth/resetPassword.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="328" selection-end="328" vertical-scroll-proportion="0.26993865">
+        <state line="4" column="0" selection-start="76" selection-end="76" vertical-scroll-proportion="0.13822894">
           <folding />
         </state>
       </provider>

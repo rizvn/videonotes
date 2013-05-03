@@ -30,7 +30,10 @@ def registerForm():
 
 @post('/register')
 def register():
-    return view('auth/register.html', error='User name exists')
+    errors = []
+    username = request.forms.get('username')
+
+    return view('auth/register.html', errors=['User name exists', 'Verify password does not exist'])
 
 @get('/resetPassword')
 def resetPassword():
