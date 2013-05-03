@@ -32,6 +32,8 @@ def registerForm():
 def register():
     errors = []
     username = request.forms.get('username')
+    email = request.forms.get('email')
+    pwd = request.forms.get('pwd')
 
     if not username:
         errors.append('No username provided')
@@ -39,6 +41,8 @@ def register():
         errors.append('Username must be 6 characters long')
     elif db.checkUserNameExists(username):
         errors.append('Username exists')
+
+
 
 
     return view('auth/register.html', errors = errors)

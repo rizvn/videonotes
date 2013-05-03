@@ -28,7 +28,7 @@
               </tr>
               <tr>
                   <td>Password:</td>
-                  <td><input type="password" name="password" /></td>
+                  <td><input type="password" name="pwd" /></td>
               </tr>
 
               <tr>
@@ -37,10 +37,25 @@
               </tr>
               <tr>
                   <td>&nbsp</td>
-                  <td><input type="submit" class='btn btn-primary' value="Register">&nbsp&nbsp<a href='/login'>Login</a></td>
+                  <td><input type="submit" id='registerBtn' class='btn btn-primary' value="Register">&nbsp&nbsp<a href='/login'>Login</a></td>
               </tr>
           </table>
         </form>
+
+        <script>
+          $(function(){
+              $('#registerBtn').click(function(event){
+                 if(!validate()){
+                     event.preventDefault();
+                 }
+              })
+          });
+
+          function validate(){
+            alert('Incorrect input');
+            return false;
+          }
+        </script>
     </div>
 
 </div>
