@@ -37,7 +37,6 @@ def register():
     pwd = request.forms.get('pwd')
     vpwd = request.forms.get('vpwd')
 
-
     errors += validation.validate_username(username)
     errors += validation.validate_email(email)
     errors += validation.validate_pwd(pwd)
@@ -48,6 +47,7 @@ def register():
     if errors:
         return view('auth/register.html', errors = errors, username=username, email=email, pwd=pwd)
     else:
+        db.registerUser(username, pwd, email)
         return view('auth/register.html', registrationComplete=True)
 
 

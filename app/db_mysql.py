@@ -133,8 +133,10 @@ def checkUserNameExists(name):
         return True if cursor.fetchone()[0] == 1 else False
 
 def registerUser(name, password, email):
-    with Cursor as cursor:
-        cursor.execute('''
-          INSERT INTO USERS(name, password, email)
+    conn = getConnection()
+    cursor = conn.cursor()
+    cursor.execute('''
+          INSERT INTO USERS(username, password, email)
           values (%s, %s, %s)
         ''', (name, password, email))
+    conn.commit()
