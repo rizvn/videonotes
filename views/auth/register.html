@@ -6,7 +6,10 @@
         <h1 style="color: dimgray; font-weight: normal;">
             Register
         </h1>
-        {% if errors %}
+
+        {% if registrationComplete %}
+          Registration complete <a href='/login'>Click here </a> to login
+        {% elif errors %}
         <div class="alert alert-error">
             <ul>
               {% for error in errors%}
@@ -16,6 +19,7 @@
         </div>
         {% endif %}
 
+        {% if not registrationComplete %}
         <form name="registerForm" action="/register" method="POST">
           <table>
               <tr>
@@ -33,7 +37,7 @@
 
               <tr>
                   <td>Verify Password:</td>
-                  <td><input type="password" name="vpassword" /></td>
+                  <td><input type="password" name="vpwd" /></td>
               </tr>
               <tr>
                   <td>&nbsp</td>
@@ -52,10 +56,11 @@
           });
 
           function validate(){
-            alert('Incorrect input');
-            return false;
+            //alert('Incorrect input');
+            return true;
           }
         </script>
+        {% endif %}
     </div>
 
 </div>

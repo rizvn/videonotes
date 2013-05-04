@@ -26,7 +26,7 @@ def validate_pwd(pwd):
     errors = []
     if not pwd:
         errors.append('Password cannot be blank')
-    elif not len(pwd) < 6:
+    elif len(pwd) < 6:
         errors.append('Password must have atleast 6 characters')
-    return  errors
+    return errors
 

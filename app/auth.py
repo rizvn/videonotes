@@ -35,12 +35,20 @@ def register():
     username = request.forms.get('username')
     email = request.forms.get('email')
     pwd = request.forms.get('pwd')
+    vpwd = request.forms.get('vpwd')
+
 
     errors += validation.validate_username(username)
     errors += validation.validate_email(email)
-    errors += validation
+    errors += validation.validate_pwd(pwd)
 
-    return view('auth/register.html', errors = errors)
+    if(vpwd != pwd):
+        errors.append('Verification password and password do not match');
+
+    if errors:
+        return view('auth/register.html', errors = errors, username=username, email=email, pwd=pwd)
+    else:
+        return view('auth/register.html', registrationComplete=True)
 
 
 
