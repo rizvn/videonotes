@@ -2,6 +2,7 @@ from bottle import route, post, get, request, redirect
 import bottle
 import app.db_mysql as db
 from app.settings import view
+import app.validation as validation
 
 @get('/login')
 def login():
@@ -35,17 +36,13 @@ def register():
     email = request.forms.get('email')
     pwd = request.forms.get('pwd')
 
-    if not username:
-        errors.append('No username provided')
-    elif len(username) < 6:
-        errors.append('Username must be 6 characters long')
-    elif db.checkUserNameExists(username):
-        errors.append('Username exists')
-
-
-
+    errors += validation.validate_username(username)
+    errors += validation.validate_email(email)
+    errors += validation
 
     return view('auth/register.html', errors = errors)
+
+
 
 @get('/resetPassword')
 def resetPassword():
