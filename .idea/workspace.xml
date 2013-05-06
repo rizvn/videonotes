@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b804b442-8fa4-40fc-b911-5f00f5516a4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/NotesController.js" afterPath="$PROJECT_DIR$/static/js/NotesController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vn.py" afterPath="$PROJECT_DIR$/app/vn.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vidmarks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367853904780" ignored="false" />
+    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367856613858" ignored="false" />
     <file path="/a.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839794274" ignored="false" />
     <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366916243241" ignored="false" />
-    <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367856491557" ignored="false" />
+    <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367856599707" ignored="false" />
     <file path="/db.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367072797906" ignored="false" />
     <file path="/main.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367174237338" ignored="false" />
     <file path="/a.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365974228764" ignored="false" />
@@ -34,7 +34,7 @@
     <file path="/02-add_data.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367071030580" ignored="false" />
     <file path="/register.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367689754586" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367168618708" ignored="false" />
-    <file path="/vn.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367180835439" ignored="false" />
+    <file path="/vn.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367857124388" ignored="false" />
     <file path="/auth.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367837556018" ignored="false" />
     <file path="/resetPassword.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367840493042" ignored="false" />
     <file path="/validation.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367797232385" ignored="false" />
@@ -73,10 +73,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="vn.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="vn.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/vn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="28" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0">
+            <state line="26" column="38" selection-start="777" selection-end="777" vertical-scroll-proportion="0.64777327">
               <folding />
             </state>
           </provider>
@@ -91,14 +91,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NotesController.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="NotesController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/static/js/NotesController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="58" column="4" selection-start="2045" selection-end="2045" vertical-scroll-proportion="0.3326613">
+            <state line="147" column="40" selection-start="4469" selection-end="4469" vertical-scroll-proportion="0.0">
               <folding>
-                <marker date="1367856493000" expanded="true" signature="693:1344" placeholder="..." />
-                <marker date="1367856493000" expanded="true" signature="731:926" placeholder="..." />
-                <marker date="1367856493000" expanded="true" signature="1146:1274" placeholder="..." />
+                <marker date="1367856608000" expanded="true" signature="693:1344" placeholder="..." />
+                <marker date="1367856608000" expanded="true" signature="731:926" placeholder="..." />
+                <marker date="1367856608000" expanded="true" signature="1146:1274" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -147,7 +147,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/vn.py" />
         <option value="$PROJECT_DIR$/views/auth/login.html" />
         <option value="$PROJECT_DIR$/app/settings.py" />
         <option value="$PROJECT_DIR$/tests/db_mysql.py" />
@@ -163,6 +162,7 @@
         <option value="$PROJECT_DIR$/views/auth/resetPassword.html" />
         <option value="$PROJECT_DIR$/app/auth.py" />
         <option value="$PROJECT_DIR$/static/js/NotesController.js" />
+        <option value="$PROJECT_DIR$/app/vn.py" />
       </list>
     </option>
   </component>
@@ -267,6 +267,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man1" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -932,7 +950,15 @@
       <created>1367840551889</created>
       <updated>1367840551889</updated>
     </task>
-    <option name="localTasksCounter" value="61" />
+    <task id="LOCAL-00061" summary="jquery addition of notes in the correct place">
+      <created>1367856570227</created>
+      <updated>1367856570227</updated>
+    </task>
+    <task id="LOCAL-00062" summary="jquery addition of notes in the correct place">
+      <created>1367856614964</created>
+      <updated>1367856614964</updated>
+    </task>
+    <option name="localTasksCounter" value="63" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -959,22 +985,22 @@
     <frame x="107" y="52" width="1065" height="803" extended-state="0" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31406045" sideWeight="0.8435754" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24730128" sideWeight="0.73699015" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1864573" sideWeight="0.73699015" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1864573" sideWeight="0.73624825" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29608938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802248" sideWeight="0.7039106" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26300985" sideWeight="0.98852223" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26375178" sideWeight="0.98852223" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15642458" sideWeight="0.9948079" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1022,7 +1048,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="updat1" />
+    <option name="LAST_COMMIT_MESSAGE" value="jquery addition of notes in the correct place" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1036,7 +1062,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="add post register post" />
     <MESSAGE value="refactor" />
     <MESSAGE value="moved jinja env to settings since modules are singletons wtf" />
     <MESSAGE value="removed thread local and replaced with direct access to beaker session, cleaned up other code" />
@@ -1061,6 +1086,7 @@
     <MESSAGE value="added encrypt" />
     <MESSAGE value="passwords now encrypted" />
     <MESSAGE value="updat1" />
+    <MESSAGE value="jquery addition of notes in the correct place" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1144,6 +1170,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/views/player.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="56.88">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/validation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="10" column="40" selection-start="329" selection-end="329" vertical-scroll-proportion="0.0">
@@ -1158,28 +1191,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/vn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="28" selection-start="1289" selection-end="1289" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/player.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="56.88">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/static/js/NotesController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="58" column="4" selection-start="2045" selection-end="2045" vertical-scroll-proportion="0.3326613">
+        <state line="147" column="40" selection-start="4469" selection-end="4469" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1367856493000" expanded="true" signature="693:1344" placeholder="..." />
-            <marker date="1367856493000" expanded="true" signature="731:926" placeholder="..." />
-            <marker date="1367856493000" expanded="true" signature="1146:1274" placeholder="..." />
+            <marker date="1367856608000" expanded="true" signature="693:1344" placeholder="..." />
+            <marker date="1367856608000" expanded="true" signature="731:926" placeholder="..." />
+            <marker date="1367856608000" expanded="true" signature="1146:1274" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="38" selection-start="777" selection-end="777" vertical-scroll-proportion="0.64777327">
+          <folding />
         </state>
       </provider>
     </entry>

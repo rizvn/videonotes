@@ -9,6 +9,7 @@ from app.settings import view, getUser
 
 @route('/play/<vid_pk>')
 def player(vid_pk):
+    from operator import itemgetter
     vid = db.getVideo(vid_pk);
     print vid
     youtube_video = 'youtube.com' in vid['url']
@@ -17,11 +18,13 @@ def player(vid_pk):
         params = urlparse.urlparse(vid['url'])[4]
         match = re.match(r"(?P<yt_id>v=(\d|\w)*)", params)
         vid['url'] = match.group('yt_id')[2:]
-    
+
+    notes = db.getNotes(vid_pk, getUser())
+    sorted_notes = sorted(notes, key=itemgetter('time'))
     return view('player.html',
                     video=vid,
                     youtube_video=youtube_video,
-                    notes=db.getNotes(vid_pk, getUser()))
+                    notes=sorted_notes)
 
 @route('/')
 @route('/library')
