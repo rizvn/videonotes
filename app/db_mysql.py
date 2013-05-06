@@ -140,3 +140,17 @@ def registerUser(name, password, email):
           values (%s, %s, %s)
         ''', (name, password, email))
     conn.commit()
+
+def setResetKey():
+    conn = getConnection()
+    cursor = conn.cursor()
+    cursor.execute('')
+
+def changePassword(name, newPass):
+    'TODO: Test'
+    conn = getConnection()
+    cursor = conn.cursor()
+    cursor.execute('''
+        INSERT into USERS(password) values (%s)
+        where username = %s ''', (newPass, name));
+    conn.commit()

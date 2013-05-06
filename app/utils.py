@@ -24,3 +24,10 @@ def jsonSerializer(obj):
         return obj.strftime("%d/%m/%y")
     else:
         return ""
+
+
+def generateRandomString():
+    import random
+    import string
+    population = string.ascii_letters + string.digits
+    return random.sample(population, 10)

@@ -55,3 +55,9 @@ def register():
 @get('/resetPassword')
 def resetPassword():
     return view('auth/resetPassword.html')
+
+@post('/resetPassword')
+def restPasswordSubmit():
+    username = request.forms.get('username')
+    db.checkUserNameExists(username)
+
