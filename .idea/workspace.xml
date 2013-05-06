@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b804b442-8fa4-40fc-b911-5f00f5516a4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/01-create.sql" afterPath="$PROJECT_DIR$/db/01-create.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/db_mysql.py" afterPath="$PROJECT_DIR$/app/db_mysql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/auth.py" afterPath="$PROJECT_DIR$/app/auth.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/auth/resetPassword.html" afterPath="$PROJECT_DIR$/views/auth/resetPassword.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vidmarks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839140922" ignored="false" />
-    <file path="/a.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839546120" ignored="false" />
+    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839723927" ignored="false" />
+    <file path="/a.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839794274" ignored="false" />
     <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366916243241" ignored="false" />
     <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366833487747" ignored="false" />
     <file path="/db.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367072797906" ignored="false" />
@@ -28,7 +28,7 @@
     <file path="/utils.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839100130" ignored="false" />
     <file path="/utils_test.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839051309" ignored="false" />
     <file path="/bottle.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366835009016" ignored="false" />
-    <file path="/dummy.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839546120" ignored="false" />
+    <file path="/dummy.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839794274" ignored="false" />
     <file path="/mysql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839590271" ignored="false" />
     <file path="/01-create.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367161340988" ignored="false" />
     <file path="/db_mysql.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839279928" ignored="false" />
@@ -37,7 +37,7 @@
     <file path="$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367168618708" ignored="false" />
     <file path="/vn.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367180835439" ignored="false" />
     <file path="/auth.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367837556018" ignored="false" />
-    <file path="/resetPassword.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367181866305" ignored="false" />
+    <file path="/resetPassword.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367840493042" ignored="false" />
     <file path="/validation.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367797232385" ignored="false" />
     <file path="/validation_test.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367688655351" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/helpers/pycharm/noserunner.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367688619933" ignored="false" />
@@ -68,64 +68,37 @@
       <file leaf-file-name="validation.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/validation.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="26" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
+            <state line="5" column="20" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="01-create.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/01-create.sql">
+      <file leaf-file-name="vn.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/vn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="21" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
+            <state line="43" column="25" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="db_mysql.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="119" column="0" selection-start="3366" selection-end="3366" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#20#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mysql" pinned="false" current="true" current-in-tab="true">
-        <entry file="dbDummy://db-console:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="26" selection-start="42" selection-end="42" vertical-scroll-proportion="0.035794184">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="auth.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/auth.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="61" column="5" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.0">
+            <state line="53" column="0" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.91467065">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/utils.py">
+      <file leaf-file-name="resetPassword.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/auth/resetPassword.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="48" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils_test.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/utils_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="35" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="21" column="22" selection-start="663" selection-end="663" vertical-scroll-proportion="-13.44">
+              <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -159,26 +132,26 @@
         <option value="$PROJECT_DIR$/app/vn.py" />
         <option value="$PROJECT_DIR$/views/auth/login.html" />
         <option value="$PROJECT_DIR$/app/settings.py" />
-        <option value="$PROJECT_DIR$/views/auth/resetPassword.html" />
         <option value="$PROJECT_DIR$/tests/db_mysql.py" />
         <option value="$PROJECT_DIR$/tests/validation_test.py" />
         <option value="$PROJECT_DIR$/views/auth/register.html" />
         <option value="$PROJECT_DIR$/app/validation.py" />
-        <option value="$PROJECT_DIR$/app/auth.py" />
         <option value="$PROJECT_DIR$/tests/utils_test.py" />
         <option value="$PROJECT_DIR$/app/utils.py" />
         <option value="$PROJECT_DIR$/app/db_mysql.py" />
         <option value="dbtable:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/videonotes..users" />
         <option value="$PROJECT_DIR$/db/01-create.sql" />
         <option value="db-console:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/" />
+        <option value="$PROJECT_DIR$/views/auth/resetPassword.html" />
+        <option value="$PROJECT_DIR$/app/auth.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="37" />
-    <option name="y" value="29" />
-    <option name="width" value="1113" />
-    <option name="height" value="810" />
+    <option name="x" value="107" />
+    <option name="y" value="52" />
+    <option name="width" value="753" />
+    <option name="height" value="803" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -946,7 +919,11 @@
       <created>1367839142762</created>
       <updated>1367839142762</updated>
     </task>
-    <option name="localTasksCounter" value="59" />
+    <task id="LOCAL-00059" summary="passwords now encrypted">
+      <created>1367839726449</created>
+      <updated>1367839726449</updated>
+    </task>
+    <option name="localTasksCounter" value="60" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -970,20 +947,20 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="37" y="29" width="1113" height="810" extended-state="0" />
+    <frame x="107" y="52" width="753" height="803" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15642458" sideWeight="0.9948079" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2239925" sideWeight="0.7360335" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31406045" sideWeight="0.8435754" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24742268" sideWeight="0.7360335" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2502343" sideWeight="0.7360335" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26874116" sideWeight="0.99717915" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29608938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802248" sideWeight="0.7039106" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26396647" sideWeight="0.98852223" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26396647" sideWeight="0.98852223" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -1036,7 +1013,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="added encrypt" />
+    <option name="LAST_COMMIT_MESSAGE" value="passwords now encrypted" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1050,7 +1027,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="updated script" />
     <MESSAGE value="added register page" />
     <MESSAGE value="add post register post" />
     <MESSAGE value="refactor" />
@@ -1075,6 +1051,7 @@
     <MESSAGE value="removed sqlite db version and test for simplicity" />
     <MESSAGE value="added random string generation" />
     <MESSAGE value="added encrypt" />
+    <MESSAGE value="passwords now encrypted" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1112,19 +1089,9 @@
         <state line="16" column="26" selection-start="523" selection-end="523" vertical-scroll-proportion="-0.31538463" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/vn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="43" column="25" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.49710146" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/validation_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="11" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.25110784" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/auth/resetPassword.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="14" selection-start="328" selection-end="328" vertical-scroll-proportion="0.28725037" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/settings.py">
@@ -1133,13 +1100,6 @@
           <folding>
             <element signature="e#214#247#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="61" column="5" selection-start="1680" selection-end="1680" vertical-scroll-proportion="0.0">
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1157,23 +1117,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/validation.py">
+    <entry file="dbDummy://db-console:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="26" selection-start="375" selection-end="375" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/01-create.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="21" selection-start="770" selection-end="770" vertical-scroll-proportion="0.0">
+        <state line="1" column="26" selection-start="42" selection-end="42" vertical-scroll-proportion="0.035794184">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="119" column="0" selection-start="3366" selection-end="3366" vertical-scroll-proportion="0.0">
+        <state line="64" column="56" selection-start="1726" selection-end="1726" vertical-scroll-proportion="-0.20930232">
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
@@ -1190,9 +1143,39 @@
         </state>
       </provider>
     </entry>
-    <entry file="dbDummy://db-console:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/">
+    <entry file="file://$PROJECT_DIR$/db/01-create.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="26" selection-start="42" selection-end="42" vertical-scroll-proportion="0.035794184">
+        <state line="17" column="5" selection-start="364" selection-end="364" vertical-scroll-proportion="0.18962963">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="20" selection-start="106" selection-end="106" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="25" selection-start="1170" selection-end="1170" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/auth/resetPassword.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="22" selection-start="663" selection-end="663" vertical-scroll-proportion="-13.44">
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="0" selection-start="1491" selection-end="1491" vertical-scroll-proportion="0.91467065">
           <folding />
         </state>
       </provider>

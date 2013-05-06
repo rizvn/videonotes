@@ -60,4 +60,5 @@ def resetPassword():
 def restPasswordSubmit():
     username = request.forms.get('username')
     db.checkUserNameExists(username)
+    return view('auth/resetPassword.html')
 
