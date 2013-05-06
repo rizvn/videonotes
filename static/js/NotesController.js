@@ -19,6 +19,7 @@ NotesController = {
     this.el.notesTemplate = Handlebars.compile(" \
       <div class='note' data-id='{{id}}' data-time='{{sec}}'>       \
         <div class='ctxMenu'>                                       \
+          <a class='share'>Share</a>                                \
           <a class='editLink'>Edit</a>                              \
           <a class='delLink'>Delete</a>                             \
         </div>                                                      \

@@ -7,6 +7,11 @@
 
             {% if note.user == user%}
             <div class="ctxMenu">
+              {% if note.share == 1 %}
+                <a class="unShare">Unshare</a>
+              {% else %}
+                <a class="share">Share</a>
+              {% endif %}
               <a class="editLink">Edit</a>
               <a class="delLink">Delete</a>
             </div>

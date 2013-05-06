@@ -25,6 +25,22 @@ class Cursor():
             print "Trace: ", traceback
         return not traceback
 
+class CommitCursor():
+    def __enter__(self):
+        self.conn = getConnection()
+        self.cursor = self.conn.cursor()
+        return self.cursor
+
+    def __exit__(self, type, value, traceback):
+        self.conn.commit()
+        self.cursor.close()
+        if traceback:
+            print "Type: ",type
+            print "Value: ", value
+            print "Trace: ", traceback
+        return not traceback
+
+
 def fetchone(cursor):
     # return a dict with col names appended to results
     row = cursor.fetchone()
@@ -71,7 +87,7 @@ def getNotes(video_fk, username):
         return fetchall(cursor)
 
 def getSharedNotes(video_fk):
-    with Cursor as cursor:
+    with Cursor() as cursor:
         cursor.execute('SELECT * FROM notes where vid_fk=%s and share=1')
         return fetchall(cursor);
 
@@ -87,21 +103,24 @@ def addNote(vid_fk, time, text, user):
     return {'id': note_pk}
 
 def deleteNote(note_pk):
-    conn = getConnection()
-    conn.cursor().execute('''
-        DELETE FROM notes where pk = %s
-    ''', (note_pk,))
-    conn.commit()
+    with CommitCursor() as cursor:
+        cursor.execute('DELETE FROM notes where pk = %s', (note_pk,))
 
 def updateNote(note_pk, time, text):
-    conn = getConnection()
-    cursor = conn.cursor()
-    cursor.execute('''
+    with CommitCursor() as cursor:
+        cursor.execute('''
+            UPDATE notes
+            SET text=%s, time=%s
+            WHERE pk= %s
+            ''', (text, time, note_pk))
+
+
+def updateShare(note_pk, share):
+    with CommitCursor() as cursor:
+        cursor.execute('''
         UPDATE notes
-        SET text=%s, time=%s
-        WHERE pk= %s
-        ''', (text, time, note_pk))
-    conn.commit()
+        SET share = %s
+        WHERE pk = %s''', (note_pk, share))
 
 def isAuthor(note_pk, user):
     with Cursor() as cursor:

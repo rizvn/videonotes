@@ -2,15 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b804b442-8fa4-40fc-b911-5f00f5516a4d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/js/NotesController.js" afterPath="$PROJECT_DIR$/static/js/NotesController.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/db_mysql.py" afterPath="$PROJECT_DIR$/app/db_mysql.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/macros.html" afterPath="$PROJECT_DIR$/views/macros.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/player.html" afterPath="$PROJECT_DIR$/views/player.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vn.py" afterPath="$PROJECT_DIR$/app/vn.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vidmarks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367859268874" ignored="false" />
+    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367860932268" ignored="false" />
     <file path="/a.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839794274" ignored="false" />
     <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367860895565" ignored="false" />
-    <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367856599707" ignored="false" />
+    <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367861290336" ignored="false" />
     <file path="/db.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367072797906" ignored="false" />
     <file path="/main.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367174237338" ignored="false" />
     <file path="/a.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365974228764" ignored="false" />
@@ -30,17 +34,17 @@
     <file path="/dummy.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839794274" ignored="false" />
     <file path="/mysql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839590271" ignored="false" />
     <file path="/01-create.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367161340988" ignored="false" />
-    <file path="/db_mysql.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839279928" ignored="false" />
+    <file path="/db_mysql.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367862145498" ignored="false" />
     <file path="/02-add_data.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367071030580" ignored="false" />
     <file path="/register.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367689754586" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367168618708" ignored="false" />
-    <file path="/vn.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367857124388" ignored="false" />
+    <file path="/vn.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367861373967" ignored="false" />
     <file path="/auth.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367837556018" ignored="false" />
     <file path="/resetPassword.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367840493042" ignored="false" />
     <file path="/validation.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367797232385" ignored="false" />
     <file path="/validation_test.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367688655351" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/helpers/pycharm/noserunner.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367688619933" ignored="false" />
-    <file path="/macros.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367859175105" ignored="false" />
+    <file path="/macros.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367861324050" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,19 +69,66 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="player.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="player.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/player.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="30" selection-start="876" selection-end="876" vertical-scroll-proportion="0.8187633">
+            <state line="59" column="29" selection-start="1920" selection-end="1920" vertical-scroll-proportion="-26.88">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/static/css/global.css">
+      <file leaf-file-name="vn.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/vn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="269" column="11" selection-start="3795" selection-end="3795" vertical-scroll-proportion="-11.538462">
+            <state line="60" column="0" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#54#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NotesController.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/js/NotesController.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="43" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1367861293000" expanded="true" signature="693:1414" placeholder="..." />
+                <marker date="1367861293000" expanded="true" signature="693:840" placeholder="..." />
+                <marker date="1367861293000" expanded="true" signature="731:840" placeholder="..." />
+                <marker date="1367861293000" expanded="true" signature="1216:1344" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_mysql.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="86" column="31" selection-start="2379" selection-end="2380" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#20#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_mysql.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/db_mysql.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="43" column="0" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.641189">
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="macros.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/macros.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="46" selection-start="327" selection-end="327" vertical-scroll-proportion="-6.4">
               <folding />
             </state>
           </provider>
@@ -113,17 +164,17 @@
         <option value="$PROJECT_DIR$/app/validation.py" />
         <option value="$PROJECT_DIR$/tests/utils_test.py" />
         <option value="$PROJECT_DIR$/app/utils.py" />
-        <option value="$PROJECT_DIR$/app/db_mysql.py" />
         <option value="dbtable:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/videonotes..users" />
         <option value="$PROJECT_DIR$/db/01-create.sql" />
         <option value="db-console:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/" />
         <option value="$PROJECT_DIR$/views/auth/resetPassword.html" />
         <option value="$PROJECT_DIR$/app/auth.py" />
-        <option value="$PROJECT_DIR$/static/js/NotesController.js" />
-        <option value="$PROJECT_DIR$/app/vn.py" />
-        <option value="$PROJECT_DIR$/views/macros.html" />
         <option value="$PROJECT_DIR$/static/css/global.css" />
         <option value="$PROJECT_DIR$/views/player.html" />
+        <option value="$PROJECT_DIR$/static/js/NotesController.js" />
+        <option value="$PROJECT_DIR$/views/macros.html" />
+        <option value="$PROJECT_DIR$/app/vn.py" />
+        <option value="$PROJECT_DIR$/app/db_mysql.py" />
       </list>
     </option>
   </component>
@@ -209,7 +260,21 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="tests" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -853,7 +918,11 @@
       <created>1367859270482</created>
       <updated>1367859270482</updated>
     </task>
-    <option name="localTasksCounter" value="66" />
+    <task id="LOCAL-00066" summary="added show/hide shared toggle">
+      <created>1367860934381</created>
+      <updated>1367860934382</updated>
+    </task>
+    <option name="localTasksCounter" value="67" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -883,8 +952,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31406045" sideWeight="0.8435754" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24730128" sideWeight="0.73699015" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.13248283" sideWeight="0.73624825" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24730128" sideWeight="0.73624825" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1864573" sideWeight="0.73624825" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29608938" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802248" sideWeight="0.7039106" order="2" side_tool="false" content_ui="tabs" />
@@ -943,7 +1012,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="share and edit not available to user if not author of note&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="added show/hide shared toggle" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -957,7 +1026,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="fixed broken references" />
     <MESSAGE value="added settings" />
     <MESSAGE value="commited code" />
     <MESSAGE value="more refactoring" />
@@ -982,15 +1050,11 @@
     <MESSAGE value="python sorting complete" />
     <MESSAGE value="moved notes rendering to a macros.html" />
     <MESSAGE value="share and edit not available to user if not author of note&#10;" />
+    <MESSAGE value="added show/hide shared toggle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/app/db_mysql.py</url>
-          <line>118</line>
-          <option name="timeStamp" value="37" />
-        </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/views/player.html</url>
           <line>22</line>
@@ -1004,25 +1068,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/utils_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="35" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="dbDummy://db-console:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="26" selection-start="42" selection-end="42" vertical-scroll-proportion="0.035794184" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="56" selection-start="1726" selection-end="1726" vertical-scroll-proportion="-0.20930232">
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="dbDummy://dbtable:/22ebcfd4/d7b51849-30c0-470c-9104-ce46b092d272/videonotes..users">
       <provider editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
@@ -1034,26 +1079,6 @@
     <entry file="file://$PROJECT_DIR$/db/01-create.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state line="17" column="5" selection-start="364" selection-end="364" vertical-scroll-proportion="0.18962963" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/js/NotesController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="147" column="40" selection-start="4469" selection-end="4469" vertical-scroll-proportion="4.7611337">
-          <folding>
-            <marker date="1367856608000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1367856608000" expanded="true" signature="-1:-1" placeholder="..." />
-            <marker date="1367856608000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/vn.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="33" selection-start="330" selection-end="330" vertical-scroll-proportion="0.4534413">
-          <folding>
-            <element signature="e#0#54#0" expanded="true" />
-          </folding>
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/auth/resetPassword.html">
@@ -1086,13 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/macros.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="40" selection-start="325" selection-end="325" vertical-scroll-proportion="-6.4">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/auth.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="35" column="38" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
@@ -1111,17 +1129,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python2.7/no-global-site-packages.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/static/css/global.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="269" column="11" selection-start="3795" selection-end="3795" vertical-scroll-proportion="-11.538462">
+        <state line="185" column="11" selection-start="2657" selection-end="2657" vertical-scroll-proportion="0.45546558">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/macros.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="46" selection-start="327" selection-end="327" vertical-scroll-proportion="-6.4">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/player.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="30" selection-start="876" selection-end="876" vertical-scroll-proportion="0.8187633">
+        <state line="59" column="29" selection-start="1920" selection-end="1920" vertical-scroll-proportion="-26.88">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="60" column="0" selection-start="1692" selection-end="1692" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/NotesController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="43" selection-start="625" selection-end="625" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1367861293000" expanded="true" signature="693:1414" placeholder="..." />
+            <marker date="1367861293000" expanded="true" signature="693:840" placeholder="..." />
+            <marker date="1367861293000" expanded="true" signature="731:840" placeholder="..." />
+            <marker date="1367861293000" expanded="true" signature="1216:1344" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="31" selection-start="2379" selection-end="2380" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#20#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/db_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="43" column="0" selection-start="1036" selection-end="1036" vertical-scroll-proportion="0.641189">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
