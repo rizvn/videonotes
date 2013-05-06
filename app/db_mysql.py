@@ -1,4 +1,5 @@
 import MySQLdb as db
+import app.utils as utils
 from app.settings import settings
 
 def getConnection():
@@ -115,12 +116,13 @@ def getUserByName(name):
         return cursor.fetchone()
 
 def authUser(name, password):
+    pwd = utils.encrypt(password)
     with Cursor() as cursor:
         cursor.execute("""
             SELECT * FROM users
             WHERE username=%s
             AND password=%s
-            """, (name, password))
+            """, (name, pwd))
         return cursor.fetchone()
 
 
@@ -133,12 +135,13 @@ def checkUserNameExists(name):
         return True if cursor.fetchone()[0] == 1 else False
 
 def registerUser(name, password, email):
+    pwd = utils.encrypt(password)
     conn = getConnection()
     cursor = conn.cursor()
     cursor.execute('''
           INSERT INTO USERS(username, password, email)
           values (%s, %s, %s)
-        ''', (name, password, email))
+        ''', (name, pwd, email))
     conn.commit()
 
 def setResetKey():
@@ -148,9 +151,10 @@ def setResetKey():
 
 def changePassword(name, newPass):
     'TODO: Test'
+    pwd = utils.encrypt(newPass)
     conn = getConnection()
     cursor = conn.cursor()
     cursor.execute('''
         INSERT into USERS(password) values (%s)
-        where username = %s ''', (newPass, name));
+        where username = %s ''', (pwd, name));
     conn.commit()

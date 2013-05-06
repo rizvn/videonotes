@@ -29,10 +29,10 @@ CREATE TABLE videonotes.users
 (
   pk BIGINT PRIMARY KEY NOT NULL AUTO_INCREMENT,
   username VARCHAR(30) NOT NULL,
-  password VARCHAR(30) NOT NULL,
+  password VARCHAR(32) NOT NULL,
   ts TIMESTAMP DEFAULT CURRENT_TIMESTAMP NOT NULL,
   email VARCHAR(100) NOT NULL,
-  sec_key VARCHAR(30)
+  sec_key VARCHAR(32)
 )ENGINE=INNODB;
 CREATE UNIQUE INDEX unique_email ON users ( email );
 CREATE UNIQUE INDEX unique_username ON users (username);
