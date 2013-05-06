@@ -17,7 +17,7 @@ NotesController = {
       });
 
     this.el.notesTemplate = Handlebars.compile(" \
-      <div class='note' data-id='{{id}}' data-time='{{sec}}'>      \
+      <div class='note' data-id='{{id}}' data-time='{{sec}}'>       \
         <div class='ctxMenu'>                                       \
           <a class='editLink'>Edit</a>                              \
           <a class='delLink'>Delete</a>                             \
@@ -25,7 +25,7 @@ NotesController = {
         <p class='timeLink anchor'>{{time}}</p>                     \
         <p class='text'>{{text}}</p>                                \
         <p class='desc'>                                            \
-            by {{user}}                                                  \
+            by {{user}}                                             \
         </p>                                                        \
       </div>                                                        \
       ");
@@ -34,6 +34,20 @@ NotesController = {
   //element selectors
   sel : {
     emptyNotesMessage: '.emptyNotes'
+  },
+
+  findWithHighestTimeBeforeCutoff : function(cutoff){
+    var heighestTime  = 0;
+    var heighestEl  = null;
+    $('#notes .note').each(function(){
+      var time = parseInt($(this).attr('data-time'), 10);
+      if(time >= heighestTime && time <= cutoff){
+        heighestTime = time;
+        heighestEl = $(this);
+      }
+    });
+
+    return heighestEl;
   },
 
   addNote : function() {
@@ -57,9 +71,17 @@ NotesController = {
                         time: self.secToTime(model.time),
                         user : Data.user,
                         text: model.text})
-        self.el.notesContainer.append(new_note);
+
+        var afterel = self.findWithHighestTimeBeforeCutoff(model.time);
+        if(afterel != null){
+          afterel.after(new_note);
+        }
+        else{
+          self.el.notesContainer.prepend(new_note);
+        }
+
         self.el.notesInput.val("");
-	$('.emptyNotes', self.el.notesContainer).hide();
+	      $('.emptyNotes', self.el.notesContainer).hide();
         VideoController.play();
       }
       else{
