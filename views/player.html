@@ -1,4 +1,6 @@
 {% extends "layout.html" %}
+{% from "macros.html" import render_notes %}
+
 {% block main_content %}
     {% if youtube_video %}
       <script src="/static/js/lib/swfobject.js"/></script>
@@ -41,7 +43,7 @@
       <div id="notesCtr" class="ctr">
         <div id="notesPanel">
           
-          {# TODO: Riz Future feature
+          {#
           <div id="optBar">
             <div class="fill">
               <div id="notesTabs">
@@ -52,30 +54,14 @@
               </div>
             </div>
           </div><!-- /#optBar -->
+
           #}
+
           
           
           <div id="notes">
-                {% for note in notes %}
-                   <div class="note"
-                        data-id="{{note.pk}}"
-                        data-time="{{note.time}}">
-			
-                        <div class="ctxMenu">
-                          <a class="editLink">Edit</a>
-                          <a class="delLink">Delete</a>
-                        </div>
-			
-                        <p class="timeLink anchor">{{note.time|sec_to_time}}</p>
-			            <p class="text">{{note.text}}</p>
-                        <p class="desc"> by {{note.user}}</p>
-                    </div>
-		{% else %}
-                <div class="note emptyNotes">
-                  <p class="noteText">No Notes available, add your notes</p>
-                </div>
-                {% endfor %}
-	        </div>
+            {{ render_notes(notes)}}
+	      </div>
           </div>
         </div><!-- /#notesCtr -->
       </div><!-- /#stage -->

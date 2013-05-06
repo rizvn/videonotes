@@ -1,0 +1,21 @@
+{% macro render_notes(notes, user='') -%}
+    {% for note in notes %}
+       <div class="note"
+            data-id="{{note.pk}}"
+            data-time="{{note.time}}">
+
+            <div class="ctxMenu">
+              <a class="editLink">Edit</a>
+              <a class="delLink">Delete</a>
+            </div>
+
+            <p class="timeLink anchor">{{note.time|sec_to_time}}</p>
+            <p class="text">{{note.text}}</p>
+            <p class="desc"> by {{note.user}}</p>
+        </div>
+    {% else %}
+        <div class="note emptyNotes">
+          <p class="noteText">No Notes available, add your notes</p>
+        </div>
+    {% endfor %}
+{%- endmacro %}
