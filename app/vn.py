@@ -56,11 +56,20 @@ def updateNote(id):
     else:
         return {'ack': 0, 'msg':'You do not have permission update this note'}
 
-def getUserNotes(vid_fk):
-    pass
-
-
 @get('/notes/<vid_fk:int>')
-def getAllNotes(vid_fk):
-    response.content_type='application/json'
-    return json.dumps(db.getNotesForVideo(vid_fk), default=app.utils.jsonSerializer)
+def getNotes(vid_fk):
+    type = request.query.get('type')
+    share = request.query.get('share')
+    user = getUser();
+
+    if share == '1':
+     notes = db.getUserAndSharedNotes(vid_fk, user)
+    else:
+     notes = db.getNotes(vid_fk, user)
+
+    if type=='json':
+        response.content_type='application/json'
+        return json.dumps(notes, default=app.utils.jsonSerializer)
+    else:
+        return view("notes.html", notes=notes)
+
