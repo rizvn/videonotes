@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b804b442-8fa4-40fc-b911-5f00f5516a4d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/macros.html" afterPath="$PROJECT_DIR$/views/macros.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/player.html" afterPath="$PROJECT_DIR$/views/player.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vidmarks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367859062479" ignored="false" />
+    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367859268874" ignored="false" />
     <file path="/a.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839794274" ignored="false" />
-    <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367859219366" ignored="false" />
+    <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367860895565" ignored="false" />
     <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367856599707" ignored="false" />
     <file path="/db.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367072797906" ignored="false" />
     <file path="/main.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367174237338" ignored="false" />
@@ -66,70 +65,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="validation.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/validation.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="27" selection-start="180" selection-end="180" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#25#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="auth.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/auth.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="35" column="38" selection-start="935" selection-end="935" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#0#54#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="library.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/library.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.2">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="player.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/player.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="62" column="39" selection-start="1853" selection-end="1853" vertical-scroll-proportion="1.8422174">
+            <state line="24" column="30" selection-start="876" selection-end="876" vertical-scroll-proportion="0.8187633">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="macros.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/macros.html">
+      <file leaf-file-name="global.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/static/css/global.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="40" selection-start="325" selection-end="325" vertical-scroll-proportion="-6.4">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="18" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#214#247#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="utils.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/utils.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="36" column="48" selection-start="809" selection-end="809" vertical-scroll-proportion="0.0">
+            <state line="269" column="11" selection-start="3795" selection-end="3795" vertical-scroll-proportion="-11.538462">
               <folding />
             </state>
           </provider>
@@ -160,7 +108,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/tests/db_mysql.py" />
         <option value="$PROJECT_DIR$/tests/validation_test.py" />
         <option value="$PROJECT_DIR$/views/auth/register.html" />
         <option value="$PROJECT_DIR$/app/validation.py" />
@@ -175,6 +122,7 @@
         <option value="$PROJECT_DIR$/static/js/NotesController.js" />
         <option value="$PROJECT_DIR$/app/vn.py" />
         <option value="$PROJECT_DIR$/views/macros.html" />
+        <option value="$PROJECT_DIR$/static/css/global.css" />
         <option value="$PROJECT_DIR$/views/player.html" />
       </list>
     </option>
@@ -901,7 +849,11 @@
       <created>1367859064200</created>
       <updated>1367859064200</updated>
     </task>
-    <option name="localTasksCounter" value="65" />
+    <task id="LOCAL-00065" summary="share and edit not available to user if not author of note&#10;">
+      <created>1367859270482</created>
+      <updated>1367859270482</updated>
+    </task>
+    <option name="localTasksCounter" value="66" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -991,7 +943,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="moved notes rendering to a macros.html" />
+    <option name="LAST_COMMIT_MESSAGE" value="share and edit not available to user if not author of note&#10;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -1005,7 +957,6 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
-    <MESSAGE value="removed thread local and replaced with direct access to beaker session, cleaned up other code" />
     <MESSAGE value="fixed broken references" />
     <MESSAGE value="added settings" />
     <MESSAGE value="commited code" />
@@ -1030,6 +981,7 @@
     <MESSAGE value="jquery addition of notes in the correct place" />
     <MESSAGE value="python sorting complete" />
     <MESSAGE value="moved notes rendering to a macros.html" />
+    <MESSAGE value="share and edit not available to user if not author of note&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1039,19 +991,19 @@
           <line>118</line>
           <option name="timeStamp" value="37" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/views/player.html</url>
+          <line>22</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="39" />
+      <option name="time" value="43" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/validation_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="0" selection-start="413" selection-end="413" vertical-scroll-proportion="0.25110784" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/utils_test.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="35" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" />
@@ -1159,9 +1111,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="269" column="11" selection-start="3795" selection-end="3795" vertical-scroll-proportion="-11.538462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/views/player.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="62" column="39" selection-start="1853" selection-end="1853" vertical-scroll-proportion="1.8422174">
+        <state line="24" column="30" selection-start="876" selection-end="876" vertical-scroll-proportion="0.8187633">
           <folding />
         </state>
       </provider>

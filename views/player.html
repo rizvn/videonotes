@@ -10,8 +10,23 @@
     {% endif %}
     
     <div id="pageFrame">
-    <div id="header">
-      <span id="vidTitle">{{video.title}}</span>
+
+    <div id="header" class='container'>
+      <div class="row">
+          <div id="vidTitle" class='span9'>{{video.title}}</div>
+          <div class='span3'>
+            <div class="btn-group">
+              <a class="btn dropdown-toggle btn-success" data-toggle="dropdown" href="#">
+                Options
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li><a href='#' id='showShared'>Show Shared </a></li>
+                <li><a href='#' id='hideShared'>Hide Shared </a></li>
+              </ul>
+            </div>
+          </div><!-- .span3 -->
+      </div>
     </div>
 
     <div id="stage">
@@ -36,6 +51,7 @@
           <input type="text" id="searchField" />
           <div id="clearSearchButton" class="hidden">X</div>
           <button id="searchButton" class="btn btn-small">Search</button>
+
         </div>
       </div><!-- /#searchCtr -->
 
