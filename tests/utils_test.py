@@ -10,4 +10,8 @@ class UtilsTest(unittest.TestCase):
 
     def test_generate_random_string(self):
         result = utils.generateRandomString()
-        assert  result
+        assert result
+
+    def test_encrypt(self):
+        result = utils.encrypt('helloworld')
+        assert result

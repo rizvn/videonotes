@@ -25,9 +25,13 @@ def jsonSerializer(obj):
     else:
         return ""
 
-
 def generateRandomString():
     import random
     import string
     population = string.ascii_letters + string.digits
     return random.sample(population, 10)
+
+def encrypt(value):
+    import hashlib
+    salt = 'da9429c7d22at4d0'
+    return hashlib.md5(salt + value).hexdigest()
