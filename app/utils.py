@@ -35,3 +35,7 @@ def encrypt(value):
     import hashlib
     salt = 'da9429c7d22at4d0'
     return hashlib.md5(salt + value).hexdigest()
+
+def sortNotes(notes):
+    from operator import itemgetter
+    return sorted(notes, key=itemgetter('time'))

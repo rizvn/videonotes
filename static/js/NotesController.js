@@ -51,6 +51,30 @@ NotesController = {
     return heighestEl;
   },
 
+  showShared: function(){
+    var self = this;
+    $.ajax({
+      data: { 'share': 1},
+      type: 'GET',
+      url: '/notes/' + Data.vidId
+    })
+    .done(function(aRes){
+      self.el.notesContainer.empty().append(aRes);
+    });
+  },
+
+  hideShared: function(){
+    var self = this;
+    $.ajax({
+      data: { 'share': 0},
+      type: 'GET',
+      url: '/notes/' + Data.vidId
+    })
+    .done(function(aRes){
+      self.el.notesContainer.empty().append(aRes);
+    });
+  },
+
   addNote : function() {
     var self = this;
     var model = {};
@@ -189,6 +213,14 @@ NotesController = {
 
     self.el.notesContainer.on("click", ".delLink", function() {
         self.deleteNote(this);
+    });
+
+    $('#showShared').click(function(){
+      self.showShared();
+    });
+
+    $('#hideShared').click(function(){
+      self.hideShared();
     });
 
     $('#cancelNoteButton').click(function(){

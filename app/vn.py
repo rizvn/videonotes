@@ -4,12 +4,12 @@ import json
 import urlparse
 import app.db_mysql as db
 import app
+import app.utils as utils
 from app.settings import view, getUser
 
 
 @route('/play/<vid_pk>')
 def player(vid_pk):
-    from operator import itemgetter
     vid = db.getVideo(vid_pk);
     print vid
     youtube_video = 'youtube.com' in vid['url']
@@ -20,7 +20,7 @@ def player(vid_pk):
         vid['url'] = match.group('yt_id')[2:]
 
     notes = db.getNotes(vid_pk, getUser())
-    sorted_notes = sorted(notes, key=itemgetter('time'))
+    sorted_notes = utils.sortNotes(notes)
     return view('player.html',
                     video=vid,
                     youtube_video=youtube_video,
@@ -66,6 +66,8 @@ def getNotes(vid_fk):
      notes = db.getUserAndSharedNotes(vid_fk, user)
     else:
      notes = db.getNotes(vid_fk, user)
+
+    notes = utils.sortNotes(notes)
 
     if type=='json':
         response.content_type='application/json'
