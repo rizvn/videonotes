@@ -72,9 +72,9 @@ NotesController = {
                         user : Data.user,
                         text: model.text})
 
-        var afterel = self.findWithHighestTimeBeforeCutoff(model.time);
-        if(afterel != null){
-          afterel.after(new_note);
+        var appendAfter = self.findWithHighestTimeBeforeCutoff(model.time);
+        if(appendAfter != null){
+          appendAfter.after(new_note);
         }
         else{
           self.el.notesContainer.prepend(new_note);
