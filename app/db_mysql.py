@@ -124,7 +124,7 @@ def updateShare(note_pk, share):
         cursor.execute('''
         UPDATE notes
         SET share = %s
-        WHERE pk = %s''', (note_pk, share))
+        WHERE pk = %s''', (share, note_pk))
 
 def isAuthor(note_pk, user):
     with Cursor() as cursor:

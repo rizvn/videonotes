@@ -19,7 +19,7 @@ NotesController = {
     this.el.notesTemplate = Handlebars.compile(" \
       <div class='note' data-id='{{id}}' data-time='{{sec}}'>       \
         <div class='ctxMenu'>                                       \
-          <a class='share'>Share</a>                                \
+          <a class='shareLink'>Share</a>                            \
           <a class='editLink'>Edit</a>                              \
           <a class='delLink'>Delete</a>                             \
         </div>                                                      \
@@ -74,6 +74,47 @@ NotesController = {
       self.el.notesContainer.empty().append(aRes);
     });
   },
+
+  shareNote: function(link){
+    var self = this;
+    var note_el = $(link).closest('.note');
+    var note_id = note_el.attr('data-id');
+
+      $.ajax({
+        url: "/note/" + note_id + "/share",
+        type: 'POST',
+        dataType: 'json'
+      })
+      .done(function(res){
+        if(res.ack == 1){
+          $(link).replaceWith("<a href='#' class='unshareLink'>Unshare</a>");
+        }
+        else{
+          alert(res.msg);
+        }
+      })
+  },
+
+  unShareNote: function(link){
+    var self = this;
+    var note_el = $(link).closest('.note');
+    var note_id = note_el.attr('data-id');
+
+      $.ajax({
+        url: "/note/" + note_id + "/unshare",
+        type: 'POST',
+        dataType: 'json'
+      })
+      .done(function(res){
+        if(res.ack == 1){
+          $(link).replaceWith("<a href='#' class='shareLink'>Share</a>");
+        }
+        else{
+          alert(res.msg);
+        }
+      })
+  },
+
 
   addNote : function() {
     var self = this;
@@ -213,6 +254,14 @@ NotesController = {
 
     self.el.notesContainer.on("click", ".delLink", function() {
         self.deleteNote(this);
+    });
+
+    self.el.notesContainer.on("click", ".shareLink", function() {
+        self.shareNote(this);
+    });
+
+    self.el.notesContainer.on("click", ".unshareLink", function() {
+        self.unShareNote(this);
     });
 
     $('#showShared').click(function(){

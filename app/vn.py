@@ -56,6 +56,23 @@ def updateNote(id):
     else:
         return {'ack': 0, 'msg':'You do not have permission update this note'}
 
+@post('/note/<id:int>/share')
+def shareNote(id):
+    if db.isAuthor(id, getUser()):
+        db.updateShare(id, 1)
+        return {'ack': 1}
+    else:
+        return {'ack': 0, 'msg':'You do not have permission update this note'}
+
+@post('/note/<id:int>/unshare')
+def unShareNote(id):
+    if db.isAuthor(id, getUser()):
+        db.updateShare(id, 0)
+        return {'ack': 1}
+    else:
+        return {'ack': 0, 'msg':'You do not have permission update this note'}
+
+
 @get('/notes/<vid_fk:int>')
 def getNotes(vid_fk):
     type = request.query.get('type')
