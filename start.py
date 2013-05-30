@@ -12,4 +12,4 @@ session_opts = {
 app = bottle.default_app()
 app = SessionMiddleware(app, session_opts)
 
-bottle.run(host='0.0.0.0', port=5000, app=app, reloader=True)
+bottle.run(host='0.0.0.0', port=80, app=app, reloader=True)
