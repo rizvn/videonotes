@@ -76,15 +76,9 @@ def getVideos(category=None, createdBy=None, count=None):
         catq = None if not category else "category = '%s' " % (category, )
         createdByq = None if not createdBy else "createdBy = '%s' " % (createdBy, )
 
-        wheres = filter(None, [catq, createdByq])
-        join = 'WHERE'
-        for where in wheres:
-            query += join + ' '+ where
-            if join == 'WHERE': join = 'AND'
+        query += utils.createWhere()
 
-        return query
-
-
+        return fetchall(cursor)
 
 def getVideo(pk):
     with Cursor() as cursor:

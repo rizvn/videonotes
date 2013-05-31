@@ -39,3 +39,12 @@ def encrypt(value):
 def sortNotes(notes):
     from operator import itemgetter
     return sorted(notes, key=itemgetter('time'))
+
+def createWhere(aWheres):
+    wheres = filter(None, aWheres)
+    join = 'WHERE'
+    query = ''
+    for where in wheres:
+        query += join + ' ' + where
+        if join == 'WHERE': join = 'AND'
+    return query

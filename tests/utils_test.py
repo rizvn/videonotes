@@ -15,3 +15,8 @@ class UtilsTest(unittest.TestCase):
     def test_encrypt(self):
         result = utils.encrypt('helloworld')
         assert result
+
+    def test_wheres(self):
+        wheres = ['a = 1234 ' , None, 'b = 456 ']
+        result =  utils.createWhere(wheres)
+        self.assertEqual(result , 'WHERE a = 1234 AND b = 456 ')
