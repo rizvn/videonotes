@@ -71,13 +71,16 @@ def getAllVideos():
 
 def getVideos(category=None, createdBy=None, count=None):
     with Cursor() as cursor:
+        #what to project
         project = " COUNT(*) " if count else " * "
         query = "SELECT %s FROM VIDEOS " % project
+
+        #where clauses
         catq = None if not category else "category = '%s' " % (category, )
         createdByq = None if not createdBy else "createdBy = '%s' " % (createdBy, )
 
-        query += utils.createWhere()
-
+        query += utils.joinWheres([catq, createdByq])
+        cursor.execute(query)
         return fetchall(cursor)
 
 def getVideo(pk):
@@ -140,7 +143,6 @@ def isAuthor(note_pk, user):
     with Cursor() as cursor:
         cursor.execute('SELECT COUNT(*) from notes where pk=%s and user=%s', (note_pk, user))
         return True if cursor.fetchone()[0] == 1 else False
-
 
 #--------------- Users -------------------------------------------------
 def getUserByName(name):

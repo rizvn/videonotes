@@ -40,7 +40,7 @@ def sortNotes(notes):
     from operator import itemgetter
     return sorted(notes, key=itemgetter('time'))
 
-def createWhere(aWheres):
+def joinWheres(aWheres):
     wheres = filter(None, aWheres)
     join = 'WHERE'
     query = ''
