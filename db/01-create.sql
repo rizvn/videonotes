@@ -8,12 +8,12 @@ GRANT ALL ON videonotes.* TO 'riz'@'localhost' identified by 'pass';
 REVOKE ALL PRIVILEGES, GRANT OPTION FROM 'riz'@'localhost';
 drop user 'riz'@'localhost';
 */
-use videonotes;
 DROP TABLE IF EXISTS notes;
 DROP TABLE IF EXISTS users;
 DROP TABLE IF EXISTS videos;
+DROP TABLE IF EXISTS categories;
 
-CREATE TABLE videonotes.notes
+CREATE TABLE notes
 (
   pk bigint PRIMARY KEY NOT NULL AUTO_INCREMENT,
   user varchar(30) NOT NULL,
@@ -25,7 +25,7 @@ CREATE TABLE videonotes.notes
 ) ENGINE=INNODB;
 COMMIT;
 
-CREATE TABLE videonotes.users
+CREATE TABLE users
 (
   pk BIGINT PRIMARY KEY NOT NULL AUTO_INCREMENT,
   username VARCHAR(30) NOT NULL,
@@ -38,26 +38,30 @@ CREATE UNIQUE INDEX unique_email ON users ( email );
 CREATE UNIQUE INDEX unique_username ON users (username);
 
 
-CREATE TABLE videonotes.videos
+CREATE TABLE videos
 (
   pk bigint  PRIMARY KEY NOT NULL AUTO_INCREMENT,
   title varchar(100) NOT NULL,
   url varchar(150) NOT NULL,
+  cat varchar(150),
+  created_by varchar(30),
+  share int default 0,
   ts timestamp NOT NULL default CURRENT_TIMESTAMP on update CURRENT_TIMESTAMP
+) ENGINE=INNODB;
+
+CREATE TABLE categories
+(
+  pk bigint  PRIMARY KEY NOT NULL AUTO_INCREMENT,
+  name varchar(100) NOT NULL,
 ) ENGINE=INNODB;
 
 
 /*------------------- Add Data -------------------------------*/
-use videonotes;
-insert  into videonotes.users (pk, username, email, password)
-  values ('1', 'riz', 'riz@rizvn.com', 'pass');
+insert  into users (pk, username, email, password)
+  values ('1', 'rizvan', 'riz@rizvn.com', 'password');
 
-insert  into videonotes.users (pk, username, email, password)
+insert  into users (pk, username, email, password)
   values ('2', 'bob', 'bob@rizvn.com' ,'pass');
 
-insert into videonotes.videos(pk, title, url)
-  values (1, 'Paradox of choice - Barry Scwhartz', '/static/testVideos/paradox_of_choice.mp4');
-
-insert into videonotes.videos(pk, title, url)
-  values (2, 'Paradise - Coldplay', 'http://www.youtube.com/watch?v=1G4isv_Fylg');
-
+insert into videos(pk, title, url)
+  values (1, 'Paradise - Coldplay', 'http://www.youtube.com/watch?v=1G4isv_Fylg');

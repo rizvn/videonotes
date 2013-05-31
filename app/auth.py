@@ -50,8 +50,6 @@ def register():
         db.registerUser(username, pwd, email)
         return view('auth/register.html', registrationComplete=True)
 
-
-
 @get('/resetPassword')
 def resetPassword():
     return view('auth/resetPassword.html')
