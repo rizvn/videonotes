@@ -66,20 +66,20 @@ insert  into users (pk, username, email, password)
 insert  into users (pk, username, email, password)
   values ('2', 'bob', 'bob@rizvn.com' ,'pass');
 
-insert into videos(pk, title, url, tags, created_by)
-    values (2,'Carmine Gallo: Three Secrets All Inspiring Messages Share', 'http://www.youtube.com/watch?v=DRtXJ2ih0AI', 'Business', 'admin');
+insert into videos(pk, title, url, tags, created_by, share)
+    values (2,'Carmine Gallo: Three Secrets All Inspiring Messages Share', 'http://www.youtube.com/watch?v=DRtXJ2ih0AI', 'Business', 'admin', 1);
 
-insert into videos(pk, title, url, tags, created_by)
-    values (3,'Pitch Anything in 15 seconds', 'http://www.youtube.com/watch?v=phyU2BThK4Q', 'Business', 'admin');
+insert into videos(pk, title, url, tags, created_by, share)
+    values (3,'Pitch Anything in 15 seconds', 'http://www.youtube.com/watch?v=phyU2BThK4Q', 'Business', 'admin', 1);
 
-insert into videos(pk, title, url, tags, created_by)
-    values (4,'Evaluating a business Idea', 'http://www.youtube.com/watch?v=y9ClKzMq3n0', 'Business', 'admin');
+insert into videos(pk, title, url, tags, created_by, share)
+    values (4,'Evaluating a business Idea', 'http://www.youtube.com/watch?v=y9ClKzMq3n0', 'Business', 'admin', 1);
 
-insert into videos(pk, title, url, tags, created_by)
-    values (6,'iPhone Programming Tutorial 2 - Introduction to Mac OS X, Cocoa Touch, Objective-C and Tools', 'http://www.youtube.com/watch?v=oesNwgHn1ws', 'Programming', 'admin');
+insert into videos(pk, title, url, tags, created_by, share)
+    values (6,'iPhone Programming Tutorial 2 - Introduction to Mac OS X, Cocoa Touch, Objective-C and Tools', 'http://www.youtube.com/watch?v=oesNwgHn1ws', 'Programming', 'admin', 1);
 
-insert into videos(pk, title, url, tags, created_by)
-    values (7,'iPhone Programming Tutorial 2 - Building a Simple Calculator', 'http://www.youtube.com/watch?v=OT_Z3qxxSsI', 'Programming', 'admin');
+insert into videos(pk, title, url, tags, created_by, share)
+    values (7,'iPhone Programming Tutorial 2 - Building a Simple Calculator', 'http://www.youtube.com/watch?v=OT_Z3qxxSsI', 'Programming', 'admin', 1);
 
-insert into videos(pk, title, url, tags, created_by)
-    values (8,'iPhone Programming Tutorial 3 - Objective-C ', 'http://www.youtube.com/watch?v=jdCDRpgExtc', 'Programming', 'admin');
+insert into videos(pk, title, url, tags, created_by, share)
+    values (8,'iPhone Programming Tutorial 3 - Objective-C ', 'http://www.youtube.com/watch?v=jdCDRpgExtc', 'Programming', 'admin', 1);
