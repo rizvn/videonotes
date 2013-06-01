@@ -73,16 +73,10 @@ insert into videos(pk, title, url, tags, created_by)
     values (3,'Pitch Anything in 15 seconds', 'http://www.youtube.com/watch?v=phyU2BThK4Q', 'Business', 'admin');
 
 insert into videos(pk, title, url, tags, created_by)
-    values (5,'Evaluating a business Idea', 'http://www.youtube.com/watch?v=y9ClKzMq3n0', 'Business', 'admin');
+    values (4,'Evaluating a business Idea', 'http://www.youtube.com/watch?v=y9ClKzMq3n0', 'Business', 'admin');
 
 insert into videos(pk, title, url, tags, created_by)
-    values (2,'Sell Your Ideas the Steve Jobs Way', 'http://www.youtube.com/watch?v=0q-wvAIeUgk', 'Business', 'admin');
-
-insert into videos(pk, title, url, tags, created_by)
-    values (3,'Pitch Anything in 15 seconds', 'http://www.youtube.com/watch?v=phyU2BThK4Q', 'Business', 'admin');
-
-insert into videos(pk, title, url, tags, created_by)
-    values (6,'Introduction to Mac OS X, Cocoa Touch, Objective-C and Tools', 'http://www.youtube.com/watch?v=oesNwgHn1ws', 'Programming', 'admin');
+    values (6,'iPhone Programming Tutorial 2 - Introduction to Mac OS X, Cocoa Touch, Objective-C and Tools', 'http://www.youtube.com/watch?v=oesNwgHn1ws', 'Programming', 'admin');
 
 insert into videos(pk, title, url, tags, created_by)
     values (7,'iPhone Programming Tutorial 2 - Building a Simple Calculator', 'http://www.youtube.com/watch?v=OT_Z3qxxSsI', 'Programming', 'admin');
