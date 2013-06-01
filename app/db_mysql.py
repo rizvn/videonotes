@@ -69,17 +69,17 @@ def getAllVideos():
         cursor.execute('SELECT * FROM videos')
         return fetchall(cursor)
 
-def getVideos(category=None, createdBy=None, count=None):
+def getVideos(tags=None, createdBy=None, count=None):
     with Cursor() as cursor:
         #what to project
         project = " COUNT(*) " if count else " * "
         query = "SELECT %s FROM VIDEOS " % project
 
         #where clauses
-        catq = None if not category else "category = '%s' " % (category, )
+        tagsq = None if not tags else "tags = '%s' " % (tags, )
         createdByq = None if not createdBy else "createdBy = '%s' " % (createdBy, )
 
-        query += utils.joinWheres([catq, createdByq])
+        query += utils.joinWheres([tagsq, createdByq])
         cursor.execute(query)
         return fetchall(cursor)
 

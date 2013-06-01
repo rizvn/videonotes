@@ -1,95 +1,51 @@
 {% extends "layout.html" %}
 {% block main_content %}
+<style>
+  .tags{
+      color: darkslategray;
+      font-size: 85%;
+  }
+
+</style>
 <div id="pageFrame">
   
     <h1 style="color: dimgray; font-weight: normal;">
       Library
     </h1>
+
     <div class="row-fluid">
-        <div class="span3" style='border-right: 1px solid #cdcdcd;'>
-            <!--Sidebar content-->
-            <ul class="nav nav-list">
-                <li class="active"><a href="#"><i class="icon-chevron-right"></i>All</a></li>
-                <li><a href="#"><i class="icon-chevron-right"></i>Category 1</a></li>
-                <li><a href="#"><i class="icon-chevron-right"></i>Category 2</a></li>
-                <li><a href="#"><i class="icon-chevron-right"></i>Category 3</a></li>
-                <li><a href="#"><i class="icon-chevron-right"></i>Responsive design</a></li>
-            </ul>
-        </div>
-        <div class="span9">
-            <div height="600px" style="overflow: auto">
-                <table class="table table-bordered table-hover" style="background-color: #ffffff; cursor: pointer">
-                    <tbody>
-                    {% for video in videos %}
-                    <tr>
-                        <td class='vid_link' data-pk="{{video.pk}}">
-                            {{video.title}}
-                        </td>
-                    </tr>
-                    {% else %}
-                    <tr>
-                        <td>
-                            No Videos in Library
-                        </td>
-                    </tr>
-                    {% endfor %}
-                    </tbody>
-                </table>
-            </div>
-
-
-        </div>
-    </div>
-    {#
-    <a href="#addVideoFrm" role="button" class="btn pull-right" data-toggle="modal">
-        Add Video
-    </a>
-
-
-    <div id="addVideoFrm" class="modal hide fade" role="dialog">
-        <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">x</button>
-            <h3 id="label">Add New Video</h3>
-        </div>
-        <div class="modal-body">
-            <form class="form-horizontal">
-
-                <div class="control-group">
-                    <label class="control-label" for="title">Name: </label>
-                    <div class="controls">
-                        <input type="text" id="title" placeholder="Title">
-                    </div>
-                </div>
-
-                <div class="control-group">
-                    <label class="control-label" for="url">Url:</label>
-                    <div class="controls">
-                        <input type="text" id="title" placeholder="Url">
-                    </div>
-                </div>
-
-                <div class="control-group">
-                    <div class="controls">
-                        <button type="submit" class="btn">Submit</button>
-                    </div>
-                </div>
+        <h5 class="span6">
+            Viewing: {{ tags if tags else 'All' }}
+        </h5>
+        <div class="span6">
+            <form action="library" method="get" class="pull-right">
+               <input type="text" class="input-large search-query" name="tags" placeholder="Search by tag" value="{{tags}}" />
+               <button type="submit" class="btn">Search</button>
             </form>
         </div>
     </div>
 
-    <script>
-      Library = {
-          addVideo : function(){
-              //submit form
+    <div class="row-fluid">
+        <table class="table table-bordered table-hover" style="background-color: #ffffff; cursor: pointer">
+            <tbody>
+            {% for video in videos %}
+            <tr>
+                <td class='vid_link row-fluid' data-pk="{{video.pk}}">
+                      <p class="span9">{{video.title}}</p>
+                      <p class="span3 tags anchor">{{video.tags}}</p>
+                </td>
+            </tr>
+            {% else %}
+            <tr>
+                <td>
+                    No videos
+                </td>
+            </tr>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
 
-              //get ajax response
-
-              //reload library page
-          }
-      }
-
-    </script>
-    #}
 
 </div>
 
@@ -102,7 +58,7 @@
       $('.vid_link').click(function(){
         var vidpk = $(this).attr('data-pk');
         window.location.href='/play/'+vidpk;
-      })
+      });
     })
 </script>
 {% endblock %}

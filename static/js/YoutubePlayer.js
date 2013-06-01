@@ -21,8 +21,7 @@ ytPlayer = {
       return this.mPlayer.getCurrentTime();
   },
 
-  init : function(aVideoId) {
-    aVideoId = '1G4isv_Fylg';
+  init : function(aVideoId){
     var params = { allowScriptAccess: "always" };
     var atts = { id: "videoPlayer"};
     swfobject.embedSWF("http://www.youtube.com/v/"+ aVideoId +"?enablejsapi=1&playerapiid=ytplayer&version=3&autoplay=1",

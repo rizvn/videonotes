@@ -11,7 +11,6 @@ from app.settings import view, getUser
 @route('/play/<vid_pk>')
 def player(vid_pk):
     vid = db.getVideo(vid_pk);
-    print vid
     youtube_video = 'youtube.com' in vid['url']
     
     if youtube_video:
@@ -29,7 +28,8 @@ def player(vid_pk):
 @route('/')
 @route('/library')
 def library():
-    return view("library.html", videos = db.getAllVideos())
+    tags = request.query.get('tags')
+    return view("library.html", videos=db.getVideos(tags=tags), tags=tags)
 
 @post('/note')
 def addNote():

@@ -67,7 +67,7 @@ insert  into users (pk, username, email, password)
   values ('2', 'bob', 'bob@rizvn.com' ,'pass');
 
 insert into videos(pk, title, url, tags, created_by)
-    values (2,'Sell Your Ideas the Steve Jobs Way', 'http://www.youtube.com/watch?v=0q-wvAIeUgk', 'Business', 'admin');
+    values (2,'Carmine Gallo: Three Secrets All Inspiring Messages Share', 'http://www.youtube.com/watch?v=DRtXJ2ih0AI', 'Business', 'admin');
 
 insert into videos(pk, title, url, tags, created_by)
     values (3,'Pitch Anything in 15 seconds', 'http://www.youtube.com/watch?v=phyU2BThK4Q', 'Business', 'admin');
