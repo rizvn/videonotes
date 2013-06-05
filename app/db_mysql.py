@@ -83,6 +83,18 @@ def getVideos(tags=None, createdBy=None, count=None):
         cursor.execute(query)
         return fetchall(cursor)
 
+def addVideo(title, url, createBy, shared, tags):
+    conn = getConnection()
+    cursor = conn.cursor()
+    cursor.execute('''
+      INSERT INTO VIDEOS(title, url, createdBy, shared, tags)
+      VALUES (%s, %s, %s, %s, %s )
+    ''', (title, url, createBy, shared, tags))
+    conn.commit()
+    videoPk = cursor.lastrowid
+    return {'id': videoPk}
+
+
 def getVideo(pk):
     with Cursor() as cursor:
         cursor.execute('SELECT * FROM videos where pk=%s', (pk, ))
@@ -90,7 +102,7 @@ def getVideo(pk):
 
 #--------------- Notes -------------------------------------------------
 def getNotesForVideo(vid_fk):
-    with Cursor() as cursor:
+    with Cursor()  as cursor:
         cursor.execute('SELECT * FROM notes where vid_fk=%s', (vid_fk,))
         return fetchall(cursor)
 
