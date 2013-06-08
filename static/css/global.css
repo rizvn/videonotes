@@ -91,8 +91,8 @@ body{
 #vidCtr{
     top: 10px;
     left: 10px;
-    height: 320px;
-    width: 420px;
+    /**height: 320px;
+    width: 420px; */
 }
 
 #noteInputCtr{
@@ -113,8 +113,8 @@ body{
 
 
 #notesInput{
-    width: 100%;
-    height: 190px;
+    width: 405px;
+    height: 160px;
 }
 
 #searchPanel{
@@ -181,9 +181,9 @@ body{
 }
 
 .ctxMenu{
-    position: absolute;
     right:3;
     top: 3;
+    float: right;
 }
 
 .ctxMenu a{
@@ -267,8 +267,9 @@ body{
 
 #searchPanel #searchField{
   padding-right: 20px;
-  width: 240px;
-  height: 25px;
+  /* width: 240px;
+  height: 25px; */
+  overflow: none;
 }
 
 #searchButton{
@@ -280,10 +281,10 @@ body{
 #searchCtr{
     top: 10px;
     left:  445px;
-    height: 50px;
     width: 390px;
     background-color:  #28F2FF;
     border: 1px solid #9A9A9A;
+    overflow: none;
 }
 /*End search fields*/
 

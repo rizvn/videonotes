@@ -60,10 +60,35 @@
             </tbody>
         </table>
 
-        <button id="addVideo" class="btn btn-primary">Add Video</button>
+        <!-- Button to trigger modal -->
+        <a href="#addVideoModal" role="button" class="btn btn-primary" data-toggle="modal">Add video</a>
+        <!-- Modal -->
+        <div id="addVideoModal" class="modal hide fade" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+            <h3 id="myModalLabel">Add Video to library</h3>
+          </div>
+          <div class="modal-body">
+            <form>
+  <fieldset>
+    <legend>Legend</legend>
+    <label>Label name</label>
+    <input type="text" placeholder="Type something…">
+    <span class="help-block">Example block-level help text here.</span>
+    <label class="checkbox">
+      <input type="checkbox"> Check me out
+    </label>
+    <button type="submit" class="btn">Submit</button>
+  </fieldset>
+</form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn" data-dismiss="modal" aria-hidden="true">Close</button>
+            <button class="btn btn-primary">Add</button>
+          </div>
+        </div>
+
     </div>
-
-
 </div>
 
 <script>
