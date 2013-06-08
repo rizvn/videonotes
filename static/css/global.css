@@ -233,7 +233,7 @@ body{
 
 
 #_timecode, #notesArea{
-  width: 100%;
+  width: 90%;
 }
 
 #notesArea{
@@ -276,7 +276,6 @@ body{
   position: relative;
   top: -3px;
 }
-
 
 #searchCtr{
     top: 10px;
