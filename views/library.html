@@ -38,8 +38,8 @@
             </thead>
             <tbody>
             {% for video in videos %}
-            <tr>
-                <td class='vid_link' data-pk="{{video.pk}}">
+            <tr data-pk="{{video.pk}}">
+                <td class='vid_link'>
                      {{video.title}}
                 </td>
                 <td class='tags' style="width: 100px !important;">{{video.tags}}</td>
@@ -59,6 +59,8 @@
             {% endfor %}
             </tbody>
         </table>
+
+        <button id="addVideo" class="btn btn-primary">Add Video</button>
     </div>
 
 
@@ -71,8 +73,13 @@
       $(".navbar #library").addClass("active");
 
       $('.vid_link').click(function(){
-        var vidpk = $(this).attr('data-pk');
+        var vidpk = $(this).closest('tr').attr('data-pk');
         window.location.href='/play/'+vidpk;
+      });
+
+
+      $('#addVideo').click(function(){
+         alert("Not implemented yet");
       });
     })
 </script>
