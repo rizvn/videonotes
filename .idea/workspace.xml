@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b804b442-8fa4-40fc-b911-5f00f5516a4d" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/library.html" afterPath="$PROJECT_DIR$/views/library.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vidmarks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1370722125135" ignored="false" />
+    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1370722257505" ignored="false" />
     <file path="/a.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839794274" ignored="false" />
     <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367860895565" ignored="false" />
     <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367867183425" ignored="false" />
@@ -15,7 +16,7 @@
     <file path="/a.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365974228764" ignored="false" />
     <file path="/db_test.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366919969224" ignored="false" />
     <file path="/a.less" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365974231907" ignored="false" />
-    <file path="/library.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1370720898275" ignored="false" />
+    <file path="/library.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1370722858057" ignored="false" />
     <file path="/start.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1370123069827" ignored="false" />
     <file path="/.gitignore" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366470401016" ignored="false" />
     <file path="/login.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367181436364" ignored="false" />
@@ -66,11 +67,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="library.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="library.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/views/library.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="39" selection-start="197" selection-end="197" vertical-scroll-proportion="-7.1923075">
+            <state line="101" column="14" selection-start="3645" selection-end="3645" vertical-scroll-proportion="1.4110535">
               <folding>
+                <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
               </folding>
             </state>
@@ -80,25 +82,7 @@
       <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/layout.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="29" selection-start="855" selection-end="855" vertical-scroll-proportion="6.5384617">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="player.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/player.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="85" column="33" selection-start="2642" selection-end="2651" vertical-scroll-proportion="-13.730769">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/static/css/base.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="1" selection-start="36" selection-end="36" vertical-scroll-proportion="0.055016182">
+            <state line="30" column="31" selection-start="1280" selection-end="1280" vertical-scroll-proportion="-3.1538463">
               <folding />
             </state>
           </provider>
@@ -142,9 +126,9 @@
         <option value="$PROJECT_DIR$/db/01-create.sql" />
         <option value="$PROJECT_DIR$/app/db_mysql.py" />
         <option value="$PROJECT_DIR$/tests/db_mysql.py" />
-        <option value="$PROJECT_DIR$/views/library.html" />
         <option value="$PROJECT_DIR$/views/layout.html" />
         <option value="$PROJECT_DIR$/static/css/global.css" />
+        <option value="$PROJECT_DIR$/views/library.html" />
       </list>
     </option>
   </component>
@@ -203,7 +187,22 @@
     </navigator>
     <panes>
       <pane id="Scope">
-        <subPane subId="Problems" />
+        <subPane subId="Problems">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="vidmarks">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="static/css">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
@@ -304,6 +303,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="vidmarks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="man" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -915,7 +928,11 @@
       <created>1370722128340</created>
       <updated>1370722128340</updated>
     </task>
-    <option name="localTasksCounter" value="90" />
+    <task id="LOCAL-00090" summary="fixed  more styling issues">
+      <created>1370722261316</created>
+      <updated>1370722261316</updated>
+    </task>
+    <option name="localTasksCounter" value="91" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1136,40 +1153,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.html">
+    <entry file="file://$PROJECT_DIR$/static/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="29" selection-start="855" selection-end="855" vertical-scroll-proportion="6.5384617">
+        <state line="2" column="1" selection-start="36" selection-end="36" vertical-scroll-proportion="0.055016182">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/player.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="33" selection-start="2642" selection-end="2651" vertical-scroll-proportion="-13.730769">
+        <state line="85" column="33" selection-start="2642" selection-end="2651" vertical-scroll-proportion="0.6030405">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/css/global.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/layout.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="31" selection-start="1280" selection-end="1280" vertical-scroll-proportion="-3.1538463">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/library.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="39" selection-start="197" selection-end="197" vertical-scroll-proportion="-7.1923075">
+        <state line="101" column="14" selection-start="3645" selection-end="3645" vertical-scroll-proportion="1.4110535">
           <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#table#0;n#div#1;n#div#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="1" selection-start="410" selection-end="410" vertical-scroll-proportion="0.6030405">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="36" selection-end="36" vertical-scroll-proportion="0.055016182">
-          <folding />
         </state>
       </provider>
     </entry>
