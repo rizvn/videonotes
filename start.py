@@ -13,6 +13,11 @@ session_opts = {
 app = bottle.default_app()
 app = SessionMiddleware(app, session_opts)
 port = int(os.environ.get("PORT", 8080))
-bottle.run(host='0.0.0.0', port=port, app=app)
+
+import socket
+hostname = socket.gethostname()
+#if on heroku host name will not contain rizvan
+if 'Rizvan' in hostname:
+    bottle.run(host='0.0.0.0', port=port, app=app)
 
 
