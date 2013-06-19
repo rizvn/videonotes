@@ -1,7 +1,7 @@
 import app.db_mysql as db
 import unittest
 
-class DbTest(unittest.TestCase):
+class Db_Test(unittest.TestCase):
     def test_verify_getAllVideos(self):
         result = db.getAllVideos()
         assert True

@@ -1,20 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b804b442-8fa4-40fc-b911-5f00f5516a4d" name="Default" comment="added if statement for heroku">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/start.py" afterPath="$PROJECT_DIR$/start.py" />
+    <list default="true" id="b804b442-8fa4-40fc-b911-5f00f5516a4d" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/tests/vn_test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/tests/db_mysql.py" afterPath="$PROJECT_DIR$/tests/db_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/utils_test.py" afterPath="$PROJECT_DIR$/tests/utils_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tests/validation_test.py" afterPath="$PROJECT_DIR$/tests/validation_test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/vn.py" afterPath="$PROJECT_DIR$/app/vn.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="vidmarks.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1370800190239" ignored="false" />
+    <file path="/Dummy.txt" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1371666383357" ignored="false" />
     <file path="/a.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839794274" ignored="false" />
     <file path="/player.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367860895565" ignored="false" />
     <file path="/NotesController.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367867183425" ignored="false" />
     <file path="/db.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367072797906" ignored="false" />
     <file path="/main.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367174237338" ignored="false" />
     <file path="/a.js" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365974228764" ignored="false" />
-    <file path="/db_test.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366919969224" ignored="false" />
+    <file path="/db_test.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1371668270203" ignored="false" />
     <file path="/a.less" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1365974231907" ignored="false" />
     <file path="/library.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1370722858057" ignored="false" />
     <file path="/start.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1370123069827" ignored="false" />
@@ -25,7 +29,7 @@
     <file path="/settings.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1369944662060" ignored="false" />
     <file path="/global.css" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1370721772775" ignored="false" />
     <file path="/utils.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1370033541781" ignored="false" />
-    <file path="/utils_test.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1370033142839" ignored="false" />
+    <file path="/utils_test.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1371668286210" ignored="false" />
     <file path="/bottle.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1366835009016" ignored="false" />
     <file path="/dummy.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839794274" ignored="false" />
     <file path="/mysql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367839590271" ignored="false" />
@@ -34,15 +38,17 @@
     <file path="/02-add_data.sql" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367071030580" ignored="false" />
     <file path="/register.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367689754586" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/helpers/pydev/pydevd.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367168618708" ignored="false" />
-    <file path="/vn.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1370103340777" ignored="false" />
+    <file path="/vn.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1371667393127" ignored="false" />
     <file path="/auth.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367837556018" ignored="false" />
     <file path="/resetPassword.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367840493042" ignored="false" />
     <file path="/validation.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367797232385" ignored="false" />
-    <file path="/validation_test.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367688655351" ignored="false" />
+    <file path="/validation_test.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1371668315095" ignored="false" />
     <file path="$APPLICATION_HOME_DIR$/helpers/pycharm/noserunner.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367688619933" ignored="false" />
     <file path="/macros.html" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1367866686890" ignored="false" />
     <file path="/a.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1369863766718" ignored="false" />
     <file path="/Procfile" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1370023140551" ignored="false" />
+    <file path="/vn_test.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1371668324637" ignored="false" />
+    <file path="/run_tests.py" changelist="b804b442-8fa4-40fc-b911-5f00f5516a4d" time="1371668686793" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,49 +73,73 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/layout.html">
+      <file leaf-file-name="vn.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/vn.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="9" selection-start="1139" selection-end="1139" vertical-scroll-proportion="-11.115385">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="01-create.sql" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/01-create.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="65" column="7" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="start.py" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/start.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="31" selection-start="264" selection-end="264" vertical-scroll-proportion="0.4187192">
+            <state line="95" column="15" selection-start="2674" selection-end="2674" vertical-scroll-proportion="0.0">
               <folding>
-                <element signature="e#0#47#0" expanded="true" />
+                <element signature="e#0#54#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/settings.py">
+      <file leaf-file-name="failure.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/nose/failure.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="196" selection-end="319" vertical-scroll-proportion="0.0">
+            <state line="34" column="8" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+      <file leaf-file-name="vn_test.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/tests/vn_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="11" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.46933332">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="run_tests.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/run_tests.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="db_test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/db_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="48" column="0" selection-start="1129" selection-end="1175" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#25#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="validation_test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/validation_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="19" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="utils_test.py" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/utils_test.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="24" column="19" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="e#19#44#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -139,13 +169,7 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/static/js/NotesController.js" />
-        <option value="$PROJECT_DIR$/Procfile" />
-        <option value="$PROJECT_DIR$/app/auth.py" />
-        <option value="$PROJECT_DIR$/app/utils.py" />
-        <option value="$PROJECT_DIR$/tests/utils_test.py" />
         <option value="$PROJECT_DIR$/static/js/YoutubePlayer.js" />
-        <option value="$PROJECT_DIR$/app/vn.py" />
         <option value="$PROJECT_DIR$/app/localrunner.py" />
         <option value="$PROJECT_DIR$/app/settings.py" />
         <option value="$PROJECT_DIR$/db/01-create.sql" />
@@ -155,13 +179,19 @@
         <option value="$PROJECT_DIR$/static/css/global.css" />
         <option value="$PROJECT_DIR$/views/library.html" />
         <option value="$PROJECT_DIR$/start.py" />
+        <option value="$PROJECT_DIR$/app/vn.py" />
+        <option value="$PROJECT_DIR$/tests/db_test.py" />
+        <option value="$PROJECT_DIR$/tests/utils_test.py" />
+        <option value="$PROJECT_DIR$/tests/validation_test.py" />
+        <option value="$PROJECT_DIR$/tests/vn_test.py" />
+        <option value="$PROJECT_DIR$/run_tests.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="84" />
-    <option name="y" value="79" />
-    <option name="width" value="1097" />
+    <option name="x" value="17" />
+    <option name="y" value="55" />
+    <option name="width" value="891" />
     <option name="height" value="740" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -240,75 +270,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="auth" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="vidmarks" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="static" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="bootstrap" />
+              <option name="myItemId" value="tests" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -400,14 +362,14 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="63" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="71" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="76" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
     <property name="recentsLimit" value="5" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="76" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="79" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="795" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="773" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="795" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="81" />
     <property name="GoToClass.includeJavaFiles" value="false" />
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="78" />
@@ -423,8 +385,8 @@
     <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
     <property name="restartRequiresConfirmation" value="true" />
-    <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="PyConsoleOptionsProvider">
     <option name="myPythonConsoleState">
@@ -445,8 +407,8 @@
       <recent name="$PROJECT_DIR$/views/auth" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.start">
-    <configuration default="false" name="db_mysql" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.vn_test">
+    <configuration default="false" name="db_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -460,7 +422,67 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="vidmarks" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/db_mysql.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/db_test.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="utils_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DYLD_LIBRARY_PATH" value="/usr/local/mysql/lib/" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vidmarks" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/utils_test.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="vn_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DYLD_LIBRARY_PATH" value="/usr/local/mysql/lib/" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vidmarks" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/vn_test.py" />
+      <option name="PARAMETERS" value="" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="validation_test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DYLD_LIBRARY_PATH" value="/usr/local/mysql/lib/" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vidmarks" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/tests/validation_test.py" />
       <option name="PARAMETERS" value="" />
       <RunnerSettings RunnerId="PythonRunner" />
       <ConfigurationWrapper RunnerId="PythonRunner" />
@@ -568,6 +590,32 @@
       <option name="CONTEXT_PROVIDER" />
       <method />
     </configuration>
+    <configuration default="false" name="Nosetests in /Volumes/data/Development/python/vidmarks/tests" type="tests" factoryName="Nosetests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="DYLD_LIBRARY_PATH" value="/usr/local/mysql/lib/" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="vidmarks" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="$PROJECT_DIR$/tests" />
+      <option name="TEST_TYPE" value="TEST_FOLDER" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <option name="PARAMS" value="" />
+      <option name="USE_PARAM" value="false" />
+      <RunnerSettings RunnerId="PythonRunner" />
+      <ConfigurationWrapper RunnerId="PythonRunner" />
+      <method />
+    </configuration>
     <configuration default="false" name="start" type="PythonConfigurationType" factoryName="Python">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -593,13 +641,20 @@
       <ConfigurationWrapper RunnerId="PythonRunner" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Python.start" />
-      <item index="1" class="java.lang.String" itemvalue="Python.db_mysql" />
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests in /Volumes/data/Development/python/vidmarks/tests" />
+      <item index="1" class="java.lang.String" itemvalue="Python.start" />
+      <item index="2" class="java.lang.String" itemvalue="Python.db_test" />
+      <item index="3" class="java.lang.String" itemvalue="Python.utils_test" />
+      <item index="4" class="java.lang.String" itemvalue="Python.vn_test" />
+      <item index="5" class="java.lang.String" itemvalue="Python.validation_test" />
     </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Python.db_mysql" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="Python.vn_test" />
+        <item index="1" class="java.lang.String" itemvalue="Python.validation_test" />
+        <item index="2" class="java.lang.String" itemvalue="Python.utils_test" />
+        <item index="3" class="java.lang.String" itemvalue="Python.db_test" />
       </list>
     </recent_temporary>
   </component>
@@ -998,7 +1053,11 @@
       <created>1370800173175</created>
       <updated>1370800173175</updated>
     </task>
-    <option name="localTasksCounter" value="93" />
+    <task id="LOCAL-00093" summary="added if statement for heroku">
+      <created>1370800218733</created>
+      <updated>1370800218733</updated>
+    </task>
+    <option name="localTasksCounter" value="94" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -1022,25 +1081,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="84" y="79" width="1097" height="740" extended-state="0" />
+    <frame x="17" y="55" width="891" height="740" extended-state="0" />
     <editor active="false" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16136363" sideWeight="0.75386995" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24594992" sideWeight="0.73624825" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22930542" sideWeight="0.6718266" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.16079924" sideWeight="0.75386995" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2454805" sideWeight="0.66049385" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.19408284" sideWeight="0.6594427" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29411766" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32802248" sideWeight="0.7039106" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34055728" sideWeight="0.99524266" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32817337" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34055728" sideWeight="0.99524266" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32817337" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.15642458" sideWeight="0.9948079" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1130,13 +1189,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/tests/utils_test.py</url>
-          <line>1</line>
-          <option name="timeStamp" value="45" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -1144,95 +1196,119 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file:///System/Library/Frameworks/Python.framework/Versions/2.7/lib/python2.7/unittest/case.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="331" column="45" selection-start="11053" selection-end="11053" vertical-scroll-proportion="0.5303738" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/MySQLdb/cursors.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="200" column="0" selection-start="6057" selection-end="6057" vertical-scroll-proportion="0.33241758" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/db_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="19" selection-start="1174" selection-end="1174" vertical-scroll-proportion="0.72944295" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="53" selection-start="1272" selection-end="1272" vertical-scroll-proportion="0.046703298" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/auth.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="0" selection-start="1374" selection-end="1374" vertical-scroll-proportion="1.9767442" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/validation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="4" selection-start="41" selection-end="41" vertical-scroll-proportion="0.087855294" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/utils.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="16" selection-start="210" selection-end="210" vertical-scroll-proportion="0.4675" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="1" selection-start="36" selection-end="36" vertical-scroll-proportion="0.055016182" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/player.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="85" column="33" selection-start="2642" selection-end="2651" vertical-scroll-proportion="0.6030405" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static/css/global.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/library.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="67" column="57" selection-start="2442" selection-end="2442" vertical-scroll-proportion="-0.82038" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/layout.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="9" selection-start="1139" selection-end="1139" vertical-scroll-proportion="-11.115385">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/db/01-create.sql">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="65" column="7" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="65" column="7" selection-start="1615" selection-end="1615" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Procfile">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="18" selection-start="224" selection-end="224" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/auth.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="15" selection-start="835" selection-end="835" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="196" selection-end="319" vertical-scroll-proportion="0.0">
+        <state line="5" column="24" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/validation.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="4" selection-start="41" selection-end="41" vertical-scroll-proportion="0.055016182">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/start.py">
+    <entry file="file://$PROJECT_DIR$/app/utils.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="31" selection-start="264" selection-end="264" vertical-scroll-proportion="0.4187192">
+        <state line="11" column="16" selection-start="210" selection-end="210" vertical-scroll-proportion="0.302589">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/js/NotesController.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="213" column="38" selection-start="5932" selection-end="5932" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#0#47#0" expanded="true" />
+            <marker date="1367867183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1367867183000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1367867183000" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/db_mysql.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="86" column="26" selection-start="2381" selection-end="2381" vertical-scroll-proportion="0.3316062">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/vn.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="15" selection-start="2674" selection-end="2674" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/nose/failure.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="8" selection-start="942" selection-end="942" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/db_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="48" column="0" selection-start="1129" selection-end="1175" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/utils_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="19" selection-start="649" selection-end="649" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#19#44#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/validation_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="19" selection-start="623" selection-end="623" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/run_tests.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="169" selection-end="169" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/vn_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="0" selection-start="163" selection-end="163" vertical-scroll-proportion="0.46933332">
+          <folding />
         </state>
       </provider>
     </entry>

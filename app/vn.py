@@ -92,3 +92,22 @@ def getNotes(vid_fk):
     else:
         return view("notes.html", notes=notes)
 
+@post('/videos/add')
+def addVideo():
+    title  = request.forms.get('title')
+    url    = request.forms.get('url')
+    shared = request.forms.get('shared')
+    shared = shared if shared is not None else 0
+
+    tags = request.forms.get('tags')
+    username = getUser()
+    errors = []
+
+    if title is None:
+        errors.append("Title required")
+
+    if url is None:
+        errors.append("URL required")
+
+    if tags is None:
+        errors.append("No tags specified")
