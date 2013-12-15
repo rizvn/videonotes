@@ -1,7 +1,9 @@
 man
+.DS_Store
+.idea/
 include
 bin
 lib
-*.pyc
-*.mp4
+.pyc
+.mp4
 cache
