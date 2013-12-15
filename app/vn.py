@@ -92,6 +92,10 @@ def getNotes(vid_fk):
     else:
         return view("notes.html", notes=notes)
 
+@get("/videos/add")
+def addVideoForm():
+    return view("add_video_form.html")
+
 @post('/videos/add')
 def addVideo():
     title  = request.forms.get('title')
@@ -111,3 +115,9 @@ def addVideo():
 
     if tags is None:
         errors.append("No tags specified")
+
+    #if no errors create a video entry
+        #send ack back
+
+    #else return errors
+

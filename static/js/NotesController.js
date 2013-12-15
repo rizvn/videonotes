@@ -1,6 +1,38 @@
 NotesController = {
   //elements cache see resolve
   el : {},
+
+
+  getNotesInput : function(){
+    if(!this._notesInput == undefined){ this._notesInput = $("#notesInput"); }
+    return this._notesInput;
+  },
+
+  getNotesContainer : function(){
+   if(!this._notesContainer == undefined){ this._notesContainer =  $("#notes"); }
+    return this._notesContainer;
+  },
+
+  getAddNoteButton : function(){
+   if(!this._addNoteButton == undefined){ this._addNoteButton =  $("#addNoteButton"); }
+    return this._addNoteButton;
+  },
+
+  getCancelNoteButton : function(){
+   if(!this._cancelNoteButton == undefined){ this._cancelNoteButton =  $("#cancelNoteButton"); }
+    return this._cancelNoteButton;
+  },
+
+  getSaveNoteChanges : function(){
+   if(!this._saveNoteChanges == undefined){ this._saveNoteChanges =  $("#saveNoteChanges"); }
+    return this._saveNoteChanges;
+  },
+
+  getDeleteNoteButton : function(){
+   if(!this.getDeleteNoteButton == undefined){ this.getDeleteNoteButton =  $("#deleteNoteButton"); }
+    return this.getDeleteNoteButton;
+  },
+
   //resolve dom elements with selectors and cache
   resolve : function(){
     this.el.notesInput       = $("#notesInput");

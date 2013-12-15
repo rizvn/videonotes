@@ -26,6 +26,7 @@ def jsonSerializer(obj):
         return ""
 
 def generateRandomString():
+    """ Generates a random string """
     import random
     import string
     population = string.ascii_letters + string.digits

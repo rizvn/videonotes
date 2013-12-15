@@ -40,7 +40,6 @@ class CommitCursor():
             print "Trace: ", traceback
         return not traceback
 
-
 def fetchone(cursor):
     # return a dict with col names appended to results
     row = cursor.fetchone()

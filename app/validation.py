@@ -30,3 +30,4 @@ def validate_pwd(pwd):
         errors.append('Password must have atleast 6 characters')
     return errors
 
+
