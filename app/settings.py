@@ -13,15 +13,7 @@ settings = {
 import socket
 hostname = socket.gethostname()
 
-#if on heroku host name will not contain rizvan
-if 'Rizvan' not in hostname:
-    settings = {
-      'host': 'eu-cdbr-west-01.cleardb.com',
-      'port': 3306,
-      'user': 'b688a2e3c23955',
-      'passwd': '2f2e6699',
-      'db': 'heroku_12d07d9f8d716f6'
-    }
+
 
 #jinja2 templates
 from app.utils import sec_to_time
